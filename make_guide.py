@@ -19,6 +19,16 @@ def best_counters(unit, cs, cap=24):
 
 UNIT_KEYS = ['name', 'cost', 'hp', 'attack', 'melee_armor', 'pierce_armor',
              'range', 'speed', 'armor_classes', 'bonus_damage_vs']
+# base AoE2:DE villager gather rates (res/sec, no upgrades; food = farms)
+GATHER = {'Food': 0.3166, 'Wood': 0.39, 'Gold': 0.38, 'Stone': 0.36}
+
+def vils_per_building(cost, train_time):
+    # villagers to continuously produce a unit from ONE building (idea: Survivalist's aoe2-de-tools)
+    if not train_time or not cost:
+        return None
+    parts = {r: round((c / train_time) / GATHER[r], 1)
+             for r, c in cost.items() if r in GATHER and c}
+    return {"parts": parts, "total": round(sum(parts.values()), 1)} if parts else None
 
 strategy = json.load(open('data/strategy.json'))
 data = {"modes": {}, "build_orders": strategy['build_orders'],
@@ -36,6 +46,7 @@ for key, label, path in MODES:
         row = {k: u[k] for k in UNIT_KEYS}
         row['best_counters'] = best_counters(u, cs)
         row['combat'] = bool((u.get('attack') or 0) > 0 or u['bonus_damage_vs'])
+        row['vbld'] = vils_per_building(row['cost'], u.get('train_time'))
         units.append(row)
     units.sort(key=lambda x: x['name'])
     data['modes'][key] = {"label": label, "civilizations": o['civilizations'],
@@ -171,10 +182,10 @@ function viewCounters(){
       const ru=M().civ_units[civ.name]||{}, roster=new Set(ru.all_units||[]), uq=new Set(ru.unique_units||[]);
       const avail=u.best_counters.filter(c=>roster.has(c.unit));
       h+=`<div class="panel"><h3 style="color:var(--gold)">🛡️ ${esc(civ.name)} should counter it with</h3>
-        ${avail.length?avail.map(c=>`<div style="margin:8px 0;padding:9px 11px;background:var(--panel2);border:1px solid var(--line);border-radius:8px">
+        ${avail.length?avail.map(c=>{const uo=umap[c.unit]||{};return `<div style="margin:8px 0;padding:9px 11px;background:var(--panel2);border:1px solid var(--line);border-radius:8px">
             <b>${uq.has(c.unit)?'<span class="uniq">'+esc(c.unit)+'</span>':esc(c.unit)}</b>
             <span class="chip cnt" style="margin-left:6px">+${c.bonus} vs ${esc(c.via)}</span>
-            <div class="small muted" style="margin-top:4px">${esc(tip(umap[c.unit]||{}))}</div></div>`).join('')
+            <div class="small muted" style="margin-top:4px">${esc(tip(uo))}${uo.vbld?` · ~${uo.vbld.total} vils to mass-produce`:''}</div></div>`;}).join('')
           :`<p class="hint">${esc(civ.name)} has no hard counter to this in its roster — use your strongest gold unit, or win with eco/numbers.</p>`}
         </div>`;
     }
@@ -234,20 +245,26 @@ function viewUnits(){
   let us=M().units.filter(u=>u.name.toLowerCase().includes(S.uq.toLowerCase()));
   const num=v=>typeof v==='number'?v:0;
   const key=u=>S.sort==='name'?u.name:S.sort==='cost'?
-    num(u.cost.Food)+num(u.cost.Wood)+num(u.cost.Gold)+num(u.cost.Stone):num(u[S.sort]);
+    num(u.cost.Food)+num(u.cost.Wood)+num(u.cost.Gold)+num(u.cost.Stone)
+    :S.sort==='vbld'?(u.vbld?u.vbld.total:0):num(u[S.sort]);
   us=us.sort((a,b)=>{const ka=key(a),kb=key(b);return (ka>kb?1:ka<kb?-1:0)*S.dir;});
   const cols=[['name','Unit'],['cost','Cost'],['hp','HP'],['attack','Atk'],
-    ['melee_armor','M.arm'],['pierce_armor','P.arm'],['range','Rng'],['speed','Spd']];
-  elv().innerHTML=`<div class="panel"><input id="uq" placeholder="Search ${M().units.length} units…" value="${esc(S.uq)}"></div>
+    ['melee_armor','M.arm'],['pierce_armor','P.arm'],['range','Rng'],['speed','Spd'],['vbld','Vils/bld']];
+  const vparts=u=>u.vbld?Object.entries(u.vbld.parts).map(([r,v])=>`${v} ${r.toLowerCase()}`).join(', '):'';
+  elv().innerHTML=`<div class="panel"><h2>🛡️ Units</h2>
+     <p class="hint"><b>Vils/bld</b> = villagers needed to continuously produce a unit from one production building (base gather rates, no eco upgrades or civ bonuses). Click a row for counters and the resource breakdown. Villager-production idea adapted from <a href="https://aoe2-de-tools.herokuapp.com/villagers-required/" target="_blank">Survivalist's aoe2-de-tools</a>.</p>
+     <input id="uq" placeholder="Search ${M().units.length} units…" value="${esc(S.uq)}"></div>
    <div class="panel" style="overflow:auto"><table><thead><tr>
    ${cols.map(([k,l])=>`<th data-k="${k}">${l}${S.sort===k?(S.dir>0?' ▲':' ▼'):''}</th>`).join('')}
    <th>Bonus vs</th></tr></thead><tbody>
    ${us.map((u,i)=>`<tr class="u" data-i="${i}">
      <td>${esc(u.name)}</td><td class="small">${money(u.cost)}</td><td>${u.hp??'—'}</td><td>${u.attack??'—'}</td>
      <td>${u.melee_armor??'—'}</td><td>${u.pierce_armor??'—'}</td><td>${u.range||'—'}</td><td>${u.speed??'—'}</td>
+     <td>${u.vbld?u.vbld.total:'—'}</td>
      <td class="small">${Object.entries(u.bonus_damage_vs).map(([k,v])=>`${esc(k)} +${v}`).join(', ')||'—'}</td></tr>
-     <tr class="det" id="d${i}" style="display:none"><td colspan="9">
+     <tr class="det" id="d${i}" style="display:none"><td colspan="10">
        <b style="color:var(--red)">Countered by:</b> ${u.best_counters.map(c=>esc(c.unit)+' +'+c.bonus).join(', ')||'—'}
+       ${u.vbld?`<br><b style="color:var(--gold)">To mass-produce (1 building):</b> ~${u.vbld.total} villagers (${vparts(u)})`:''}
      </td></tr>`).join('')}
    </tbody></table></div>`;
   const q=$('#uq');q.oninput=()=>{S.uq=q.value;const p=q.selectionStart;viewUnits();$('#uq').focus();$('#uq').setSelectionRange(p,p);};

@@ -29,5 +29,6 @@ python3 check.py        # integrity checks
 - **Unit / civ / tech data + counters:** [aoe2techtree.net](https://aoe2techtree.net) ([SiegeEngineers/aoe2techtree](https://github.com/SiegeEngineers/aoe2techtree)), extracted from the AoE2:DE game files.
 - **Build orders:** [AoE Companion](https://aoecompanion.com/build-guides) and its community guides, incl. Red Phosphorus's [Uncounterable Fast Castle](https://aoecompanion.com/b/kxnt2j50mm).
 - **Charts:** community infographics from [r/aoe2](https://www.reddit.com/r/aoe2/) (unit response chart, build-order flowchart, unique-units table) by their respective authors.
+- **Villagers-per-building** column: concept from Survivalist's [aoe2-de-tools](https://aoe2-de-tools.herokuapp.com/villagers-required/); computed here from unit cost ÷ train time ÷ base gather rates.
 
 *Age of Empires II © Microsoft Corporation. This is a non-commercial fan project made under Microsoft's [Game Content Usage Rules](https://www.xbox.com/en-us/developers/rules); not endorsed by or affiliated with Microsoft. All community charts and build orders belong to their original authors.*
