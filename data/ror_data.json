@@ -1,0 +1,2945 @@
+{
+  "edition": "Return of Rome (AoE1)",
+  "num_civilizations": 17,
+  "num_unit_definitions": 46,
+  "civilizations": [
+    {
+      "key": "Assyrians",
+      "name": "Assyrians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Archer and Siege civilization",
+      "civ_bonuses": [
+        {
+          "text": "Villagers move 10% faster",
+          "values": [
+            "10%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Archers fire 11/22/33% faster in Tool/Bronze/Iron Age",
+          "values": [
+            "11/22",
+            "33%"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Siege unit upgrades cost -50%",
+          "values": [
+            "-50%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Siege Workshops work 20% faster",
+        "values": [
+          "20%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 34
+    },
+    {
+      "key": "Babylonians",
+      "name": "Babylonians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Defensive civilization",
+      "civ_bonuses": [
+        {
+          "text": "Stone Miners work 20% faster and carry +2 stone",
+          "values": [
+            "20%",
+            "+2"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Market technologies cost -30%",
+          "values": [
+            "-30%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Walls and towers +60% hit points",
+          "values": [
+            "+60%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Priests rejuvenate 30% faster",
+          "values": [
+            "30%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Chariots +1P Armor",
+          "values": [
+            "+1"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Builders work 10% faster",
+        "values": [
+          "10%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 33
+    },
+    {
+      "key": "Carthaginians",
+      "name": "Carthaginians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Elephant, Camel, and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Start the game with +50 of all resources",
+          "values": [
+            "+50"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Academy units and elephant units +25% hit points, Camel Riders +15% hit points",
+          "values": [
+            "+25%",
+            "+15%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Fire Galley +25% attack",
+          "values": [
+            "+25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Transport ships move 25% faster",
+          "values": [
+            "25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Nobility free (requires Government Center)",
+          "values": [],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Academies work 20% faster",
+        "values": [
+          "20%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 35
+    },
+    {
+      "key": "Choson",
+      "name": "Choson",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Infantry and Tower civilization",
+      "civ_bonuses": [
+        {
+          "text": "Axeman, Short/Broad/Long Swordsmen and Legion +5/+15/+20/+60/+80 hit points",
+          "values": [
+            "+5",
+            "+15",
+            "+20",
+            "+60",
+            "+80"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Storage Pit technologies cost -40%",
+          "values": [
+            "-40%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Towers +2 range",
+          "values": [
+            "+2"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Priests cost -30%",
+          "values": [
+            "-30%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Buildings +2 line of sight",
+        "values": [
+          "+2"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 30
+    },
+    {
+      "key": "Egyptians",
+      "name": "Egyptians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Chariot and Priest civilization",
+      "civ_bonuses": [
+        {
+          "text": "Farms cost -20%",
+          "values": [
+            "-20%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Gold Miners work 20% faster and carry +2 gold",
+          "values": [
+            "20%",
+            "+2"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Chariot units +33% hit points",
+          "values": [
+            "+33%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Priests +2/+3 range in Bronze/Iron Age",
+          "values": [
+            "+2",
+            "+3"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        }
+      ],
+      "team_bonus": {
+        "text": "Priests +1P Armor",
+        "values": [
+          "+1"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 30
+    },
+    {
+      "key": "Greeks",
+      "name": "Greeks",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Infantry and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Town Centers work 10% faster starting from Tool Age",
+          "values": [
+            "10%"
+          ],
+          "ages": [
+            "Tool"
+          ]
+        },
+        {
+          "text": "Academy units move 30% faster and cost -20%",
+          "values": [
+            "30%",
+            "-20%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Ships move 20% faster",
+          "values": [
+            "20%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Polytheism and Astrology free (requires Temple)",
+          "values": [],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Markets cost -50%",
+        "values": [
+          "-50%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 31
+    },
+    {
+      "key": "Hittites",
+      "name": "Hittites",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Archer and Siege civilization",
+      "civ_bonuses": [
+        {
+          "text": "All archers +1 attack",
+          "values": [
+            "+1"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Stone Thrower, Catapult, and Heavy Catapult +50% hit points",
+          "values": [
+            "+50%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "War ships (except Fire Galley) +1/+2/+3 range in Tool/Bronze/Iron Age",
+          "values": [
+            "+1",
+            "+2",
+            "+3"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Wheel -50% cost and research time",
+          "values": [
+            "-50%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Towers provide +4 population room",
+        "values": [
+          "+4"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 32
+    },
+    {
+      "key": "Lac Viet",
+      "name": "Lac Viet",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Archer civilization",
+      "civ_bonuses": [
+        {
+          "text": "Foragers work 15% faster",
+          "values": [
+            "15%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Military Units created 25% faster",
+          "values": [
+            "25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Archery Range units and Ballista +2 armor",
+          "values": [
+            "+2"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Houses and farms built 50% faster",
+        "values": [
+          "50%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 38
+    },
+    {
+      "key": "Macedonians",
+      "name": "Macedonians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Infantry civilization",
+      "civ_bonuses": [
+        {
+          "text": "All non-ranged units +2 line of sight",
+          "values": [
+            "+2"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Academy units +1P armor in Bronze Age, +2 in Iron Age",
+          "values": [
+            "+1",
+            "+2"
+          ],
+          "ages": [
+            "Bronze",
+            "Iron"
+          ]
+        },
+        {
+          "text": "Siege Workshop units cost -25%",
+          "values": [
+            "-25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "All units 4 times more resistant to conversion",
+          "values": [
+            "4"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Houses +50 HP",
+        "values": [
+          "+50"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 34
+    },
+    {
+      "key": "Minoans",
+      "name": "Minoans",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Archer and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Ships cost -15/-20/-25/-30% in Stone/Tool/Bronze/Iron Age",
+          "values": [
+            "-15",
+            "-20",
+            "-25",
+            "-30%"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Improved Bowman-line +1/+2 range in Bronze/Iron Age",
+          "values": [
+            "+1",
+            "+2"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Farmers work 10% faster",
+          "values": [
+            "10%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Docks cost -20%",
+        "values": [
+          "-20%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 34
+    },
+    {
+      "key": "Palmyrans",
+      "name": "Palmyrans",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Camel and Trading civilization",
+      "civ_bonuses": [
+        {
+          "text": "Villagers cost 75 Food, but have +1/+1P armor and work 25% faster",
+          "values": [
+            "75",
+            "+1",
+            "+1",
+            "25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Start the game with +75 Food",
+          "values": [
+            "+75"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Camel Riders move 25% faster",
+          "values": [
+            "25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Tributes are not taxed",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Trade units return +20% gold",
+          "values": [
+            "+20%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Technologies researched 30% faster",
+        "values": [
+          "30%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 38
+    },
+    {
+      "key": "Persians",
+      "name": "Persians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Elephant and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Hunters work 30% faster and carry +3 food",
+          "values": [
+            "30%",
+            "+3"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Elephant units move 25% faster",
+          "values": [
+            "25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Scout Ship line fires 18/25/33% faster in Tool/Bronze/Iron Age",
+          "values": [
+            "18/25",
+            "33%"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Walls cost -20%",
+          "values": [
+            "-20%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Stables work 20% faster",
+        "values": [
+          "20%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 36
+    },
+    {
+      "key": "Phoenicians",
+      "name": "Phoenicians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Elephant and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Woodcutters work 15% faster and carry +2 wood",
+          "values": [
+            "15%",
+            "+2"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Elephant units cost -25%",
+          "values": [
+            "-25%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Catapult Trireme and Juggernaut fire 33% faster",
+          "values": [
+            "33%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Docks +150 HP, +4 line of sight",
+          "values": [
+            "+150",
+            "+4"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Archers +2 line of sight",
+        "values": [
+          "+2"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 37
+    },
+    {
+      "key": "Romans",
+      "name": "Romans",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Infantry civilization",
+      "civ_bonuses": [
+        {
+          "text": "Buildings cost -10%, except for towers, walls and Wonders",
+          "values": [
+            "-10%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Towers cost -40%",
+          "values": [
+            "-40%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Swordsmen attack 50% faster",
+          "values": [
+            "50%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Ballista and Helepolis +1 range",
+          "values": [
+            "+1"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Priests +50% heal speed",
+        "values": [
+          "+50%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 35
+    },
+    {
+      "key": "Shang",
+      "name": "Shang",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Economic and Cavalry civilization",
+      "civ_bonuses": [
+        {
+          "text": "Villagers cost 40 Food",
+          "values": [
+            "40"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Start the game with -40 Food",
+          "values": [
+            "-40"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Walls +60% hit points",
+          "values": [
+            "+60%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Cavalry-line attacks 10% faster",
+          "values": [
+            "10%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Town centers provide +4 population room",
+        "values": [
+          "+4"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 35
+    },
+    {
+      "key": "Sumerians",
+      "name": "Sumerians",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Economic and Siege civilization",
+      "civ_bonuses": [
+        {
+          "text": "Villagers +15 hit points",
+          "values": [
+            "+15"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Stone Thrower, Catapult, Heavy Catapult fire 45% faster",
+          "values": [
+            "45%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Farms +125 Food",
+          "values": [
+            "+125"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Camels +1P Armor",
+          "values": [
+            "+1"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Town Centers cost -25%",
+        "values": [
+          "-25%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 34
+    },
+    {
+      "key": "Yamato",
+      "name": "Yamato",
+      "expansion": "Return of Rome (AoE1)",
+      "civ_type": "Cavalry and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Fishing boats work 20% faster",
+          "values": [
+            "20%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "All cavalry units and Horse Archers cost -15%",
+          "values": [
+            "-15%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Ships +10/+15/+20/+25% HP in Stone/Tool/Bronze/Iron Age",
+          "values": [
+            "+10",
+            "+15",
+            "+20",
+            "+25%"
+          ],
+          "ages": [
+            "Iron"
+          ]
+        },
+        {
+          "text": "Stable and Archery Range upgrades cost -30%",
+          "values": [
+            "-30%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Stables and Archery Ranges cost -33% wood",
+        "values": [
+          "-33%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [],
+      "unique_units": [],
+      "unique_techs": [],
+      "num_units": 31
+    }
+  ],
+  "units_master": {
+    "4": {
+      "id": 4,
+      "name": "Bowman",
+      "internal_name": "Bowman",
+      "cost": {
+        "Food": 40,
+        "Wood": 20
+      },
+      "hp": 35,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 5,
+      "speed": 1,
+      "line_of_sight": 7,
+      "train_time": 30,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 2
+      },
+      "countered_by": [
+        "Scout",
+        "Slinger"
+      ],
+      "counters": [
+        "Axeman",
+        "Broad Swordsman",
+        "Clubman",
+        "Legionary",
+        "Long Swordsman",
+        "Short Swordsman"
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "Chariot Archer",
+      "internal_name": "Chariot Archer",
+      "cost": {
+        "Food": 40,
+        "Wood": 70
+      },
+      "hp": 70,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 7,
+      "speed": 1.66,
+      "line_of_sight": 9,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider",
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "7": {
+      "id": 7,
+      "name": "Slinger",
+      "internal_name": "Slinger",
+      "cost": {
+        "Food": 40,
+        "Stone": 10
+      },
+      "hp": 25,
+      "attack": 2,
+      "melee_armor": 0,
+      "pierce_armor": 3,
+      "range": 4,
+      "speed": 1,
+      "line_of_sight": 6,
+      "train_time": 35,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "Stone Defense & Harbors": 3,
+        "All Archers": 3
+      },
+      "countered_by": [],
+      "counters": [
+        "Bowman",
+        "Chariot Archer",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Improved Bowman"
+      ]
+    },
+    "11": {
+      "id": 11,
+      "name": "Merchant Ship",
+      "internal_name": "Merchant Ship",
+      "cost": {
+        "Gold": 60,
+        "Wood": 75
+      },
+      "hp": 200,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 2.5,
+      "line_of_sight": 4,
+      "train_time": 50,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "13": {
+      "id": 13,
+      "name": "Fishing Boat",
+      "internal_name": "Fishing Boat",
+      "cost": {
+        "Wood": 50
+      },
+      "hp": 45,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.4,
+      "line_of_sight": 6,
+      "train_time": 40,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "15": {
+      "id": 15,
+      "name": "Fishing Ship",
+      "internal_name": "Fishing Ship",
+      "cost": {
+        "Wood": 50
+      },
+      "hp": 75,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 2,
+      "line_of_sight": 6,
+      "train_time": 40,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "17": {
+      "id": 17,
+      "name": "Trade Boat",
+      "internal_name": "Trade Boat",
+      "cost": {
+        "Gold": 60,
+        "Wood": 75
+      },
+      "hp": 120,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 2,
+      "line_of_sight": 4,
+      "train_time": 50,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "21": {
+      "id": 21,
+      "name": "War Galley",
+      "internal_name": "War Galley",
+      "cost": {
+        "Wood": 135
+      },
+      "hp": 160,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 6,
+      "speed": 1.75,
+      "line_of_sight": 9,
+      "train_time": 70,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "24": {
+      "id": 24,
+      "name": "Improved Bowman",
+      "internal_name": "Improved Bowman",
+      "cost": {
+        "Food": 40,
+        "Gold": 20
+      },
+      "hp": 40,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 6,
+      "speed": 1,
+      "line_of_sight": 8,
+      "train_time": 30,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "37": {
+      "id": 37,
+      "name": "Heavy Transport",
+      "internal_name": "Heavy Transport",
+      "cost": {
+        "Wood": 150
+      },
+      "hp": 200,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.75,
+      "line_of_sight": 5,
+      "train_time": 75,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "38": {
+      "id": 38,
+      "name": "Cavalry",
+      "internal_name": "Cavalry",
+      "cost": {
+        "Food": 70,
+        "Gold": 80
+      },
+      "hp": 150,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 5
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Axeman",
+        "Broad Swordsman",
+        "Clubman",
+        "Legionary",
+        "Long Swordsman",
+        "Short Swordsman"
+      ]
+    },
+    "39": {
+      "id": 39,
+      "name": "Horse Archer",
+      "internal_name": "Horse Archer",
+      "cost": {
+        "Food": 50,
+        "Gold": 70
+      },
+      "hp": 60,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 7,
+      "speed": 1.91,
+      "line_of_sight": 9,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider",
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "74": {
+      "id": 74,
+      "name": "Short Swordsman",
+      "internal_name": "Short Swordsman",
+      "cost": {
+        "Food": 35,
+        "Gold": 15
+      },
+      "hp": 60,
+      "attack": 7,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": []
+    },
+    "75": {
+      "id": 75,
+      "name": "Broad Swordsman",
+      "internal_name": "Broad Swordsman",
+      "cost": {
+        "Food": 35,
+        "Gold": 15
+      },
+      "hp": 80,
+      "attack": 9,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": []
+    },
+    "77": {
+      "id": 77,
+      "name": "Long Swordsman",
+      "internal_name": "Long Swordsman",
+      "cost": {
+        "Food": 35,
+        "Gold": 15
+      },
+      "hp": 100,
+      "attack": 11,
+      "melee_armor": 2,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": []
+    },
+    "83": {
+      "id": 83,
+      "name": "Villager",
+      "internal_name": "VMBAS",
+      "cost": {
+        "Food": 50
+      },
+      "hp": 25,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.92,
+      "line_of_sight": 4,
+      "train_time": 20,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "93": {
+      "id": 93,
+      "name": "Hoplite",
+      "internal_name": "Hoplite",
+      "cost": {
+        "Food": 60,
+        "Gold": 40
+      },
+      "hp": 120,
+      "attack": 17,
+      "melee_armor": 5,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.87,
+      "line_of_sight": 4,
+      "train_time": 36,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "125": {
+      "id": 125,
+      "name": "Priest",
+      "internal_name": "PRIEST",
+      "cost": {
+        "Gold": 125
+      },
+      "hp": 25,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 10,
+      "speed": 0.66,
+      "line_of_sight": 12,
+      "train_time": 50,
+      "armor_classes": [
+        "Monastery Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "128": {
+      "id": 128,
+      "name": "Trade Cart",
+      "internal_name": "TCART",
+      "cost": {
+        "Gold": 60,
+        "Wood": 75
+      },
+      "hp": 70,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.45,
+      "line_of_sight": 7,
+      "train_time": 51,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "279": {
+      "id": 279,
+      "name": "Ballista",
+      "internal_name": "Ballista",
+      "cost": {
+        "Gold": 80,
+        "Wood": 100
+      },
+      "hp": 55,
+      "attack": 40,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 9,
+      "speed": 0.66,
+      "line_of_sight": 11,
+      "train_time": 50,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "Heavy Warships": 5
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "280": {
+      "id": 280,
+      "name": "Stone Thrower",
+      "internal_name": "Stone Thrower",
+      "cost": {
+        "Gold": 80,
+        "Wood": 180
+      },
+      "hp": 75,
+      "attack": 50,
+      "melee_armor": -2,
+      "pierce_armor": 3,
+      "range": 10,
+      "speed": 0.66,
+      "line_of_sight": 13,
+      "train_time": 60,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 140
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "281": {
+      "id": 281,
+      "name": "Clubman",
+      "internal_name": "Clubman",
+      "cost": {
+        "Food": 50
+      },
+      "hp": 40,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": []
+    },
+    "283": {
+      "id": 283,
+      "name": "Heavy Cavalry",
+      "internal_name": "Heavy Cavalry",
+      "cost": {
+        "Food": 70,
+        "Gold": 80
+      },
+      "hp": 150,
+      "attack": 10,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 6
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Axeman",
+        "Broad Swordsman",
+        "Clubman",
+        "Legionary",
+        "Long Swordsman",
+        "Short Swordsman"
+      ]
+    },
+    "329": {
+      "id": 329,
+      "name": "Camel Rider",
+      "internal_name": "Camel Rider",
+      "cost": {
+        "Food": 70,
+        "Gold": 60
+      },
+      "hp": 125,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "Mounted Units": 8
+      },
+      "countered_by": [],
+      "counters": [
+        "Armored Elephant",
+        "Cataphract",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Elephant Archer",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Scout",
+        "Scythe Chariot",
+        "War Elephant"
+      ]
+    },
+    "358": {
+      "id": 358,
+      "name": "Phalangite",
+      "internal_name": "Phalangite",
+      "cost": {
+        "Food": 60,
+        "Gold": 40
+      },
+      "hp": 120,
+      "attack": 20,
+      "melee_armor": 7,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.87,
+      "line_of_sight": 4,
+      "train_time": 36,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "359": {
+      "id": 359,
+      "name": "Centurion",
+      "internal_name": "Centurion",
+      "cost": {
+        "Food": 60,
+        "Gold": 40
+      },
+      "hp": 160,
+      "attack": 30,
+      "melee_armor": 8,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.87,
+      "line_of_sight": 4,
+      "train_time": 36,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "420": {
+      "id": 420,
+      "name": "Catapult Trireme",
+      "internal_name": "Catapult Trireme",
+      "cost": {
+        "Gold": 50,
+        "Wood": 135
+      },
+      "hp": 135,
+      "attack": 35,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 9,
+      "speed": 1.45,
+      "line_of_sight": 12,
+      "train_time": 90,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 140
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "442": {
+      "id": 442,
+      "name": "Trireme",
+      "internal_name": "Trireme",
+      "cost": {
+        "Wood": 135
+      },
+      "hp": 200,
+      "attack": 12,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 7,
+      "speed": 1.75,
+      "line_of_sight": 10,
+      "train_time": 70,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "448": {
+      "id": 448,
+      "name": "Scout",
+      "internal_name": "Scout",
+      "cost": {
+        "Food": 90
+      },
+      "hp": 60,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 7,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "All Archers": 3
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Bowman",
+        "Chariot Archer",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Improved Bowman"
+      ]
+    },
+    "473": {
+      "id": 473,
+      "name": "Legionary",
+      "internal_name": "Legionary",
+      "cost": {
+        "Food": 35,
+        "Gold": 15
+      },
+      "hp": 140,
+      "attack": 13,
+      "melee_armor": 2,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": []
+    },
+    "474": {
+      "id": 474,
+      "name": "Heavy Horse Archer",
+      "internal_name": "Heavy Horse Archer",
+      "cost": {
+        "Food": 50,
+        "Gold": 70
+      },
+      "hp": 90,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 7,
+      "speed": 2.08,
+      "line_of_sight": 9,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider",
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "492": {
+      "id": 492,
+      "name": "Composite Bowman",
+      "internal_name": "Composite Bowman",
+      "cost": {
+        "Food": 40,
+        "Gold": 20
+      },
+      "hp": 45,
+      "attack": 5,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 7,
+      "speed": 1,
+      "line_of_sight": 9,
+      "train_time": 30,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "531": {
+      "id": 531,
+      "name": "Axeman",
+      "internal_name": "Axeman",
+      "cost": {
+        "Food": 50
+      },
+      "hp": 50,
+      "attack": 5,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 26,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {
+        "Mounted Units": 4
+      },
+      "countered_by": [
+        "Bowman",
+        "Cataphract",
+        "Cavalry",
+        "Heavy Cavalry"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Cataphract",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Elephant Archer",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Scout",
+        "Scythe Chariot",
+        "War Elephant"
+      ]
+    },
+    "539": {
+      "id": 539,
+      "name": "Scout Ship",
+      "internal_name": "Scout Ship",
+      "cost": {
+        "Wood": 135
+      },
+      "hp": 120,
+      "attack": 5,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 5,
+      "speed": 1.75,
+      "line_of_sight": 7,
+      "train_time": 70,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "542": {
+      "id": 542,
+      "name": "Helepolis",
+      "internal_name": "Helepolis",
+      "cost": {
+        "Gold": 80,
+        "Wood": 100
+      },
+      "hp": 55,
+      "attack": 45,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 10,
+      "speed": 0.66,
+      "line_of_sight": 12,
+      "train_time": 50,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "Heavy Warships": 5
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "545": {
+      "id": 545,
+      "name": "Light Transport",
+      "internal_name": "Light Transport",
+      "cost": {
+        "Wood": 150
+      },
+      "hp": 150,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.4,
+      "line_of_sight": 4,
+      "train_time": 75,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "550": {
+      "id": 550,
+      "name": "Catapult",
+      "internal_name": "Catapult",
+      "cost": {
+        "Gold": 80,
+        "Wood": 180
+      },
+      "hp": 75,
+      "attack": 60,
+      "melee_armor": -2,
+      "pierce_armor": 4,
+      "range": 12,
+      "speed": 0.66,
+      "line_of_sight": 15,
+      "train_time": 60,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 140
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "569": {
+      "id": 569,
+      "name": "Cataphract",
+      "internal_name": "Cataphract",
+      "cost": {
+        "Food": 70,
+        "Gold": 80
+      },
+      "hp": 240,
+      "attack": 12,
+      "melee_armor": 5,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 7
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Axeman",
+        "Broad Swordsman",
+        "Clubman",
+        "Legionary",
+        "Long Swordsman",
+        "Short Swordsman"
+      ]
+    },
+    "588": {
+      "id": 588,
+      "name": "Heavy Catapult",
+      "internal_name": "Heavy Catapult",
+      "cost": {
+        "Gold": 80,
+        "Wood": 180
+      },
+      "hp": 150,
+      "attack": 60,
+      "melee_armor": -2,
+      "pierce_armor": 5,
+      "range": 13,
+      "speed": 0.66,
+      "line_of_sight": 16,
+      "train_time": 60,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 140
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "691": {
+      "id": 691,
+      "name": "Juggernaut",
+      "internal_name": "Juggernaught",
+      "cost": {
+        "Gold": 50,
+        "Wood": 135
+      },
+      "hp": 200,
+      "attack": 35,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 10,
+      "speed": 1.45,
+      "line_of_sight": 13,
+      "train_time": 90,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 140
+      },
+      "countered_by": [],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "873": {
+      "id": 873,
+      "name": "Elephant Archer",
+      "internal_name": "Elephant Archer",
+      "cost": {
+        "Food": 180,
+        "Gold": 60
+      },
+      "hp": 600,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 7,
+      "speed": 0.75,
+      "line_of_sight": 9,
+      "train_time": 50,
+      "armor_classes": [
+        "Elephants",
+        "Mounted Units",
+        "All Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider",
+        "Scout",
+        "Slinger"
+      ],
+      "counters": []
+    },
+    "1103": {
+      "id": 1103,
+      "name": "Fire Galley",
+      "internal_name": "Fire Galley",
+      "cost": {
+        "Gold": 40,
+        "Wood": 115
+      },
+      "hp": 200,
+      "attack": 24,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 1,
+      "speed": 2,
+      "line_of_sight": 8,
+      "train_time": 60,
+      "armor_classes": [
+        "Heavy Warships",
+        "All Buildings"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Armored Elephant",
+        "Ballista",
+        "Catapult",
+        "Catapult Trireme",
+        "Heavy Catapult",
+        "Helepolis",
+        "Juggernaut",
+        "Stone Thrower",
+        "War Elephant"
+      ],
+      "counters": []
+    },
+    "1132": {
+      "id": 1132,
+      "name": "War Elephant",
+      "internal_name": "War Elephant",
+      "cost": {
+        "Food": 170,
+        "Gold": 40
+      },
+      "hp": 600,
+      "attack": 15,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.75,
+      "line_of_sight": 5,
+      "train_time": 50,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 25,
+        "Standard Buildings": 25
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "1134": {
+      "id": 1134,
+      "name": "Armored Elephant",
+      "internal_name": "Armored Elephant",
+      "cost": {
+        "Food": 170,
+        "Gold": 40
+      },
+      "hp": 600,
+      "attack": 18,
+      "melee_armor": 2,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.75,
+      "line_of_sight": 5,
+      "train_time": 50,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 35,
+        "Standard Buildings": 35
+      },
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": [
+        "Fire Galley"
+      ]
+    },
+    "1370": {
+      "id": 1370,
+      "name": "Chariot",
+      "internal_name": "Chariot",
+      "cost": {
+        "Food": 40,
+        "Wood": 60
+      },
+      "hp": 100,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": []
+    },
+    "1372": {
+      "id": 1372,
+      "name": "Scythe Chariot",
+      "internal_name": "Scythe Chariot",
+      "cost": {
+        "Food": 40,
+        "Wood": 60
+      },
+      "hp": 120,
+      "attack": 9,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.66,
+      "line_of_sight": 4,
+      "train_time": 40,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Axeman",
+        "Camel Rider"
+      ],
+      "counters": []
+    }
+  },
+  "civ_units": {
+    "Assyrians": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Cataphract",
+        "Catapult",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Cavalry",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Horse Archer",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Babylonians": {
+      "all_units": [
+        "Axeman",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Carthaginians": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Cavalry",
+        "Centurion",
+        "Clubman",
+        "Elephant Archer",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Choson": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Cataphract",
+        "Cavalry",
+        "Clubman",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Egyptians": {
+      "all_units": [
+        "Axeman",
+        "Bowman",
+        "Camel Rider",
+        "Catapult Trireme",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Transport",
+        "Hoplite",
+        "Improved Bowman",
+        "Juggernaut",
+        "Light Transport",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Greeks": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Clubman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Cavalry",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Juggernaut",
+        "Light Transport",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Hittites": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Elephant Archer",
+        "Fire Galley",
+        "Fishing Boat",
+        "Heavy Catapult",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Light Transport",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Lac Viet": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Macedonians": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Cataphract",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Clubman",
+        "Composite Bowman",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Light Transport",
+        "Merchant Ship",
+        "Phalangite",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Minoans": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Clubman",
+        "Composite Bowman",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Improved Bowman",
+        "Juggernaut",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Palmyrans": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Light Transport",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Persians": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Cataphract",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Clubman",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Horse Archer",
+        "Improved Bowman",
+        "Juggernaut",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Phoenicians": {
+      "all_units": [
+        "Armored Elephant",
+        "Axeman",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Transport",
+        "Hoplite",
+        "Improved Bowman",
+        "Juggernaut",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Romans": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Catapult",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Chariot",
+        "Clubman",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Improved Bowman",
+        "Juggernaut",
+        "Legionary",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Shang": {
+      "all_units": [
+        "Axeman",
+        "Ballista",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Cataphract",
+        "Catapult",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Composite Bowman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Helepolis",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Light Transport",
+        "Merchant Ship",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Sumerians": {
+      "all_units": [
+        "Axeman",
+        "Bowman",
+        "Broad Swordsman",
+        "Camel Rider",
+        "Catapult",
+        "Centurion",
+        "Chariot",
+        "Chariot Archer",
+        "Clubman",
+        "Fire Galley",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Catapult",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Light Transport",
+        "Long Swordsman",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Scythe Chariot",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Elephant",
+        "War Galley"
+      ],
+      "unique_units": []
+    },
+    "Yamato": {
+      "all_units": [
+        "Axeman",
+        "Bowman",
+        "Cataphract",
+        "Catapult Trireme",
+        "Cavalry",
+        "Centurion",
+        "Clubman",
+        "Composite Bowman",
+        "Fishing Boat",
+        "Fishing Ship",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Heavy Transport",
+        "Hoplite",
+        "Horse Archer",
+        "Improved Bowman",
+        "Juggernaut",
+        "Light Transport",
+        "Merchant Ship",
+        "Phalangite",
+        "Priest",
+        "Scout",
+        "Scout Ship",
+        "Short Swordsman",
+        "Slinger",
+        "Stone Thrower",
+        "Trade Boat",
+        "Trade Cart",
+        "Trireme",
+        "Villager",
+        "War Galley"
+      ],
+      "unique_units": []
+    }
+  },
+  "counter_system": {
+    "Infantry": {
+      "class_id": 1,
+      "members": [
+        "Axeman",
+        "Broad Swordsman",
+        "Clubman",
+        "Legionary",
+        "Long Swordsman",
+        "Short Swordsman"
+      ],
+      "threats": [
+        {
+          "unit": "Cataphract",
+          "bonus": 7
+        },
+        {
+          "unit": "Heavy Cavalry",
+          "bonus": 6
+        },
+        {
+          "unit": "Cavalry",
+          "bonus": 5
+        },
+        {
+          "unit": "Bowman",
+          "bonus": 2
+        }
+      ]
+    },
+    "Heavy Warships": {
+      "class_id": 2,
+      "members": [
+        "Fire Galley"
+      ],
+      "threats": [
+        {
+          "unit": "Ballista",
+          "bonus": 5
+        },
+        {
+          "unit": "Helepolis",
+          "bonus": 5
+        }
+      ]
+    },
+    "Elephants": {
+      "class_id": 5,
+      "members": [
+        "Elephant Archer"
+      ],
+      "threats": []
+    },
+    "Mounted Units": {
+      "class_id": 8,
+      "members": [
+        "Armored Elephant",
+        "Cataphract",
+        "Cavalry",
+        "Chariot",
+        "Chariot Archer",
+        "Elephant Archer",
+        "Heavy Cavalry",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Scout",
+        "Scythe Chariot",
+        "War Elephant"
+      ],
+      "threats": [
+        {
+          "unit": "Camel Rider",
+          "bonus": 8
+        },
+        {
+          "unit": "Axeman",
+          "bonus": 4
+        }
+      ]
+    },
+    "All Buildings": {
+      "class_id": 11,
+      "members": [
+        "Fire Galley"
+      ],
+      "threats": [
+        {
+          "unit": "Stone Thrower",
+          "bonus": 140
+        },
+        {
+          "unit": "Catapult Trireme",
+          "bonus": 140
+        },
+        {
+          "unit": "Catapult",
+          "bonus": 140
+        },
+        {
+          "unit": "Heavy Catapult",
+          "bonus": 140
+        },
+        {
+          "unit": "Juggernaut",
+          "bonus": 140
+        },
+        {
+          "unit": "Armored Elephant",
+          "bonus": 35
+        },
+        {
+          "unit": "War Elephant",
+          "bonus": 25
+        }
+      ]
+    },
+    "Stone Defense & Harbors": {
+      "class_id": 13,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Slinger",
+          "bonus": 3
+        }
+      ]
+    },
+    "All Archers": {
+      "class_id": 15,
+      "members": [
+        "Bowman",
+        "Chariot Archer",
+        "Composite Bowman",
+        "Elephant Archer",
+        "Heavy Horse Archer",
+        "Horse Archer",
+        "Improved Bowman"
+      ],
+      "threats": [
+        {
+          "unit": "Slinger",
+          "bonus": 3
+        },
+        {
+          "unit": "Scout",
+          "bonus": 3
+        }
+      ]
+    },
+    "Standard Buildings": {
+      "class_id": 21,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Armored Elephant",
+          "bonus": 35
+        },
+        {
+          "unit": "War Elephant",
+          "bonus": 25
+        }
+      ]
+    },
+    "Monastery Units": {
+      "class_id": 25,
+      "members": [
+        "Priest"
+      ],
+      "threats": []
+    }
+  },
+  "class_labels": {
+    "0": "Wonders",
+    "1": "Infantry",
+    "2": "Heavy Warships",
+    "3": "Base Pierce",
+    "4": "Base Melee",
+    "5": "Elephants",
+    "8": "Mounted Units",
+    "11": "All Buildings",
+    "13": "Stone Defense & Harbors",
+    "14": "Predator Animals",
+    "15": "All Archers",
+    "16": "Ships",
+    "17": "High-Pierce-Armor Siege",
+    "18": "Trees",
+    "19": "Unique Units",
+    "20": "Siege Units",
+    "21": "Standard Buildings",
+    "22": "Walls & Gates",
+    "23": "Gunpowder Units",
+    "24": "Aggressive Huntables",
+    "25": "Monastery Units",
+    "26": "Castles & Kreposts",
+    "27": "Spearmen",
+    "28": "Mounted Archers",
+    "29": "Shock Infantry",
+    "30": "Camels",
+    "31": "Unblockable Melee",
+    "32": "Condottieri",
+    "34": "Fishing Ships",
+    "35": "Mamelukes",
+    "36": "Heroes & Kings",
+    "37": "Heavy Siege",
+    "38": "Skirmishers",
+    "39": "Cavalry Resistance",
+    "40": "Houses",
+    "41": "Fire Ships",
+    "60": "Long-Range Warships"
+  }
+}

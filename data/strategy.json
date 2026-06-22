@@ -1,0 +1,211 @@
+{
+  "_source": "r/aoe2 community charts: build-order flowchart (post ijgxll) + unique-unit response/notes table (preview.redd.it fcplfb2y5w8h1) + revised unit response chart (post 1kvz7mo)",
+  "build_orders": {
+    "intro": "Five beginner build orders sharing one Dark Age opening, then diverging. Villager counts at Feudal: FC Unique Unit 28+2, FC Boom 27+2, FC Knights 28+2, Scouts 22 (transitions to Archers/Skirms/Castle), Archers 23. 'FC' = the three Fast Castle builds (Unique Unit, Boom, Knights).",
+    "shared_opening": [
+      "1) 6 villagers on sheep",
+      "2) 4 villagers on wood   [Scouts build: 3 to Scouts]",
+      "3) 1 villager lures boar [Scouts build: 2 to Scouts]",
+      "4) 4 villagers on berries",
+      "5) 2 lure boar / 2 farms [Fast Castle builds: go Fast Castle here; Archers build: 2 boar / 1 farm to Archers]",
+      "6) 5 villagers on wood   [Scouts build: 4 Scouts] [Knights build: 6 to FC Knights]"
+    ],
+    "builds": [
+      {"key": "U", "name": "FC Unique Unit", "feudal_vills": "28+2", "color": "#bcd6f0",
+       "path": ["Fast Castle (+3 gold, 2 on Unique Unit)", "Castle Age: +2 stone", "Build Market (with FC Boom)", "Fast Castle: +8 farms, 7 on Unique Unit", "Mass your unique unit"]},
+      {"key": "B", "name": "FC Boom", "feudal_vills": "27+2", "color": "#f0c6c6",
+       "path": ["Fast Castle (+2 wood)", "Build Market", "Add Town Centers (boom)", "Advancing to Castle: +14 wood"]},
+      {"key": "K", "name": "FC Knights", "feudal_vills": "28+2", "color": "#cfe6b8",
+       "path": ["Fast Castle (+2 gold)", "Build Stable", "FC Knights & Scouts (Cavalry): Stable", "Advancing to Castle: +10 farms, 2nd Stable", "Mass Knights"]},
+      {"key": "S", "name": "Scouts", "feudal_vills": "22", "color": "#f3e4a6",
+       "path": ["Scouts & Archers: +10 wood", "Build Barracks then Stable", "Feudal: Scouts +14 farms", "Transition to Castle: +5 gold, +16 farms", "Transition to Archers: 2 Ranges, +10 gold, +18 farms", "Transition to Skirms: Range, +2 wood, +4 gold, +18 farms"]},
+      {"key": "A", "name": "Archers", "feudal_vills": "23", "color": "#f5d6a8",
+       "path": ["Scouts & Archers: +10 wood, 11 on Archers", "Build Barracks", "Archers: +3 gold", "Feudal: Archers +8 gold", "Archers +18 farms", "Build 2nd Archery Range (2 Ranges)"]}
+    ],
+    "shared_milestones": ["All 5 builds: build a Blacksmith in Feudal", "Common buildings by build appear at the Barracks / Stable / Range / Market / 2nd TC stage"]
+  },
+  "unit_notes": {
+    "Armenians": [
+      {"unit": "Composite Bowman", "type": "Archer", "bonus": "Spearmen +", "notes": "Attacks ignore pierce armor (except siege)."},
+      {"unit": "Warrior Priest", "type": "Religious", "bonus": "", "notes": "Can heal units and pick up relics."}
+    ],
+    "Aztecs": [
+      {"unit": "Jaguar Warrior", "type": "Infantry", "bonus": "Infantry ++, Shock infantry +, Buildings +", "notes": "Gains +1 attack for each unit killed (up to 4)."}
+    ],
+    "Bengalis": [
+      {"unit": "Ratha", "type": "Melee and ranged cavalry", "bonus": "Spearmen + (ranged mode), Skirmishers + (melee mode)", "notes": "Can switch between ranged and melee attack mode."}
+    ],
+    "Berbers": [
+      {"unit": "Camel Archer", "type": "Ranged camel", "bonus": "Cavalry archers ++", "notes": "Can passively regenerate HP with unique technology."},
+      {"unit": "Genitour", "type": "Ranged cavalry (skirmisher)", "bonus": "Archers ++, Spearmen +, Cavalry archers +, Mamelukes +", "notes": "Trained in archery ranges. Has a minimum range to attack. All teammates can train them in team games."}
+    ],
+    "Bohemians": [
+      {"unit": "Hussite Wagon", "type": "Gunpowder", "bonus": "Rams ++, Buildings +", "notes": "Fires 5 additional bullets. Halves damage from enemy projectiles passing through its hitbox by taking 1 damage."},
+      {"unit": "Houfnice", "type": "Gunpowder (siege)", "bonus": "Buildings ++++, Ships +++, Stone defense +++, Heavy siege weapons +++, Siege weapons ++", "notes": "Trained in siege workshops. Upgrades the Bombard Cannon."}
+    ],
+    "Britons": [
+      {"unit": "Longbowman", "type": "Archer", "bonus": "Spearmen +", "notes": "Archer with the longest range when fully upgraded."}
+    ],
+    "Bulgarians": [
+      {"unit": "Konnik", "type": "Cavalry / Infantry", "bonus": "Buildings ++ (when dismounted only)", "notes": "Turns into an infantry unit upon death (dismounted Konnik)."}
+    ],
+    "Burgundians": [
+      {"unit": "Coustillier", "type": "Melee cavalry", "bonus": "", "notes": "Charges its attack over 40 seconds, dealing +20 (+25 elite) on the first enemy hit."},
+      {"unit": "Flemish Militia", "type": "Spearman", "bonus": "Cavalry +++, Camels +++, Ships +++, Elephants +++, Shock infantry +", "notes": "HP and attack upgrade automatically when aging up (Castle and Imperial). All villagers can be turned into Flemish Militia at once with unique tech."}
+    ],
+    "Burmese": [
+      {"unit": "Arambai", "type": "Ranged cavalry", "bonus": "Rams +", "notes": "Missed projectiles still deal 100% damage."}
+    ],
+    "Byzantines": [
+      {"unit": "Cataphract", "type": "Melee cavalry", "bonus": "Infantry +++", "notes": "High cavalry armor (stronger against spearmen than regular cavalry)."}
+    ],
+    "Celts": [
+      {"unit": "Woad Raider", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "High movement speed."}
+    ],
+    "Chinese": [
+      {"unit": "Chu Ko Nu", "type": "Archer", "bonus": "Spearmen +", "notes": "Fires 3 arrows in succession (5 for elite). First arrow deals full damage, additional arrows deal 3 pierce damage."}
+    ],
+    "Cumans": [
+      {"unit": "Kipchak", "type": "Ranged cavalry", "bonus": "Rams +", "notes": "Fires a burst of 3 arrows (4 for elite). Only 1 deals full damage, additional arrows deal 3 pierce damage."}
+    ],
+    "Dravidians": [
+      {"unit": "Urumi Swordsman", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Charges +12 (+15 elite) over 24 (20 elite) seconds, then a blast attack of 50% strength in a small radius."}
+    ],
+    "Ethiopians": [
+      {"unit": "Shotel Warrior", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Trains fast and has good movement speed."}
+    ],
+    "Franks": [
+      {"unit": "Throwing Axeman", "type": "Ranged infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Deals melee damage instead of pierce."}
+    ],
+    "Georgians": [
+      {"unit": "Monaspa", "type": "Melee cavalry", "bonus": "", "notes": "Receives +1 (up to +4) attack for every 7 Monaspa or knights close by."}
+    ],
+    "Goths": [
+      {"unit": "Huskarl", "type": "Infantry", "bonus": "Buildings ++, Archers ++, Shock infantry +", "notes": "High pierce armor. Can be trained in Barracks and very fast with unique techs."}
+    ],
+    "Gurjaras": [
+      {"unit": "Chakram Thrower", "type": "Ranged infantry", "bonus": "Infantry +, Shock infantry +", "notes": "100% pass-through damage directly behind. Deals melee damage (ranged infantry)."},
+      {"unit": "Shrivamsha Rider", "type": "Melee cavalry", "bonus": "", "notes": "Trained in stables. Can dodge 5 (7 elite) consecutive projectiles in a 20-second window."},
+      {"unit": "Camel Scout", "type": "Camel", "bonus": "Cavalry ++, Camels +, Ships +", "notes": "Upgrades to the regular camel lines automatically in Castle Age."}
+    ],
+    "Hindustanis": [
+      {"unit": "Ghulam", "type": "Infantry", "bonus": "Archers +, Buildings +, Shock infantry +", "notes": "Attacks pass through the target to units behind it (50% damage). Good pierce armor."},
+      {"unit": "Imperial Camel Rider", "type": "Melee cavalry (camel)", "bonus": "Cavalry ++, Camels ++, Ships ++, Mamelukes ++, Buildings +", "notes": "Upgrades the Heavy Camel Rider from the regular camel line."}
+    ],
+    "Huns": [
+      {"unit": "Tarkan", "type": "Melee cavalry", "bonus": "Buildings +++, Stone defense +++", "notes": "Anti-building unit."}
+    ],
+    "Incas": [
+      {"unit": "Kamayuk", "type": "Spearman", "bonus": "Cavalry +++, Elephants ++, Camels ++", "notes": "Has a longer range than regular infantry."}
+    ],
+    "Italians": [
+      {"unit": "Genoese Crossbowman", "type": "Archer", "bonus": "Cavalry ++, Camels ++, Elephants ++, Ships +", "notes": "Stronger against cavalry than regular archers."},
+      {"unit": "Condottiero", "type": "Infantry", "bonus": "Gunpowder +++, Buildings +", "notes": "Trained in Barracks. Teammates can train them in team games. Negates some damage from gunpowder unit attacks."}
+    ],
+    "Japanese": [
+      {"unit": "Samurai", "type": "Infantry", "bonus": "Unique units +++, Buildings +, Shock infantry +", "notes": "Gains +1 attack and 25% speed when charging a nearby enemy."}
+    ],
+    "Jurchens": [
+      {"unit": "Iron Pagoda", "type": "Melee cavalry", "bonus": "", "notes": "Ignores one melee attack every 40 (30) seconds. Takes -50% friendly fire."},
+      {"unit": "Grenadier", "type": "Gunpowder", "bonus": "Infantry +++, Buildings ++, Rams ++, Spearmen +", "notes": "Trained in archery ranges. Throws explosives with area damage. Has minimum range. Friendly fire deals -50%."}
+    ],
+    "Khitans": [
+      {"unit": "Liao Dao", "type": "Infantry", "bonus": "Buildings +, Archers +, Shock infantry +", "notes": "Deals 9 additional bleeding damage to non-siege units over 3 seconds."},
+      {"unit": "Mounted Trebuchet", "type": "Cavalry siege unit", "bonus": "Siege weapons +++, Buildings ++", "notes": "Trained in siege workshops. Projectiles spawn an area hazard."}
+    ],
+    "Khmer": [
+      {"unit": "Ballista Elephant", "type": "Cavalry siege unit (elephant)", "bonus": "Ships ++, Buildings ++", "notes": "Deals pass-through damage."}
+    ],
+    "Koreans": [
+      {"unit": "War Wagon", "type": "Ranged cavalry", "bonus": "Buildings +", "notes": "Does not deal pass-through damage."}
+    ],
+    "Lithuanians": [
+      {"unit": "Leitis", "type": "Melee cavalry", "bonus": "", "notes": "Attacks ignore the armor of non-siege land units."}
+    ],
+    "Magyars": [
+      {"unit": "Magyar Huszar", "type": "Melee cavalry", "bonus": "Siege weapons ++, Rams +", "notes": "Gold cost can be replaced with food via unique technology."}
+    ],
+    "Malay": [
+      {"unit": "Karambit Warrior", "type": "Infantry", "bonus": "Shock infantry +, Buildings +", "notes": "Costs 0.5 population space."}
+    ],
+    "Malians": [
+      {"unit": "Gbeto", "type": "Ranged infantry", "bonus": "Shock infantry +, Buildings +", "notes": "Deals melee damage instead of pierce."}
+    ],
+    "Mapuche": [
+      {"unit": "Kona", "type": "Melee cavalry", "bonus": "Gunpowder ++", "notes": "Deals increased damage to injured targets."},
+      {"unit": "Bolas Rider", "type": "Ranged cavalry", "bonus": "Cavalry +, Camels +, Rams +", "notes": "Fires a shot every 30s with +2 (+3 elite) attack that slows targets 15% for 10s. Can gain pass-through damage from unique tech."}
+    ],
+    "Maya": [
+      {"unit": "Plumed Archer", "type": "Archer", "bonus": "Infantry +, Spearmen +", "notes": "High HP and movement speed compared to regular archers."}
+    ],
+    "Mongols": [
+      {"unit": "Mangudai", "type": "Ranged cavalry", "bonus": "Siege weapons ++, Spearmen +", "notes": "Fires quicker than regular cavalry archers."}
+    ],
+    "Muisca": [
+      {"unit": "Guecha Warrior", "type": "Skirmisher", "bonus": "Archers ++, Cavalry archer +, Spearmen +", "notes": "Death heals nearby Guecha Warriors."},
+      {"unit": "Temple Guard", "type": "Infantry", "bonus": "Cavalry ++, Ships +, Camels +, Buildings +", "notes": "Trained from Barracks and Monasteries. Attacks faster the longer it stays in combat."}
+    ],
+    "Persians": [
+      {"unit": "War Elephant", "type": "Melee cavalry (elephant)", "bonus": "Buildings +++", "notes": "Deals 50% damage to nearby units. Harder to convert than regular units."}
+    ],
+    "Poles": [
+      {"unit": "Obuch", "type": "Infantry", "bonus": "Buildings ++, Shock infantry +", "notes": "Reduces target armor and pierce armor by 1 with every attack."}
+    ],
+    "Portuguese": [
+      {"unit": "Organ Gun", "type": "Gunpowder", "bonus": "Infantry +, Skirmishers +, Rams +, Buildings +", "notes": "Fires 5 projectiles in a cone, each dealing full damage."}
+    ],
+    "Romans": [
+      {"unit": "Centurion", "type": "Melee cavalry", "bonus": "", "notes": "Increases movement and attack speed of nearby militia-line units."},
+      {"unit": "Legionary", "type": "Infantry", "bonus": "Shock infantry ++, Infantry +, Buildings +", "notes": "Trained in Barracks. Replaces the Two-Handed Swordsman and Champion (militia line)."}
+    ],
+    "Saracens": [
+      {"unit": "Mameluke", "type": "Ranged camel (infantry)", "bonus": "Cavalry +++", "notes": "Deals melee damage instead of pierce."}
+    ],
+    "Shu": [
+      {"unit": "White Feather Guard", "type": "Infantry", "bonus": "Cavalry +++, Camels ++, Shock infantry +, Buildings +", "notes": "Snares non-siege enemies, slowing them 15% for 10s (does not stack). Gains HP near each other via unique tech."},
+      {"unit": "War Chariot", "type": "Siege weapon", "bonus": "Buildings +", "notes": "Trained in siege workshops. Replaces the scorpion line. Swaps modes - Barrage: many projectiles hitting 1 target each; Focus fire: fewer projectiles with pass-through."},
+      {"unit": "Liu Bei", "type": "Hero (infantry)", "bonus": "Shock infantry +", "notes": "Heals nearby units."}
+    ],
+    "Sicilians": [
+      {"unit": "Sergeant", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Can build and repair Donjons."}
+    ],
+    "Slavs": [
+      {"unit": "Boyar", "type": "Melee cavalry", "bonus": "", "notes": "High melee and pierce armor."}
+    ],
+    "Spanish": [
+      {"unit": "Conquistador", "type": "Cavalry gunpowder", "bonus": "Rams ++, Buildings +", "notes": "Mounted gunpowder unit; mobile and strong vs buildings."},
+      {"unit": "Missionary", "type": "Mounted monk", "bonus": "", "notes": "Monk with fast movement speed. Can heal, convert and pick up relics."}
+    ],
+    "Tatars": [
+      {"unit": "Keshik", "type": "Melee cavalry", "bonus": "", "notes": "Generates gold while attacking."},
+      {"unit": "Flaming Camel", "type": "Siege weapon", "bonus": "Buildings ++++, Elephants ++++, Cavalry ++, Camels +++, Siege weapons ++", "notes": "Trained from siege workshops. Suicides upon death (huge bonus vs elephants/cavalry)."}
+    ],
+    "Teutons": [
+      {"unit": "Teutonic Knight", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "High melee armor. Slow movement speed."}
+    ],
+    "Tupi": [
+      {"unit": "Blackwood Archer", "type": "Archer", "bonus": "", "notes": "Costs 0.5 population space. Trained in pairs. Can deal poison damage via unique tech."},
+      {"unit": "Ibirapema Warrior", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Trained from Barracks. Deals full damage to the target and the unit right behind it."}
+    ],
+    "Turks": [
+      {"unit": "Janissary", "type": "Gunpowder", "bonus": "Rams +", "notes": "Stronger version of a Hand Cannoneer."}
+    ],
+    "Vietnamese": [
+      {"unit": "Rattan Archer", "type": "Archer", "bonus": "Spearmen +", "notes": "High pierce armor compared to regular archers."},
+      {"unit": "Imperial Skirmisher", "type": "Skirmisher", "bonus": "Archers +, Spearmen +, Cavalry archer +, Mameluke +", "notes": "Trained from archery ranges. Upgrades the Elite Skirmisher line. Teammates can train them in team games."}
+    ],
+    "Vikings": [
+      {"unit": "Berserk", "type": "Infantry", "bonus": "Buildings +, Shock infantry +", "notes": "Passively regenerates HP."}
+    ],
+    "Wei": [
+      {"unit": "Tiger Cavalry", "type": "Melee cavalry", "bonus": "Archers ++, Siege weapons +", "notes": "Gains attack and HP as it kills enemy units, up to 4."},
+      {"unit": "Xianbei Raider", "type": "Ranged cavalry", "bonus": "Spearmen +, Infantry +", "notes": "Trained from archery ranges. Replaces the cavalry archer line. Fires a 5-arrow volley every 30s."},
+      {"unit": "Cao Cao", "type": "Hero (melee cavalry)", "bonus": "", "notes": "Increases nearby military attack speed."}
+    ],
+    "Wu": [
+      {"unit": "Fire Archer", "type": "Archer", "bonus": "Buildings +, Ships +, Spearmen +, Siege weapons +", "notes": "Vs units: shorter range, multiple arrows with area damage. Vs buildings: longer range, single arrow."},
+      {"unit": "Jian Swordsman", "type": "Infantry", "bonus": "Archers +, Buildings +", "notes": "Trained from Barracks. Gains speed and attack but loses armor below 45 HP."},
+      {"unit": "Sun Jian", "type": "Hero (melee cavalry)", "bonus": "", "notes": "Increases nearby military movement speed."}
+    ]
+  }
+}

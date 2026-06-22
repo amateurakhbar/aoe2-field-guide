@@ -1,0 +1,5767 @@
+{
+  "edition": "Chronicles: Battle for Greece",
+  "num_civilizations": 6,
+  "num_unit_definitions": 85,
+  "civilizations": [
+    {
+      "key": "Achaemenids",
+      "name": "Achaemenids",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Archer and Cavalry civilization",
+      "civ_bonuses": [
+        {
+          "text": "Shipyards work 15% faster",
+          "values": [
+            "15%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Town Centers can be individually upgraded to be more powerful starting in the Civic Age",
+          "values": [],
+          "ages": [
+            "Civic"
+          ]
+        },
+        {
+          "text": "Stable technologies research 50% faster",
+          "values": [
+            "50%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Houses built +100% faster",
+        "values": [
+          "+100%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Immortal (Infantry/Archer)"
+      ],
+      "unique_units": [
+        "Elite Immortal (Melee)",
+        "Elite War Chariot",
+        "Immortal (Melee)",
+        "War Chariot"
+      ],
+      "unique_techs": [
+        {
+          "id": 1110,
+          "name": "Sparabaras",
+          "effect": "Immortals and Spearmen +2/+1 armor",
+          "values": [
+            "+2",
+            "+1"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 350,
+            "Gold": 300
+          },
+          "research_time": 50
+        },
+        {
+          "id": 1111,
+          "name": "Reed Arrows",
+          "effect": "Archers, ranged Immortals, and Galleys fire 25% faster",
+          "values": [
+            "25%"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 400,
+            "Gold": 300
+          },
+          "research_time": 50
+        },
+        {
+          "id": 1112,
+          "name": "Scythed Chariots",
+          "effect": "War Chariots have increased trample radius",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 500,
+            "Wood": 500
+          },
+          "research_time": 60
+        },
+        {
+          "id": 1113,
+          "name": "Sagaris",
+          "effect": "Cavalry deal +2 unblockable damage vs. units",
+          "values": [
+            "+2"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 600,
+            "Gold": 550
+          },
+          "research_time": 50
+        }
+      ],
+      "num_units": 50
+    },
+    {
+      "key": "Athenians",
+      "name": "Athenians",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Infantry and Naval civilization",
+      "civ_bonuses": [
+        {
+          "text": "Policy style can be changed between Economic, Naval, and Military at the Town Center",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Changing Policy becomes progressively more expensive, up to a maximum of 50 gold",
+          "values": [
+            "50"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Lumberjacks slowly generate food",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Hoplites move 15% faster",
+          "values": [
+            "15%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Shipyard technologies research 50% faster",
+        "values": [
+          "50%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Strategos (Infantry)"
+      ],
+      "unique_units": [
+        "Elite Strategos",
+        "Hand Cannoneer",
+        "Strategos"
+      ],
+      "unique_techs": [
+        {
+          "id": 1120,
+          "name": "Taxiarchs",
+          "effect": "Strategoi give an additional +1 attack to nearby melee units, and their aura is 33% larger",
+          "values": [
+            "+1",
+            "33%"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 300,
+            "Gold": 400
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1121,
+          "name": "Trierarchies",
+          "effect": "Monoreme-line charge attack deals additional area damage and recharges faster",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 450,
+            "Wood": 500
+          },
+          "research_time": 50
+        },
+        {
+          "id": 1122,
+          "name": "Eisphora",
+          "effect": "50% of the Hoplite gold cost is replaced with an additional food cost",
+          "values": [
+            "50%"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 500,
+            "Gold": 350
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1123,
+          "name": "Delian League",
+          "effect": "Ports and Shipyards make nearby Warships attack 15% faster",
+          "values": [
+            "15%"
+          ],
+          "ages": [],
+          "cost": {
+            "Gold": 300,
+            "Wood": 500
+          },
+          "research_time": 60
+        }
+      ],
+      "num_units": 51
+    },
+    {
+      "key": "Macedonians",
+      "name": "Macedonians",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Infantry and Cavalry civilization",
+      "civ_bonuses": [
+        {
+          "text": "Take 10% less damage from enemies on higher elevation",
+          "values": [
+            "10%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Recruitment Doctrines are available at the Barracks, Archery Range, and Stable",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Infantry armor upgrades apply to cavalry",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Siege Weapons have +1 pierce armor and +30% damage against buildings",
+          "values": [
+            "+1",
+            "+30%"
+          ],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Outposts can be individually upgraded into Fortified Outposts",
+        "values": [],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Companion Cavalry (Cavalry), Phalangite (Infantry)"
+      ],
+      "unique_units": [
+        "Bombard Cannon",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Phalangite",
+        "Siege Onager"
+      ],
+      "unique_techs": [
+        {
+          "id": 1284,
+          "name": "Veteran Chiliarchs",
+          "effect": "Recruitment Doctrines become 33% more effective",
+          "values": [
+            "33%"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 200,
+            "Gold": 150
+          },
+          "research_time": 20
+        },
+        {
+          "id": 1285,
+          "name": "Ends of the World",
+          "effect": "Fortified Outposts receive greater aura bonuses and improved stats",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Stone": 100,
+            "Wood": 300
+          },
+          "research_time": 30
+        },
+        {
+          "id": 1286,
+          "name": "Pezhetairoi",
+          "effect": "Phalangite minimum range halved",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Food": 500,
+            "Gold": 450
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1287,
+          "name": "Sarissophoroi",
+          "effect": "Companion Cavalry gain a speed charge attack",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Food": 300,
+            "Gold": 500
+          },
+          "research_time": 50
+        }
+      ],
+      "num_units": 51
+    },
+    {
+      "key": "Puru",
+      "name": "Puru",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Archer and Elephant civilization",
+      "civ_bonuses": [
+        {
+          "text": "Villagers gathering from Stone slowly gain food",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Stone mines last 30% longer",
+          "values": [
+            "30%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Villagers and Fishing Ships gather from Oysters 15% faster",
+          "values": [
+            "15%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Stable units heal 25 HP per minute when no enemies are nearby (Starting in Classical Age)",
+          "values": [
+            "25"
+          ],
+          "ages": [
+            "Classical"
+          ]
+        },
+        {
+          "text": "Lemboi cost -10% and receive +1 attack per age, starting in Civic Age",
+          "values": [
+            "-10%",
+            "+1"
+          ],
+          "ages": [
+            "Civic"
+          ]
+        }
+      ],
+      "team_bonus": {
+        "text": "Trade Carts move 15% faster",
+        "values": [
+          "15%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Pattiyodha Longbowman (Archer), Sann\u0101hya (Cavalry)"
+      ],
+      "unique_units": [
+        "Armored Elephant",
+        "Elite Pattiyodha Longbowman",
+        "Elite Sann\u0101hya",
+        "Pattiyodha Longbowman",
+        "Sann\u0101hya",
+        "Siege Elephant"
+      ],
+      "unique_techs": [
+        {
+          "id": 1307,
+          "name": "Vadh\u0101vadha",
+          "effect": "Sann\u0101hyas have improved trample damage",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Food": 300,
+            "Gold": 150
+          },
+          "research_time": 20
+        },
+        {
+          "id": 1308,
+          "name": "Leaf-Headed Shafts",
+          "effect": "Pattiyodha Longbowman point-blank range damage improved",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 200,
+            "Wood": 300
+          },
+          "research_time": 30
+        },
+        {
+          "id": 1309,
+          "name": "Vedic Teachings",
+          "effect": "Each technology researched at the Academy increases villager work rate by 2% [max 20%]",
+          "values": [
+            "2%",
+            "20%"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 1100,
+            "Gold": 700
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1310,
+          "name": "Skandhavaras",
+          "effect": "Forts can be individually upgraded with Emplacements",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 900,
+            "Wood": 800
+          },
+          "research_time": 50
+        }
+      ],
+      "num_units": 48
+    },
+    {
+      "key": "Spartans",
+      "name": "Spartans",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Infantry civilization",
+      "civ_bonuses": [
+        {
+          "text": "A Polemarch is created for free in both the Civic Age and Classical Age",
+          "values": [],
+          "ages": [
+            "Civic",
+            "Classical"
+          ]
+        },
+        {
+          "text": "Villagers and Fishing Ships drop off 10% more food",
+          "values": [
+            "10%"
+          ],
+          "ages": []
+        },
+        {
+          "text": "Elite Hoplite available in the Classical Age",
+          "values": [],
+          "ages": [
+            "Classical"
+          ]
+        }
+      ],
+      "team_bonus": {
+        "text": "Barracks technologies research 50% faster",
+        "values": [
+          "50%"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Polemarch (Infantry), Hippeus (Infantry)"
+      ],
+      "unique_units": [
+        "Elite Hippeus",
+        "Hippeus",
+        "Polemarch"
+      ],
+      "unique_techs": [
+        {
+          "id": 1130,
+          "name": "Helot Levies",
+          "effect": "Spearmen, Skirmishers, and Villagers train 50% faster",
+          "values": [
+            "50%"
+          ],
+          "ages": [],
+          "cost": {
+            "Gold": 300,
+            "Wood": 500
+          },
+          "research_time": 70
+        },
+        {
+          "id": 1132,
+          "name": "Xyphos",
+          "effect": "Hoplites and Monoremes +1 attack for every 5 nearby enemy military units [max +3]",
+          "values": [
+            "+1",
+            "5",
+            "+3"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 300,
+            "Gold": 250
+          },
+          "research_time": 70
+        },
+        {
+          "id": 1131,
+          "name": "Agoge",
+          "effect": "Hoplites can receive an additional +1/+1 armor near other Hoplites",
+          "values": [
+            "+1",
+            "+1"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 500,
+            "Gold": 400
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1133,
+          "name": "Peloponnesian League",
+          "effect": "Monoreme-line +5 attack vs Galleys and Forts slowly generate gold",
+          "values": [
+            "+5"
+          ],
+          "ages": [],
+          "cost": {
+            "Food": 700,
+            "Gold": 450
+          },
+          "research_time": 50
+        }
+      ],
+      "num_units": 49
+    },
+    {
+      "key": "Thracians",
+      "name": "Thracians",
+      "expansion": "Chronicles: Battle for Greece",
+      "civ_type": "Infantry civilization",
+      "civ_bonuses": [
+        {
+          "text": "Elite Skirmisher upgrade is free",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Skirmishers regenerate 5/10 HP per minute in Civic/Classical Age",
+          "values": [
+            "5/10"
+          ],
+          "ages": [
+            "Classical"
+          ]
+        },
+        {
+          "text": "Battle Drills is available in the Classical Age",
+          "values": [],
+          "ages": [
+            "Classical"
+          ]
+        },
+        {
+          "text": "All buildings except Town Centers can be built on any elevation",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Forts and Towers increase the workrate of nearby Miners and Lumberjacks, and serve as resource dropsites",
+          "values": [],
+          "ages": []
+        },
+        {
+          "text": "Shepherds and Hunters slowly generate gold while gathering from animals",
+          "values": [],
+          "ages": []
+        }
+      ],
+      "team_bonus": {
+        "text": "Buildings have +3 line of sight",
+        "values": [
+          "+3"
+        ],
+        "ages": []
+      },
+      "unique_unit_text": [
+        "Rhomphaia Warrior (Infantry)"
+      ],
+      "unique_units": [
+        "Elite Rhomphaia Warrior",
+        "Rhomphaia Warrior"
+      ],
+      "unique_techs": [
+        {
+          "id": 1296,
+          "name": "Odomantian Raiders",
+          "effect": "Infantry and cavalry gain gold from killing enemies",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Food": 300,
+            "Gold": 150
+          },
+          "research_time": 20
+        },
+        {
+          "id": 1297,
+          "name": "Dii Plunderers",
+          "effect": "Spearman-line, Levy/Hoplite-line, and Rhomphaia Warriors gain wood/food/gold respectively from damaging enemy buildings",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 200,
+            "Wood": 300
+          },
+          "research_time": 30
+        },
+        {
+          "id": 1298,
+          "name": "Bessian Metalworking",
+          "effect": "Levy line, Lancer line, and Rhomphaia Warriors strip armour from targets when attacking",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Food": 1100,
+            "Gold": 700
+          },
+          "research_time": 40
+        },
+        {
+          "id": 1299,
+          "name": "Peltasts",
+          "effect": "Skirmishers deal pass-through damage",
+          "values": [],
+          "ages": [],
+          "cost": {
+            "Gold": 900,
+            "Wood": 800
+          },
+          "research_time": 50
+        }
+      ],
+      "num_units": 47
+    }
+  ],
+  "units_master": {
+    "4": {
+      "id": 4,
+      "name": "Archer",
+      "internal_name": "ARCHR",
+      "cost": {
+        "Gold": 45,
+        "Wood": 25
+      },
+      "hp": 30,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 4,
+      "speed": 0.96,
+      "line_of_sight": 6,
+      "train_time": 35,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {
+        "Spearmen": 3
+      },
+      "countered_by": [
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "Hand Cannoneer",
+      "internal_name": "HCANR",
+      "cost": {
+        "Food": 45,
+        "Gold": 50
+      },
+      "hp": 40,
+      "attack": 17,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 7,
+      "speed": 0.96,
+      "line_of_sight": 9,
+      "train_time": 34,
+      "armor_classes": [
+        "All Archers",
+        "Gunpowder Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 10,
+        "High-Pierce-Armor Siege": 2,
+        "Spearmen": 1
+      },
+      "countered_by": [
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Spearman",
+        "Strategos",
+        "Trebuchet"
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "Elite Skirmisher",
+      "internal_name": "HXBOW",
+      "cost": {
+        "Food": 25,
+        "Wood": 35
+      },
+      "hp": 35,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 4,
+      "range": 5,
+      "speed": 0.96,
+      "line_of_sight": 7,
+      "train_time": 22,
+      "armor_classes": [
+        "All Archers",
+        "Skirmishers"
+      ],
+      "bonus_damage_vs": {
+        "All Archers": 4,
+        "Spearmen": 4,
+        "Mounted Archers": 2,
+        "Mamelukes": 2
+      },
+      "countered_by": [
+        "Skirmisher"
+      ],
+      "counters": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Immortal (Melee)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Ratha (Melee)",
+        "Halberdier",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Immortal (Melee)",
+        "Pattiyodha Longbowman",
+        "Pikeman",
+        "Ratha (Melee)",
+        "Skirmisher",
+        "Spearman"
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "Skirmisher",
+      "internal_name": "XBOWM",
+      "cost": {
+        "Food": 25,
+        "Wood": 35
+      },
+      "hp": 30,
+      "attack": 2,
+      "melee_armor": 0,
+      "pierce_armor": 3,
+      "range": 4,
+      "speed": 0.96,
+      "line_of_sight": 6,
+      "train_time": 26,
+      "armor_classes": [
+        "All Archers",
+        "Skirmishers"
+      ],
+      "bonus_damage_vs": {
+        "All Archers": 3,
+        "Spearmen": 3,
+        "Mamelukes": 2
+      },
+      "countered_by": [
+        "Elite Skirmisher"
+      ],
+      "counters": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Immortal (Melee)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Ratha (Melee)",
+        "Elite Skirmisher",
+        "Halberdier",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Immortal (Melee)",
+        "Pattiyodha Longbowman",
+        "Pikeman",
+        "Ratha (Melee)",
+        "Spearman"
+      ]
+    },
+    "13": {
+      "id": 13,
+      "name": "Fishing Ship",
+      "internal_name": "FSHSP",
+      "cost": {
+        "Wood": 75
+      },
+      "hp": 50,
+      "attack": 0,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.26,
+      "line_of_sight": 5,
+      "train_time": 40,
+      "armor_classes": [
+        "Ships",
+        "Fishing Ships"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "24": {
+      "id": 24,
+      "name": "Crossbowman",
+      "internal_name": "CARCH",
+      "cost": {
+        "Gold": 45,
+        "Wood": 25
+      },
+      "hp": 35,
+      "attack": 5,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 5,
+      "speed": 0.96,
+      "line_of_sight": 7,
+      "train_time": 27,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {
+        "Spearmen": 3
+      },
+      "countered_by": [
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ]
+    },
+    "36": {
+      "id": 36,
+      "name": "Bombard Cannon",
+      "internal_name": "BCANN",
+      "cost": {
+        "Gold": 225,
+        "Wood": 225
+      },
+      "hp": 80,
+      "attack": 40,
+      "melee_armor": 2,
+      "pierce_armor": 5,
+      "range": 12,
+      "speed": 0.7,
+      "line_of_sight": 14,
+      "train_time": 56,
+      "armor_classes": [
+        "Siege Units",
+        "Gunpowder Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 200,
+        "Stone Defense & Harbors": 40,
+        "Ships": 40,
+        "Siege Units": 20,
+        "Heavy Siege": 40
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Mangonel",
+        "Onager",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Elite Lembos",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Lembos",
+        "Leviathan",
+        "Mangonel",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager",
+        "Onager Ship",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "Trireme",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ]
+    },
+    "38": {
+      "id": 38,
+      "name": "Knight",
+      "internal_name": "KNGHT",
+      "cost": {
+        "Food": 60,
+        "Gold": 75
+      },
+      "hp": 100,
+      "attack": 10,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "39": {
+      "id": 39,
+      "name": "Cavalry Archer",
+      "internal_name": "CVRCH",
+      "cost": {
+        "Gold": 60,
+        "Wood": 40
+      },
+      "hp": 50,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 4,
+      "speed": 1.4,
+      "line_of_sight": 5,
+      "train_time": 37,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers",
+        "Mounted Archers"
+      ],
+      "bonus_damage_vs": {
+        "Spearmen": 2
+      },
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Skirmisher",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Skirmisher",
+        "Spearman"
+      ],
+      "counters": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ]
+    },
+    "42": {
+      "id": 42,
+      "name": "Trebuchet",
+      "internal_name": "TREBU",
+      "cost": {
+        "Gold": 200,
+        "Wood": 200
+      },
+      "hp": 150,
+      "attack": 200,
+      "melee_armor": 1,
+      "pierce_armor": 150,
+      "range": 16,
+      "speed": 0,
+      "line_of_sight": 19,
+      "train_time": 50,
+      "armor_classes": [
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 250
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": []
+    },
+    "74": {
+      "id": 74,
+      "name": "Militia",
+      "internal_name": "SPRMN",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 40,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.9,
+      "line_of_sight": 4,
+      "train_time": 21,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "75": {
+      "id": 75,
+      "name": "Man-at-Arms",
+      "internal_name": "SWDMN",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 45,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.96,
+      "line_of_sight": 4,
+      "train_time": 21,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 2,
+        "Shock Infantry": 2
+      },
+      "countered_by": [
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "77": {
+      "id": 77,
+      "name": "Long Swordsman",
+      "internal_name": "THSWD",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 60,
+      "attack": 9,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.96,
+      "line_of_sight": 4,
+      "train_time": 21,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 3,
+        "Shock Infantry": 6
+      },
+      "countered_by": [
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "83": {
+      "id": 83,
+      "name": "Villager",
+      "internal_name": "VMBAS",
+      "cost": {
+        "Food": 50
+      },
+      "hp": 25,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.8,
+      "line_of_sight": 4,
+      "train_time": 25,
+      "armor_classes": [],
+      "bonus_damage_vs": {
+        "All Buildings": 3,
+        "Stone Defense & Harbors": 6,
+        "Heavy Siege": 6
+      },
+      "countered_by": [],
+      "counters": [
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "93": {
+      "id": 93,
+      "name": "Spearman",
+      "internal_name": "PKEMN",
+      "cost": {
+        "Food": 35,
+        "Wood": 25
+      },
+      "hp": 45,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 22,
+      "armor_classes": [
+        "Infantry",
+        "Spearmen"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 15,
+        "Mounted Units": 15,
+        "Ships": 9,
+        "Standard Buildings": 1,
+        "Shock Infantry": 1,
+        "Camels": 12
+      },
+      "countered_by": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Pattiyodha Longbowman",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Heavy Scorpion",
+        "Pattiyodha Longbowman",
+        "Scorpion",
+        "Skirmisher",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Bireme",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Cavalry Archer",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Hussar",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "Trireme",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "War Galley",
+        "War Lembos",
+        "XPORT",
+        "Xolotl Warrior"
+      ]
+    },
+    "125": {
+      "id": 125,
+      "name": "Monk",
+      "internal_name": "MONKX",
+      "cost": {
+        "Food": 0,
+        "Gold": 100
+      },
+      "hp": 30,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 9,
+      "speed": 0.7,
+      "line_of_sight": 11,
+      "train_time": 51,
+      "armor_classes": [
+        "Monastery Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Hussar",
+        "Light Cavalry",
+        "Scout Cavalry"
+      ],
+      "counters": []
+    },
+    "128": {
+      "id": 128,
+      "name": "Trade Cart",
+      "internal_name": "TCART",
+      "cost": {
+        "Gold": 50,
+        "Wood": 100
+      },
+      "hp": 70,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.25,
+      "line_of_sight": 7,
+      "train_time": 51,
+      "armor_classes": [],
+      "bonus_damage_vs": {},
+      "countered_by": [],
+      "counters": []
+    },
+    "279": {
+      "id": 279,
+      "name": "Scorpion",
+      "internal_name": "SCBAL",
+      "cost": {
+        "Gold": 75,
+        "Wood": 75
+      },
+      "hp": 40,
+      "attack": 11,
+      "melee_armor": 0,
+      "pierce_armor": 7,
+      "range": 7,
+      "speed": 0.65,
+      "line_of_sight": 9,
+      "train_time": 30,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 1,
+        "Elephants": 7,
+        "All Buildings": 3,
+        "High-Pierce-Armor Siege": 1
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Mangonel",
+        "Onager",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Sann\u0101hya",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Sann\u0101hya",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Spearman",
+        "Strategos",
+        "Trebuchet"
+      ]
+    },
+    "280": {
+      "id": 280,
+      "name": "Mangonel",
+      "internal_name": "MANGO",
+      "cost": {
+        "Gold": 135,
+        "Wood": 160
+      },
+      "hp": 50,
+      "attack": 40,
+      "melee_armor": 0,
+      "pierce_armor": 6,
+      "range": 7,
+      "speed": 0.6,
+      "line_of_sight": 9,
+      "train_time": 46,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 35,
+        "Siege Units": 12,
+        "Heavy Siege": 40
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Onager",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "283": {
+      "id": 283,
+      "name": "Cavalier",
+      "internal_name": "PALDN",
+      "cost": {
+        "Food": 60,
+        "Gold": 75
+      },
+      "hp": 120,
+      "attack": 12,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "331": {
+      "id": 331,
+      "name": "Trebuchet",
+      "internal_name": "PTREB",
+      "cost": {
+        "Gold": 200,
+        "Wood": 200
+      },
+      "hp": 150,
+      "attack": 200,
+      "melee_armor": 2,
+      "pierce_armor": 8,
+      "range": 16,
+      "speed": 0.8,
+      "line_of_sight": 19,
+      "train_time": 50,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 250
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Mangonel",
+        "Onager",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": []
+    },
+    "358": {
+      "id": 358,
+      "name": "Pikeman",
+      "internal_name": "ISPKM",
+      "cost": {
+        "Food": 35,
+        "Wood": 25
+      },
+      "hp": 55,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 22,
+      "armor_classes": [
+        "Infantry",
+        "Spearmen"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 25,
+        "Mounted Units": 22,
+        "Ships": 16,
+        "Standard Buildings": 1,
+        "Shock Infantry": 1,
+        "Camels": 18,
+        "Mamelukes": 7
+      },
+      "countered_by": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Pattiyodha Longbowman",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Heavy Scorpion",
+        "Pattiyodha Longbowman",
+        "Scorpion",
+        "Skirmisher",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Bireme",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Cavalry Archer",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Hussar",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "Trireme",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "War Galley",
+        "War Lembos",
+        "XPORT",
+        "Xolotl Warrior"
+      ]
+    },
+    "359": {
+      "id": 359,
+      "name": "Halberdier",
+      "internal_name": "HLBDM",
+      "cost": {
+        "Food": 35,
+        "Wood": 25
+      },
+      "hp": 60,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1,
+      "line_of_sight": 4,
+      "train_time": 22,
+      "armor_classes": [
+        "Infantry",
+        "Spearmen"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 28,
+        "Mounted Units": 32,
+        "Ships": 17,
+        "Standard Buildings": 1,
+        "Shock Infantry": 1,
+        "Camels": 26,
+        "Mamelukes": 7
+      },
+      "countered_by": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Pattiyodha Longbowman",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Heavy Scorpion",
+        "Pattiyodha Longbowman",
+        "Scorpion",
+        "Skirmisher",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Bireme",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Cavalry Archer",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Hussar",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "Trireme",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "War Galley",
+        "War Lembos",
+        "XPORT",
+        "Xolotl Warrior"
+      ]
+    },
+    "422": {
+      "id": 422,
+      "name": "Capped Ram",
+      "internal_name": "CBATR",
+      "cost": {
+        "Gold": 75,
+        "Wood": 160
+      },
+      "hp": 200,
+      "attack": 3,
+      "melee_armor": -2,
+      "pierce_armor": 190,
+      "range": 0,
+      "speed": 0.6,
+      "line_of_sight": 3,
+      "train_time": 36,
+      "armor_classes": [
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 160,
+        "Siege Units": 50
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "441": {
+      "id": 441,
+      "name": "Hussar",
+      "internal_name": "HUSSAR",
+      "cost": {
+        "Food": 80
+      },
+      "hp": 75,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.5,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Monastery Units": 12
+      },
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Monk"
+      ]
+    },
+    "448": {
+      "id": 448,
+      "name": "Scout Cavalry",
+      "internal_name": "SCOUT",
+      "cost": {
+        "Food": 80
+      },
+      "hp": 45,
+      "attack": 3,
+      "melee_armor": 0,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.2,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Monastery Units": 6
+      },
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Monk"
+      ]
+    },
+    "474": {
+      "id": 474,
+      "name": "Heavy Cavalry Archer",
+      "internal_name": "HCVAR",
+      "cost": {
+        "Gold": 60,
+        "Wood": 40
+      },
+      "hp": 60,
+      "attack": 7,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 4,
+      "speed": 1.4,
+      "line_of_sight": 6,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers",
+        "Mounted Archers"
+      ],
+      "bonus_damage_vs": {
+        "Spearmen": 4
+      },
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Skirmisher",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Skirmisher",
+        "Spearman"
+      ],
+      "counters": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ]
+    },
+    "492": {
+      "id": 492,
+      "name": "Arbalester",
+      "internal_name": "ACOAR",
+      "cost": {
+        "Gold": 45,
+        "Wood": 25
+      },
+      "hp": 40,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 5,
+      "speed": 0.96,
+      "line_of_sight": 7,
+      "train_time": 27,
+      "armor_classes": [
+        "All Archers"
+      ],
+      "bonus_damage_vs": {
+        "Spearmen": 3
+      },
+      "countered_by": [
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ]
+    },
+    "542": {
+      "id": 542,
+      "name": "Heavy Scorpion",
+      "internal_name": "HWBAL",
+      "cost": {
+        "Gold": 75,
+        "Wood": 75
+      },
+      "hp": 60,
+      "attack": 14,
+      "melee_armor": 1,
+      "pierce_armor": 8,
+      "range": 7,
+      "speed": 0.65,
+      "line_of_sight": 9,
+      "train_time": 30,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 2,
+        "Elephants": 10,
+        "All Buildings": 6,
+        "High-Pierce-Armor Siege": 2
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Mangonel",
+        "Onager",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Sann\u0101hya",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Sann\u0101hya",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Spearman",
+        "Strategos",
+        "Trebuchet"
+      ]
+    },
+    "546": {
+      "id": 546,
+      "name": "Light Cavalry",
+      "internal_name": "LTCAV",
+      "cost": {
+        "Food": 80
+      },
+      "hp": 60,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.5,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {
+        "Monastery Units": 10
+      },
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Monk"
+      ]
+    },
+    "548": {
+      "id": 548,
+      "name": "Siege Ram",
+      "internal_name": "SGRAM",
+      "cost": {
+        "Gold": 75,
+        "Wood": 160
+      },
+      "hp": 270,
+      "attack": 4,
+      "melee_armor": -1,
+      "pierce_armor": 195,
+      "range": 0,
+      "speed": 0.6,
+      "line_of_sight": 3,
+      "train_time": 36,
+      "armor_classes": [
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 200,
+        "Siege Units": 65
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "550": {
+      "id": 550,
+      "name": "Onager",
+      "internal_name": "ONAGR",
+      "cost": {
+        "Gold": 135,
+        "Wood": 160
+      },
+      "hp": 60,
+      "attack": 50,
+      "melee_armor": 0,
+      "pierce_armor": 7,
+      "range": 8,
+      "speed": 0.6,
+      "line_of_sight": 10,
+      "train_time": 46,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 45,
+        "Siege Units": 12,
+        "Heavy Siege": 50
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Mangonel",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "567": {
+      "id": 567,
+      "name": "Champion",
+      "internal_name": "HEROI",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 70,
+      "attack": 14,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.96,
+      "line_of_sight": 5,
+      "train_time": 21,
+      "armor_classes": [
+        "Infantry"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 4,
+        "Shock Infantry": 8
+      },
+      "countered_by": [
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "569": {
+      "id": 569,
+      "name": "Paladin",
+      "internal_name": "HEROC",
+      "cost": {
+        "Food": 60,
+        "Gold": 75
+      },
+      "hp": 160,
+      "attack": 14,
+      "melee_armor": 2,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 5,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "588": {
+      "id": 588,
+      "name": "Siege Onager",
+      "internal_name": "SNAGR",
+      "cost": {
+        "Gold": 135,
+        "Wood": 160
+      },
+      "hp": 70,
+      "attack": 75,
+      "melee_armor": 0,
+      "pierce_armor": 8,
+      "range": 8,
+      "speed": 0.6,
+      "line_of_sight": 10,
+      "train_time": 46,
+      "armor_classes": [
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 60,
+        "Siege Units": 12,
+        "Heavy Siege": 50
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Mangonel",
+        "Onager",
+        "Siege Elephant",
+        "Siege Ram"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "1105": {
+      "id": 1105,
+      "name": "Siege Tower",
+      "internal_name": "SIEGTWR",
+      "cost": {
+        "Gold": 120,
+        "Wood": 100
+      },
+      "hp": 175,
+      "attack": 0,
+      "melee_armor": -2,
+      "pierce_armor": 100,
+      "range": 0,
+      "speed": 0.96,
+      "line_of_sight": 8,
+      "train_time": 36,
+      "armor_classes": [
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": []
+    },
+    "1252": {
+      "id": 1252,
+      "name": "Konnik (Dismounted)",
+      "internal_name": "KONNIK_INF",
+      "cost": {
+        "Food": 0,
+        "Gold": 0
+      },
+      "hp": 45,
+      "attack": 12,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 0.9,
+      "line_of_sight": 3,
+      "train_time": 16,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "1253": {
+      "id": 1253,
+      "name": "Elite Konnik (Dismounted)",
+      "internal_name": "EKONNIK_INF",
+      "cost": {
+        "Food": 0,
+        "Gold": 0
+      },
+      "hp": 50,
+      "attack": 13,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 0.9,
+      "line_of_sight": 3,
+      "train_time": 16,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "1258": {
+      "id": 1258,
+      "name": "Battering Ram",
+      "internal_name": "BTRAM",
+      "cost": {
+        "Gold": 75,
+        "Wood": 160
+      },
+      "hp": 175,
+      "attack": 2,
+      "melee_armor": -3,
+      "pierce_armor": 180,
+      "range": 0,
+      "speed": 0.6,
+      "line_of_sight": 3,
+      "train_time": 36,
+      "armor_classes": [
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 150,
+        "Siege Units": 40
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "1570": {
+      "id": 1570,
+      "name": "Xolotl Warrior",
+      "internal_name": "AZTRAIDER",
+      "cost": {
+        "Food": 60,
+        "Gold": 75
+      },
+      "hp": 100,
+      "attack": 10,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 4,
+      "train_time": 30,
+      "armor_classes": [
+        "Mounted Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "1738": {
+      "id": 1738,
+      "name": "Ratha (Melee)",
+      "internal_name": "RATHA",
+      "cost": {
+        "Gold": 60,
+        "Wood": 60
+      },
+      "hp": 100,
+      "attack": 10,
+      "melee_armor": 3,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.3,
+      "line_of_sight": 6,
+      "train_time": 20,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers",
+        "Unique Units",
+        "Mounted Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Skirmisher",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Skirmisher",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "1740": {
+      "id": 1740,
+      "name": "Elite Ratha (Melee)",
+      "internal_name": "ERATHA",
+      "cost": {
+        "Gold": 60,
+        "Wood": 60
+      },
+      "hp": 115,
+      "attack": 12,
+      "melee_armor": 3,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.3,
+      "line_of_sight": 6,
+      "train_time": 18,
+      "armor_classes": [
+        "Mounted Units",
+        "All Archers",
+        "Unique Units",
+        "Mounted Archers"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Skirmisher",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Skirmisher",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "1744": {
+      "id": 1744,
+      "name": "Armored Elephant",
+      "internal_name": "ARELE",
+      "cost": {
+        "Food": 120,
+        "Gold": 95
+      },
+      "hp": 180,
+      "attack": 4,
+      "melee_armor": -2,
+      "pierce_armor": 140,
+      "range": 0,
+      "speed": 0.6,
+      "line_of_sight": 4,
+      "train_time": 36,
+      "armor_classes": [
+        "Elephants",
+        "Mounted Units",
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 90,
+        "Siege Units": 25
+      },
+      "countered_by": [
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Galley",
+        "Halberdier",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Spearman",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "1746": {
+      "id": 1746,
+      "name": "Siege Elephant",
+      "internal_name": "EARELE",
+      "cost": {
+        "Food": 120,
+        "Gold": 95
+      },
+      "hp": 220,
+      "attack": 4,
+      "melee_armor": -2,
+      "pierce_armor": 150,
+      "range": 0,
+      "speed": 0.6,
+      "line_of_sight": 4,
+      "train_time": 36,
+      "armor_classes": [
+        "Elephants",
+        "Mounted Units",
+        "High-Pierce-Armor Siege",
+        "Siege Units"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 105,
+        "Siege Units": 35
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Galley",
+        "Halberdier",
+        "Hand Cannoneer",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Lembos",
+        "Mangonel",
+        "Monoreme",
+        "Onager",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Scorpion",
+        "Siege Onager",
+        "Siege Ram",
+        "Spearman",
+        "Trireme",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "1962": {
+      "id": 1962,
+      "name": "War Chariot",
+      "internal_name": "WARCHAR",
+      "cost": {
+        "Food": 65,
+        "Gold": 90
+      },
+      "hp": 65,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 5,
+      "range": 6,
+      "speed": 0.9,
+      "line_of_sight": 8,
+      "train_time": 28,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units",
+        "Siege Units",
+        "Heavy Siege"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 2
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Mangonel",
+        "Onager",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Spearman",
+        "Villager"
+      ],
+      "counters": []
+    },
+    "1980": {
+      "id": 1980,
+      "name": "War Chariot (Barrage)",
+      "internal_name": "WARCHAR",
+      "cost": {
+        "Food": 65,
+        "Gold": 90
+      },
+      "hp": 65,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 5,
+      "range": 6,
+      "speed": 0.9,
+      "line_of_sight": 8,
+      "train_time": 28,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units",
+        "Siege Units",
+        "Heavy Siege"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 2
+      },
+      "countered_by": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Mangonel",
+        "Onager",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Spearman",
+        "Villager"
+      ],
+      "counters": []
+    },
+    "2101": {
+      "id": 2101,
+      "name": "Immortal (Melee)",
+      "internal_name": "Immortal",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 50,
+      "attack": 10,
+      "melee_armor": 0,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.1,
+      "line_of_sight": 5,
+      "train_time": 12,
+      "armor_classes": [
+        "Infantry",
+        "All Archers",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "Skirmisher",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2102": {
+      "id": 2102,
+      "name": "Elite Immortal (Melee)",
+      "internal_name": "Elite Immortal",
+      "cost": {
+        "Food": 50,
+        "Gold": 20
+      },
+      "hp": 60,
+      "attack": 12,
+      "melee_armor": 1,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.1,
+      "line_of_sight": 6,
+      "train_time": 10,
+      "armor_classes": [
+        "Infantry",
+        "All Archers",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "Skirmisher",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2104": {
+      "id": 2104,
+      "name": "Strategos",
+      "internal_name": "Strategos",
+      "cost": {
+        "Food": 55,
+        "Gold": 25
+      },
+      "hp": 60,
+      "attack": 15,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 0.9,
+      "line_of_sight": 6,
+      "train_time": 16,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2105": {
+      "id": 2105,
+      "name": "Elite Strategos",
+      "internal_name": "Elite Strategos",
+      "cost": {
+        "Food": 55,
+        "Gold": 25
+      },
+      "hp": 65,
+      "attack": 18,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 0.9,
+      "line_of_sight": 6,
+      "train_time": 16,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2107": {
+      "id": 2107,
+      "name": "Hippeus",
+      "internal_name": "Hippeus",
+      "cost": {
+        "Food": 60,
+        "Gold": 30
+      },
+      "hp": 90,
+      "attack": 9,
+      "melee_armor": 2,
+      "pierce_armor": 4,
+      "range": 0,
+      "speed": 0.85,
+      "line_of_sight": 4,
+      "train_time": 19,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2108": {
+      "id": 2108,
+      "name": "Elite Hippeus",
+      "internal_name": "Elite Hippeus",
+      "cost": {
+        "Food": 60,
+        "Gold": 30
+      },
+      "hp": 100,
+      "attack": 11,
+      "melee_armor": 2,
+      "pierce_armor": 5,
+      "range": 0,
+      "speed": 0.85,
+      "line_of_sight": 4,
+      "train_time": 17,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 5
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2110": {
+      "id": 2110,
+      "name": "Hoplite",
+      "internal_name": "Hoplite",
+      "cost": {
+        "Food": 55,
+        "Gold": 30
+      },
+      "hp": 55,
+      "attack": 10,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0.5,
+      "speed": 0.9,
+      "line_of_sight": 4,
+      "train_time": 28,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 2
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2111": {
+      "id": 2111,
+      "name": "Elite Hoplite",
+      "internal_name": "Elite Hoplite",
+      "cost": {
+        "Food": 55,
+        "Gold": 30
+      },
+      "hp": 70,
+      "attack": 12,
+      "melee_armor": 2,
+      "pierce_armor": 1,
+      "range": 0.5,
+      "speed": 0.9,
+      "line_of_sight": 5,
+      "train_time": 25,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Standard Buildings": 2
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2123": {
+      "id": 2123,
+      "name": "Lembos",
+      "internal_name": "Lembos",
+      "cost": {
+        "Food": 30,
+        "Wood": 50
+      },
+      "hp": 80,
+      "attack": 2,
+      "melee_armor": 0,
+      "pierce_armor": 4,
+      "range": 1,
+      "speed": 1.45,
+      "line_of_sight": 7,
+      "train_time": 60,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "High-Pierce-Armor Siege": 3,
+        "Long-Range Warships": 2
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Galley",
+        "Leviathan",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Galley"
+      ]
+    },
+    "2124": {
+      "id": 2124,
+      "name": "War Lembos",
+      "internal_name": "War Lembos",
+      "cost": {
+        "Food": 30,
+        "Wood": 50
+      },
+      "hp": 90,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 5,
+      "range": 2,
+      "speed": 1.5,
+      "line_of_sight": 8,
+      "train_time": 40,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "High-Pierce-Armor Siege": 3,
+        "Long-Range Warships": 4
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Galley",
+        "Leviathan",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Galley"
+      ]
+    },
+    "2125": {
+      "id": 2125,
+      "name": "Heavy Lembos",
+      "internal_name": "Heavy Lembos",
+      "cost": {
+        "Food": 30,
+        "Wood": 50
+      },
+      "hp": 100,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 5,
+      "range": 3,
+      "speed": 1.5,
+      "line_of_sight": 9,
+      "train_time": 40,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "High-Pierce-Armor Siege": 3,
+        "Long-Range Warships": 8
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Galley",
+        "Leviathan",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Galley"
+      ]
+    },
+    "2126": {
+      "id": 2126,
+      "name": "Elite Lembos",
+      "internal_name": "Elite Lembos",
+      "cost": {
+        "Food": 30,
+        "Wood": 50
+      },
+      "hp": 120,
+      "attack": 10,
+      "melee_armor": 0,
+      "pierce_armor": 6,
+      "range": 3,
+      "speed": 1.6,
+      "line_of_sight": 9,
+      "train_time": 40,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "High-Pierce-Armor Siege": 3,
+        "Long-Range Warships": 10
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Galley",
+        "Leviathan",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Galley"
+      ]
+    },
+    "2127": {
+      "id": 2127,
+      "name": "Monoreme",
+      "internal_name": "Monoreme",
+      "cost": {
+        "Gold": 45,
+        "Wood": 75
+      },
+      "hp": 100,
+      "attack": 5,
+      "melee_armor": 2,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 5,
+      "train_time": 55,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 2,
+        "High-Pierce-Armor Siege": 3
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet"
+      ]
+    },
+    "2128": {
+      "id": 2128,
+      "name": "Bireme",
+      "internal_name": "Bireme",
+      "cost": {
+        "Gold": 45,
+        "Wood": 75
+      },
+      "hp": 120,
+      "attack": 10,
+      "melee_armor": 3,
+      "pierce_armor": 4,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 5,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 3,
+        "High-Pierce-Armor Siege": 3
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet"
+      ]
+    },
+    "2129": {
+      "id": 2129,
+      "name": "Trireme",
+      "internal_name": "Trireme",
+      "cost": {
+        "Gold": 45,
+        "Wood": 75
+      },
+      "hp": 140,
+      "attack": 14,
+      "melee_armor": 4,
+      "pierce_armor": 5,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 6,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 5,
+        "High-Pierce-Armor Siege": 3
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet"
+      ]
+    },
+    "2130": {
+      "id": 2130,
+      "name": "Galley",
+      "internal_name": "Galley - Antiquity",
+      "cost": {
+        "Gold": 30,
+        "Wood": 90
+      },
+      "hp": 120,
+      "attack": 6,
+      "melee_armor": 0,
+      "pierce_armor": 6,
+      "range": 5,
+      "speed": 1.43,
+      "line_of_sight": 7,
+      "train_time": 55,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 6,
+        "Ships": 8,
+        "High-Pierce-Armor Siege": 3
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Elite Lembos",
+        "Fishing Ship",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Lembos",
+        "Leviathan",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "Trireme",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ]
+    },
+    "2131": {
+      "id": 2131,
+      "name": "War Galley",
+      "internal_name": "War Galley - Antiquity",
+      "cost": {
+        "Gold": 30,
+        "Wood": 90
+      },
+      "hp": 135,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 6,
+      "range": 6,
+      "speed": 1.43,
+      "line_of_sight": 8,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 7,
+        "Ships": 9,
+        "High-Pierce-Armor Siege": 4
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Galley",
+        "Elite Lembos",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Lembos",
+        "Leviathan",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "Trireme",
+        "War Lembos",
+        "XPORT"
+      ]
+    },
+    "2132": {
+      "id": 2132,
+      "name": "Elite Galley",
+      "internal_name": "Elite Galley",
+      "cost": {
+        "Gold": 30,
+        "Wood": 90
+      },
+      "hp": 165,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 8,
+      "range": 7,
+      "speed": 1.43,
+      "line_of_sight": 9,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 8,
+        "Ships": 11,
+        "High-Pierce-Armor Siege": 4
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Lembos",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Elite Lembos",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Lembos",
+        "Leviathan",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "Trireme",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ]
+    },
+    "2133": {
+      "id": 2133,
+      "name": "Incendiary Raft",
+      "internal_name": "Incendiary Raft",
+      "cost": {
+        "Gold": 50,
+        "Wood": 70
+      },
+      "hp": 45,
+      "attack": 70,
+      "melee_armor": 0,
+      "pierce_armor": 2,
+      "range": 0,
+      "speed": 1.5,
+      "line_of_sight": 5,
+      "train_time": 45,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 180
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "2134": {
+      "id": 2134,
+      "name": "Incendiary Ship",
+      "internal_name": "Incendiary Ship",
+      "cost": {
+        "Gold": 50,
+        "Wood": 70
+      },
+      "hp": 60,
+      "attack": 80,
+      "melee_armor": 0,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.6,
+      "line_of_sight": 6,
+      "train_time": 31,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 220
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "2135": {
+      "id": 2135,
+      "name": "Heavy Incen. Ship",
+      "internal_name": "Heavy Incendiary Ship",
+      "cost": {
+        "Gold": 50,
+        "Wood": 70
+      },
+      "hp": 70,
+      "attack": 100,
+      "melee_armor": 0,
+      "pierce_armor": 5,
+      "range": 0,
+      "speed": 1.6,
+      "line_of_sight": 6,
+      "train_time": 31,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 280
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "2138": {
+      "id": 2138,
+      "name": "Catapult Ship",
+      "internal_name": "Catapult Ship",
+      "cost": {
+        "Gold": 140,
+        "Wood": 140
+      },
+      "hp": 140,
+      "attack": 35,
+      "melee_armor": 1,
+      "pierce_armor": 6,
+      "range": 7,
+      "speed": 1,
+      "line_of_sight": 9,
+      "train_time": 42,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 15
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": []
+    },
+    "2139": {
+      "id": 2139,
+      "name": "Onager Ship",
+      "internal_name": "Onager Ship",
+      "cost": {
+        "Gold": 140,
+        "Wood": 140
+      },
+      "hp": 150,
+      "attack": 50,
+      "melee_armor": 2,
+      "pierce_armor": 7,
+      "range": 8,
+      "speed": 1,
+      "line_of_sight": 10,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 20
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": []
+    },
+    "2140": {
+      "id": 2140,
+      "name": "Leviathan",
+      "internal_name": "Leviathan",
+      "cost": {
+        "Gold": 225,
+        "Wood": 250
+      },
+      "hp": 180,
+      "attack": 60,
+      "melee_armor": 2,
+      "pierce_armor": 8,
+      "range": 13,
+      "speed": 1.1,
+      "line_of_sight": 19,
+      "train_time": 60,
+      "armor_classes": [
+        "Ships",
+        "Long-Range Warships"
+      ],
+      "bonus_damage_vs": {
+        "All Buildings": 225
+      },
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Elite Lembos",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Lembos",
+        "Pikeman",
+        "Spearman",
+        "War Galley",
+        "War Lembos"
+      ],
+      "counters": []
+    },
+    "2148": {
+      "id": 2148,
+      "name": "XPORT",
+      "internal_name": "XPORT",
+      "cost": {
+        "Wood": 125
+      },
+      "hp": 100,
+      "attack": 0,
+      "melee_armor": 4,
+      "pierce_armor": 8,
+      "range": 0,
+      "speed": 1.45,
+      "line_of_sight": 5,
+      "train_time": 46,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "2149": {
+      "id": 2149,
+      "name": "Merchant Ship",
+      "internal_name": "Merchant Ship",
+      "cost": {
+        "Gold": 50,
+        "Wood": 100
+      },
+      "hp": 80,
+      "attack": 0,
+      "melee_armor": 0,
+      "pierce_armor": 6,
+      "range": 0,
+      "speed": 1.65,
+      "line_of_sight": 6,
+      "train_time": 36,
+      "armor_classes": [
+        "Ships"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Bombard Cannon",
+        "Elite Galley",
+        "Galley",
+        "Halberdier",
+        "Pikeman",
+        "Spearman",
+        "War Galley"
+      ],
+      "counters": []
+    },
+    "2150": {
+      "id": 2150,
+      "name": "War Chariot",
+      "internal_name": "War Chariot",
+      "cost": {
+        "Gold": 65,
+        "Wood": 65
+      },
+      "hp": 100,
+      "attack": 8,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 5,
+      "train_time": 24,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 5
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Spearman",
+        "Strategos"
+      ]
+    },
+    "2151": {
+      "id": 2151,
+      "name": "Elite War Chariot",
+      "internal_name": "Elite War Chariot",
+      "cost": {
+        "Gold": 65,
+        "Wood": 65
+      },
+      "hp": 125,
+      "attack": 10,
+      "melee_armor": 2,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.35,
+      "line_of_sight": 5,
+      "train_time": 24,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Infantry": 8
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Spearman",
+        "Strategos"
+      ]
+    },
+    "2162": {
+      "id": 2162,
+      "name": "Polemarch",
+      "internal_name": "Polemarch 1",
+      "cost": {},
+      "hp": 40,
+      "attack": 4,
+      "melee_armor": 0,
+      "pierce_armor": 1,
+      "range": 0.5,
+      "speed": 1.05,
+      "line_of_sight": 5,
+      "train_time": 75,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {},
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": []
+    },
+    "2382": {
+      "id": 2382,
+      "name": "Companion Cavalry",
+      "internal_name": "Companion Cavalry",
+      "cost": {
+        "Food": 70,
+        "Gold": 65
+      },
+      "hp": 90,
+      "attack": 11,
+      "melee_armor": 1,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 1.4,
+      "line_of_sight": 5,
+      "train_time": 26,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Unique Units": 5
+      },
+      "countered_by": [
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Elite Companion Cavalry",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Ratha (Melee)",
+        "Elite Rhomphaia Warrior",
+        "Elite Sann\u0101hya",
+        "Elite Strategos",
+        "Elite War Chariot",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Polemarch",
+        "Ratha (Melee)",
+        "Rhomphaia Warrior",
+        "Sann\u0101hya",
+        "Strategos",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "2383": {
+      "id": 2383,
+      "name": "Elite Companion Cavalry",
+      "internal_name": "Elite Companion Cavalry",
+      "cost": {
+        "Food": 70,
+        "Gold": 65
+      },
+      "hp": 120,
+      "attack": 13,
+      "melee_armor": 1,
+      "pierce_armor": 4,
+      "range": 0,
+      "speed": 1.4,
+      "line_of_sight": 5,
+      "train_time": 26,
+      "armor_classes": [
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Unique Units": 7
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Spearman"
+      ],
+      "counters": [
+        "Companion Cavalry",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Ratha (Melee)",
+        "Elite Rhomphaia Warrior",
+        "Elite Sann\u0101hya",
+        "Elite Strategos",
+        "Elite War Chariot",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Polemarch",
+        "Ratha (Melee)",
+        "Rhomphaia Warrior",
+        "Sann\u0101hya",
+        "Strategos",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ]
+    },
+    "2384": {
+      "id": 2384,
+      "name": "Phalangite",
+      "internal_name": "Phalangite",
+      "cost": {
+        "Food": 50,
+        "Gold": 40
+      },
+      "hp": 50,
+      "attack": 6,
+      "melee_armor": 1,
+      "pierce_armor": 0,
+      "range": 1.8,
+      "speed": 0.9,
+      "line_of_sight": 4,
+      "train_time": 19,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 20,
+        "Mounted Units": 6,
+        "Camels": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Heavy Cavalry Archer",
+        "Hussar",
+        "Knight",
+        "Light Cavalry",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "Xolotl Warrior"
+      ]
+    },
+    "2385": {
+      "id": 2385,
+      "name": "Elite Phalangite",
+      "internal_name": "Elite Phalangite",
+      "cost": {
+        "Food": 50,
+        "Gold": 40
+      },
+      "hp": 65,
+      "attack": 8,
+      "melee_armor": 2,
+      "pierce_armor": 0,
+      "range": 1.8,
+      "speed": 0.9,
+      "line_of_sight": 4,
+      "train_time": 15,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 20,
+        "Mounted Units": 10,
+        "Camels": 6
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Heavy Cavalry Archer",
+        "Hussar",
+        "Knight",
+        "Light Cavalry",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "Xolotl Warrior"
+      ]
+    },
+    "2386": {
+      "id": 2386,
+      "name": "Rhomphaia Warrior",
+      "internal_name": "Rhomphaia Warrior",
+      "cost": {
+        "Food": 50,
+        "Gold": 40
+      },
+      "hp": 60,
+      "attack": 8,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 0,
+      "speed": 1.1,
+      "line_of_sight": 4,
+      "train_time": 13,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Mounted Units": 14,
+        "Standard Buildings": 6,
+        "Shock Infantry": 2,
+        "Camels": 12
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Heavy Cavalry Archer",
+        "Hussar",
+        "Knight",
+        "Light Cavalry",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "Xolotl Warrior"
+      ]
+    },
+    "2387": {
+      "id": 2387,
+      "name": "Elite Rhomphaia Warrior",
+      "internal_name": "Elite Rhomphaia Warrior",
+      "cost": {
+        "Food": 50,
+        "Gold": 40
+      },
+      "hp": 60,
+      "attack": 10,
+      "melee_armor": 1,
+      "pierce_armor": 1,
+      "range": 0,
+      "speed": 1.1,
+      "line_of_sight": 4,
+      "train_time": 13,
+      "armor_classes": [
+        "Infantry",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Mounted Units": 22,
+        "Standard Buildings": 8,
+        "Shock Infantry": 2,
+        "Camels": 18
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite War Chariot",
+        "Hand Cannoneer",
+        "Heavy Scorpion",
+        "Scorpion",
+        "War Chariot"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Heavy Cavalry Archer",
+        "Hussar",
+        "Knight",
+        "Light Cavalry",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "Xolotl Warrior"
+      ]
+    },
+    "2388": {
+      "id": 2388,
+      "name": "Pattiyodha Longbowman",
+      "internal_name": "Pattiyodha Longbowman",
+      "cost": {
+        "Gold": 35,
+        "Wood": 60
+      },
+      "hp": 50,
+      "attack": 7,
+      "melee_armor": 0,
+      "pierce_armor": 0,
+      "range": 4,
+      "speed": 0.9,
+      "line_of_sight": 5,
+      "train_time": 16,
+      "armor_classes": [
+        "All Archers",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 4,
+        "Spearmen": 2
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Elite Sann\u0101hya",
+        "Halberdier",
+        "Pikeman",
+        "Sann\u0101hya",
+        "Siege Elephant",
+        "Spearman"
+      ]
+    },
+    "2389": {
+      "id": 2389,
+      "name": "Elite Pattiyodha Longbowman",
+      "internal_name": "Elite Pattiyodha Longbowman",
+      "cost": {
+        "Gold": 35,
+        "Wood": 60
+      },
+      "hp": 60,
+      "attack": 8,
+      "melee_armor": 2,
+      "pierce_armor": 0,
+      "range": 4,
+      "speed": 0.9,
+      "line_of_sight": 5,
+      "train_time": 16,
+      "armor_classes": [
+        "All Archers",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Elephants": 4,
+        "Spearmen": 2
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "counters": [
+        "Armored Elephant",
+        "Elite Sann\u0101hya",
+        "Halberdier",
+        "Pikeman",
+        "Sann\u0101hya",
+        "Siege Elephant",
+        "Spearman"
+      ]
+    },
+    "2390": {
+      "id": 2390,
+      "name": "Sann\u0101hya",
+      "internal_name": "Sannahya",
+      "cost": {
+        "Food": 90,
+        "Gold": 80
+      },
+      "hp": 300,
+      "attack": 10,
+      "melee_armor": 1,
+      "pierce_armor": 3,
+      "range": 0,
+      "speed": 0.8,
+      "line_of_sight": 7,
+      "train_time": 26,
+      "armor_classes": [
+        "Elephants",
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Stone Defense & Harbors": 4,
+        "Standard Buildings": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Heavy Scorpion",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Scorpion",
+        "Spearman"
+      ],
+      "counters": []
+    },
+    "2391": {
+      "id": 2391,
+      "name": "Elite Sann\u0101hya",
+      "internal_name": "Elite Sannahya",
+      "cost": {
+        "Food": 90,
+        "Gold": 80
+      },
+      "hp": 400,
+      "attack": 12,
+      "melee_armor": 2,
+      "pierce_armor": 4,
+      "range": 0,
+      "speed": 0.8,
+      "line_of_sight": 7,
+      "train_time": 22,
+      "armor_classes": [
+        "Elephants",
+        "Mounted Units",
+        "Unique Units"
+      ],
+      "bonus_damage_vs": {
+        "Stone Defense & Harbors": 4,
+        "Standard Buildings": 4
+      },
+      "countered_by": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Halberdier",
+        "Heavy Scorpion",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Scorpion",
+        "Spearman"
+      ],
+      "counters": []
+    }
+  },
+  "civ_units": {
+    "Achaemenids": {
+      "all_units": [
+        "Archer",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Galley",
+        "Elite Immortal (Melee)",
+        "Elite Lembos",
+        "Elite Skirmisher",
+        "Elite War Chariot",
+        "Fishing Ship",
+        "Galley",
+        "Halberdier",
+        "Heavy Cavalry Archer",
+        "Heavy Lembos",
+        "Hussar",
+        "Immortal (Melee)",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Onager",
+        "Paladin",
+        "Pikeman",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Ram",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Trade Cart",
+        "Trebuchet",
+        "Trireme",
+        "Villager",
+        "War Chariot",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Elite Immortal (Melee)",
+        "Elite War Chariot",
+        "Immortal (Melee)",
+        "War Chariot"
+      ]
+    },
+    "Athenians": {
+      "all_units": [
+        "Arbalester",
+        "Archer",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Champion",
+        "Crossbowman",
+        "Elite Galley",
+        "Elite Hoplite",
+        "Elite Skirmisher",
+        "Elite Strategos",
+        "Fishing Ship",
+        "Galley",
+        "Halberdier",
+        "Hand Cannoneer",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Hoplite",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Onager",
+        "Onager Ship",
+        "Pikeman",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Strategos",
+        "Trade Cart",
+        "Trebuchet",
+        "Trireme",
+        "Villager",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Elite Strategos",
+        "Hand Cannoneer",
+        "Strategos"
+      ]
+    },
+    "Macedonians": {
+      "all_units": [
+        "Archer",
+        "Battering Ram",
+        "Bireme",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Crossbowman",
+        "Elite Companion Cavalry",
+        "Elite Galley",
+        "Elite Phalangite",
+        "Elite Skirmisher",
+        "Fishing Ship",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Onager",
+        "Onager Ship",
+        "Paladin",
+        "Phalangite",
+        "Pikeman",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Trade Cart",
+        "Trebuchet",
+        "Trireme",
+        "Villager",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Bombard Cannon",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Phalangite",
+        "Phalangite",
+        "Siege Onager"
+      ]
+    },
+    "Puru": {
+      "all_units": [
+        "Arbalester",
+        "Archer",
+        "Armored Elephant",
+        "Bireme",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Pattiyodha Longbowman",
+        "Elite Sann\u0101hya",
+        "Elite Skirmisher",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Cavalry Archer",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Heavy Scorpion",
+        "Hussar",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Pattiyodha Longbowman",
+        "Pikeman",
+        "Sann\u0101hya",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Trade Cart",
+        "Trebuchet",
+        "Villager",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Armored Elephant",
+        "Elite Pattiyodha Longbowman",
+        "Elite Sann\u0101hya",
+        "Pattiyodha Longbowman",
+        "Sann\u0101hya",
+        "Siege Elephant"
+      ]
+    },
+    "Spartans": {
+      "all_units": [
+        "Archer",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Cavalry Archer",
+        "Champion",
+        "Crossbowman",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Lembos",
+        "Elite Skirmisher",
+        "Fishing Ship",
+        "Galley",
+        "Halberdier",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Hippeus",
+        "Hoplite",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Onager",
+        "Onager Ship",
+        "Pikeman",
+        "Polemarch",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Ram",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Trade Cart",
+        "Trebuchet",
+        "Trireme",
+        "Villager",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Elite Hippeus",
+        "Hippeus",
+        "Polemarch"
+      ]
+    },
+    "Thracians": {
+      "all_units": [
+        "Archer",
+        "Battering Ram",
+        "Bireme",
+        "Capped Ram",
+        "Catapult Ship",
+        "Cavalier",
+        "Cavalry Archer",
+        "Champion",
+        "Crossbowman",
+        "Elite Galley",
+        "Elite Lembos",
+        "Elite Rhomphaia Warrior",
+        "Elite Skirmisher",
+        "Fishing Ship",
+        "Galley",
+        "Halberdier",
+        "Heavy Lembos",
+        "Hoplite",
+        "Hussar",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Knight",
+        "Lembos",
+        "Leviathan",
+        "Light Cavalry",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Mangonel",
+        "Merchant Ship",
+        "Militia",
+        "Monk",
+        "Monoreme",
+        "Onager",
+        "Pikeman",
+        "Rhomphaia Warrior",
+        "Scorpion",
+        "Scout Cavalry",
+        "Siege Tower",
+        "Skirmisher",
+        "Spearman",
+        "Trade Cart",
+        "Trebuchet",
+        "Trireme",
+        "Villager",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "unique_units": [
+        "Elite Rhomphaia Warrior",
+        "Rhomphaia Warrior"
+      ]
+    }
+  },
+  "counter_system": {
+    "Infantry": {
+      "class_id": 1,
+      "members": [
+        "Champion",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Phalangite",
+        "Elite Rhomphaia Warrior",
+        "Elite Strategos",
+        "Halberdier",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Long Swordsman",
+        "Man-at-Arms",
+        "Militia",
+        "Phalangite",
+        "Pikeman",
+        "Polemarch",
+        "Rhomphaia Warrior",
+        "Spearman",
+        "Strategos"
+      ],
+      "threats": [
+        {
+          "unit": "Hand Cannoneer",
+          "bonus": 10
+        },
+        {
+          "unit": "Elite War Chariot",
+          "bonus": 8
+        },
+        {
+          "unit": "War Chariot",
+          "bonus": 5
+        },
+        {
+          "unit": "Heavy Scorpion",
+          "bonus": 2
+        },
+        {
+          "unit": "Scorpion",
+          "bonus": 1
+        }
+      ]
+    },
+    "Elephants": {
+      "class_id": 5,
+      "members": [
+        "Armored Elephant",
+        "Elite Sann\u0101hya",
+        "Sann\u0101hya",
+        "Siege Elephant"
+      ],
+      "threats": [
+        {
+          "unit": "Halberdier",
+          "bonus": 28
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 25
+        },
+        {
+          "unit": "Phalangite",
+          "bonus": 20
+        },
+        {
+          "unit": "Elite Phalangite",
+          "bonus": 20
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 15
+        },
+        {
+          "unit": "Heavy Scorpion",
+          "bonus": 10
+        },
+        {
+          "unit": "Scorpion",
+          "bonus": 7
+        },
+        {
+          "unit": "Pattiyodha Longbowman",
+          "bonus": 4
+        },
+        {
+          "unit": "Elite Pattiyodha Longbowman",
+          "bonus": 4
+        }
+      ]
+    },
+    "Mounted Units": {
+      "class_id": 8,
+      "members": [
+        "Armored Elephant",
+        "Cavalier",
+        "Cavalry Archer",
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Ratha (Melee)",
+        "Elite Sann\u0101hya",
+        "Elite War Chariot",
+        "Heavy Cavalry Archer",
+        "Hussar",
+        "Knight",
+        "Light Cavalry",
+        "Paladin",
+        "Ratha (Melee)",
+        "Sann\u0101hya",
+        "Scout Cavalry",
+        "Siege Elephant",
+        "War Chariot",
+        "War Chariot (Barrage)",
+        "Xolotl Warrior"
+      ],
+      "threats": [
+        {
+          "unit": "Halberdier",
+          "bonus": 32
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 22
+        },
+        {
+          "unit": "Elite Rhomphaia Warrior",
+          "bonus": 22
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 15
+        },
+        {
+          "unit": "Rhomphaia Warrior",
+          "bonus": 14
+        },
+        {
+          "unit": "Elite Phalangite",
+          "bonus": 10
+        },
+        {
+          "unit": "Phalangite",
+          "bonus": 6
+        }
+      ]
+    },
+    "All Buildings": {
+      "class_id": 11,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Heavy Incen. Ship",
+          "bonus": 280
+        },
+        {
+          "unit": "Trebuchet",
+          "bonus": 250
+        },
+        {
+          "unit": "Leviathan",
+          "bonus": 225
+        },
+        {
+          "unit": "Incendiary Ship",
+          "bonus": 220
+        },
+        {
+          "unit": "Bombard Cannon",
+          "bonus": 200
+        },
+        {
+          "unit": "Siege Ram",
+          "bonus": 200
+        },
+        {
+          "unit": "Incendiary Raft",
+          "bonus": 180
+        },
+        {
+          "unit": "Capped Ram",
+          "bonus": 160
+        },
+        {
+          "unit": "Battering Ram",
+          "bonus": 150
+        },
+        {
+          "unit": "Siege Elephant",
+          "bonus": 105
+        },
+        {
+          "unit": "Armored Elephant",
+          "bonus": 90
+        },
+        {
+          "unit": "Siege Onager",
+          "bonus": 60
+        },
+        {
+          "unit": "Onager",
+          "bonus": 45
+        },
+        {
+          "unit": "Mangonel",
+          "bonus": 35
+        },
+        {
+          "unit": "Onager Ship",
+          "bonus": 20
+        },
+        {
+          "unit": "Catapult Ship",
+          "bonus": 15
+        },
+        {
+          "unit": "Elite Galley",
+          "bonus": 8
+        },
+        {
+          "unit": "War Galley",
+          "bonus": 7
+        },
+        {
+          "unit": "Heavy Scorpion",
+          "bonus": 6
+        },
+        {
+          "unit": "Galley",
+          "bonus": 6
+        },
+        {
+          "unit": "Trireme",
+          "bonus": 5
+        },
+        {
+          "unit": "Villager",
+          "bonus": 3
+        },
+        {
+          "unit": "Scorpion",
+          "bonus": 3
+        },
+        {
+          "unit": "Bireme",
+          "bonus": 3
+        },
+        {
+          "unit": "War Chariot",
+          "bonus": 2
+        },
+        {
+          "unit": "War Chariot (Barrage)",
+          "bonus": 2
+        },
+        {
+          "unit": "Monoreme",
+          "bonus": 2
+        }
+      ]
+    },
+    "Stone Defense & Harbors": {
+      "class_id": 13,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Bombard Cannon",
+          "bonus": 40
+        },
+        {
+          "unit": "Villager",
+          "bonus": 6
+        },
+        {
+          "unit": "Sann\u0101hya",
+          "bonus": 4
+        },
+        {
+          "unit": "Elite Sann\u0101hya",
+          "bonus": 4
+        }
+      ]
+    },
+    "All Archers": {
+      "class_id": 15,
+      "members": [
+        "Arbalester",
+        "Archer",
+        "Cavalry Archer",
+        "Crossbowman",
+        "Elite Immortal (Melee)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Ratha (Melee)",
+        "Elite Skirmisher",
+        "Hand Cannoneer",
+        "Heavy Cavalry Archer",
+        "Immortal (Melee)",
+        "Pattiyodha Longbowman",
+        "Ratha (Melee)",
+        "Skirmisher"
+      ],
+      "threats": [
+        {
+          "unit": "Elite Skirmisher",
+          "bonus": 4
+        },
+        {
+          "unit": "Skirmisher",
+          "bonus": 3
+        }
+      ]
+    },
+    "Ships": {
+      "class_id": 16,
+      "members": [
+        "Bireme",
+        "Catapult Ship",
+        "Elite Galley",
+        "Elite Lembos",
+        "Fishing Ship",
+        "Galley",
+        "Heavy Incen. Ship",
+        "Heavy Lembos",
+        "Incendiary Raft",
+        "Incendiary Ship",
+        "Lembos",
+        "Leviathan",
+        "Merchant Ship",
+        "Monoreme",
+        "Onager Ship",
+        "Trireme",
+        "War Galley",
+        "War Lembos",
+        "XPORT"
+      ],
+      "threats": [
+        {
+          "unit": "Bombard Cannon",
+          "bonus": 40
+        },
+        {
+          "unit": "Halberdier",
+          "bonus": 17
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 16
+        },
+        {
+          "unit": "Elite Galley",
+          "bonus": 11
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 9
+        },
+        {
+          "unit": "War Galley",
+          "bonus": 9
+        },
+        {
+          "unit": "Galley",
+          "bonus": 8
+        }
+      ]
+    },
+    "High-Pierce-Armor Siege": {
+      "class_id": 17,
+      "members": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Capped Ram",
+        "Siege Elephant",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet"
+      ],
+      "threats": [
+        {
+          "unit": "War Galley",
+          "bonus": 4
+        },
+        {
+          "unit": "Elite Galley",
+          "bonus": 4
+        },
+        {
+          "unit": "Lembos",
+          "bonus": 3
+        },
+        {
+          "unit": "War Lembos",
+          "bonus": 3
+        },
+        {
+          "unit": "Heavy Lembos",
+          "bonus": 3
+        },
+        {
+          "unit": "Elite Lembos",
+          "bonus": 3
+        },
+        {
+          "unit": "Monoreme",
+          "bonus": 3
+        },
+        {
+          "unit": "Bireme",
+          "bonus": 3
+        },
+        {
+          "unit": "Trireme",
+          "bonus": 3
+        },
+        {
+          "unit": "Galley",
+          "bonus": 3
+        },
+        {
+          "unit": "Hand Cannoneer",
+          "bonus": 2
+        },
+        {
+          "unit": "Heavy Scorpion",
+          "bonus": 2
+        },
+        {
+          "unit": "Scorpion",
+          "bonus": 1
+        }
+      ]
+    },
+    "Unique Units": {
+      "class_id": 19,
+      "members": [
+        "Companion Cavalry",
+        "Elite Companion Cavalry",
+        "Elite Hippeus",
+        "Elite Hoplite",
+        "Elite Immortal (Melee)",
+        "Elite Konnik (Dismounted)",
+        "Elite Pattiyodha Longbowman",
+        "Elite Phalangite",
+        "Elite Ratha (Melee)",
+        "Elite Rhomphaia Warrior",
+        "Elite Sann\u0101hya",
+        "Elite Strategos",
+        "Elite War Chariot",
+        "Hippeus",
+        "Hoplite",
+        "Immortal (Melee)",
+        "Konnik (Dismounted)",
+        "Pattiyodha Longbowman",
+        "Phalangite",
+        "Polemarch",
+        "Ratha (Melee)",
+        "Rhomphaia Warrior",
+        "Sann\u0101hya",
+        "Strategos",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ],
+      "threats": [
+        {
+          "unit": "Elite Companion Cavalry",
+          "bonus": 7
+        },
+        {
+          "unit": "Companion Cavalry",
+          "bonus": 5
+        }
+      ]
+    },
+    "Siege Units": {
+      "class_id": 20,
+      "members": [
+        "Armored Elephant",
+        "Battering Ram",
+        "Bombard Cannon",
+        "Capped Ram",
+        "Heavy Scorpion",
+        "Mangonel",
+        "Onager",
+        "Scorpion",
+        "Siege Elephant",
+        "Siege Onager",
+        "Siege Ram",
+        "Siege Tower",
+        "Trebuchet",
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ],
+      "threats": [
+        {
+          "unit": "Siege Ram",
+          "bonus": 65
+        },
+        {
+          "unit": "Capped Ram",
+          "bonus": 50
+        },
+        {
+          "unit": "Battering Ram",
+          "bonus": 40
+        },
+        {
+          "unit": "Siege Elephant",
+          "bonus": 35
+        },
+        {
+          "unit": "Armored Elephant",
+          "bonus": 25
+        },
+        {
+          "unit": "Bombard Cannon",
+          "bonus": 20
+        },
+        {
+          "unit": "Mangonel",
+          "bonus": 12
+        },
+        {
+          "unit": "Onager",
+          "bonus": 12
+        },
+        {
+          "unit": "Siege Onager",
+          "bonus": 12
+        }
+      ]
+    },
+    "Standard Buildings": {
+      "class_id": 21,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Elite Rhomphaia Warrior",
+          "bonus": 8
+        },
+        {
+          "unit": "Rhomphaia Warrior",
+          "bonus": 6
+        },
+        {
+          "unit": "Elite Hippeus",
+          "bonus": 5
+        },
+        {
+          "unit": "Champion",
+          "bonus": 4
+        },
+        {
+          "unit": "Konnik (Dismounted)",
+          "bonus": 4
+        },
+        {
+          "unit": "Elite Konnik (Dismounted)",
+          "bonus": 4
+        },
+        {
+          "unit": "Hippeus",
+          "bonus": 4
+        },
+        {
+          "unit": "Sann\u0101hya",
+          "bonus": 4
+        },
+        {
+          "unit": "Elite Sann\u0101hya",
+          "bonus": 4
+        },
+        {
+          "unit": "Long Swordsman",
+          "bonus": 3
+        },
+        {
+          "unit": "Man-at-Arms",
+          "bonus": 2
+        },
+        {
+          "unit": "Hoplite",
+          "bonus": 2
+        },
+        {
+          "unit": "Elite Hoplite",
+          "bonus": 2
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 1
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 1
+        },
+        {
+          "unit": "Halberdier",
+          "bonus": 1
+        }
+      ]
+    },
+    "Gunpowder Units": {
+      "class_id": 23,
+      "members": [
+        "Bombard Cannon",
+        "Hand Cannoneer"
+      ],
+      "threats": []
+    },
+    "Monastery Units": {
+      "class_id": 25,
+      "members": [
+        "Monk"
+      ],
+      "threats": [
+        {
+          "unit": "Hussar",
+          "bonus": 12
+        },
+        {
+          "unit": "Light Cavalry",
+          "bonus": 10
+        },
+        {
+          "unit": "Scout Cavalry",
+          "bonus": 6
+        }
+      ]
+    },
+    "Spearmen": {
+      "class_id": 27,
+      "members": [
+        "Halberdier",
+        "Pikeman",
+        "Spearman"
+      ],
+      "threats": [
+        {
+          "unit": "Elite Skirmisher",
+          "bonus": 4
+        },
+        {
+          "unit": "Heavy Cavalry Archer",
+          "bonus": 4
+        },
+        {
+          "unit": "Archer",
+          "bonus": 3
+        },
+        {
+          "unit": "Skirmisher",
+          "bonus": 3
+        },
+        {
+          "unit": "Crossbowman",
+          "bonus": 3
+        },
+        {
+          "unit": "Arbalester",
+          "bonus": 3
+        },
+        {
+          "unit": "Cavalry Archer",
+          "bonus": 2
+        },
+        {
+          "unit": "Pattiyodha Longbowman",
+          "bonus": 2
+        },
+        {
+          "unit": "Elite Pattiyodha Longbowman",
+          "bonus": 2
+        },
+        {
+          "unit": "Hand Cannoneer",
+          "bonus": 1
+        }
+      ]
+    },
+    "Mounted Archers": {
+      "class_id": 28,
+      "members": [
+        "Cavalry Archer",
+        "Elite Ratha (Melee)",
+        "Heavy Cavalry Archer",
+        "Ratha (Melee)"
+      ],
+      "threats": [
+        {
+          "unit": "Elite Skirmisher",
+          "bonus": 2
+        }
+      ]
+    },
+    "Shock Infantry": {
+      "class_id": 29,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Champion",
+          "bonus": 8
+        },
+        {
+          "unit": "Long Swordsman",
+          "bonus": 6
+        },
+        {
+          "unit": "Man-at-Arms",
+          "bonus": 2
+        },
+        {
+          "unit": "Rhomphaia Warrior",
+          "bonus": 2
+        },
+        {
+          "unit": "Elite Rhomphaia Warrior",
+          "bonus": 2
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 1
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 1
+        },
+        {
+          "unit": "Halberdier",
+          "bonus": 1
+        }
+      ]
+    },
+    "Camels": {
+      "class_id": 30,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Halberdier",
+          "bonus": 26
+        },
+        {
+          "unit": "Pikeman",
+          "bonus": 18
+        },
+        {
+          "unit": "Elite Rhomphaia Warrior",
+          "bonus": 18
+        },
+        {
+          "unit": "Spearman",
+          "bonus": 12
+        },
+        {
+          "unit": "Rhomphaia Warrior",
+          "bonus": 12
+        },
+        {
+          "unit": "Elite Phalangite",
+          "bonus": 6
+        },
+        {
+          "unit": "Phalangite",
+          "bonus": 4
+        }
+      ]
+    },
+    "Fishing Ships": {
+      "class_id": 34,
+      "members": [
+        "Fishing Ship"
+      ],
+      "threats": []
+    },
+    "Mamelukes": {
+      "class_id": 35,
+      "members": [],
+      "threats": [
+        {
+          "unit": "Pikeman",
+          "bonus": 7
+        },
+        {
+          "unit": "Halberdier",
+          "bonus": 7
+        },
+        {
+          "unit": "Elite Skirmisher",
+          "bonus": 2
+        },
+        {
+          "unit": "Skirmisher",
+          "bonus": 2
+        }
+      ]
+    },
+    "Heavy Siege": {
+      "class_id": 37,
+      "members": [
+        "War Chariot",
+        "War Chariot (Barrage)"
+      ],
+      "threats": [
+        {
+          "unit": "Onager",
+          "bonus": 50
+        },
+        {
+          "unit": "Siege Onager",
+          "bonus": 50
+        },
+        {
+          "unit": "Bombard Cannon",
+          "bonus": 40
+        },
+        {
+          "unit": "Mangonel",
+          "bonus": 40
+        },
+        {
+          "unit": "Villager",
+          "bonus": 6
+        }
+      ]
+    },
+    "Skirmishers": {
+      "class_id": 38,
+      "members": [
+        "Elite Skirmisher",
+        "Skirmisher"
+      ],
+      "threats": []
+    },
+    "Long-Range Warships": {
+      "class_id": 60,
+      "members": [
+        "Catapult Ship",
+        "Elite Galley",
+        "Galley",
+        "Leviathan",
+        "Onager Ship",
+        "War Galley"
+      ],
+      "threats": [
+        {
+          "unit": "Elite Lembos",
+          "bonus": 10
+        },
+        {
+          "unit": "Heavy Lembos",
+          "bonus": 8
+        },
+        {
+          "unit": "War Lembos",
+          "bonus": 4
+        },
+        {
+          "unit": "Lembos",
+          "bonus": 2
+        }
+      ]
+    }
+  },
+  "class_labels": {
+    "0": "Wonders",
+    "1": "Infantry",
+    "2": "Heavy Warships",
+    "3": "Base Pierce",
+    "4": "Base Melee",
+    "5": "Elephants",
+    "8": "Mounted Units",
+    "11": "All Buildings",
+    "13": "Stone Defense & Harbors",
+    "14": "Predator Animals",
+    "15": "All Archers",
+    "16": "Ships",
+    "17": "High-Pierce-Armor Siege",
+    "18": "Trees",
+    "19": "Unique Units",
+    "20": "Siege Units",
+    "21": "Standard Buildings",
+    "22": "Walls & Gates",
+    "23": "Gunpowder Units",
+    "24": "Aggressive Huntables",
+    "25": "Monastery Units",
+    "26": "Castles & Kreposts",
+    "27": "Spearmen",
+    "28": "Mounted Archers",
+    "29": "Shock Infantry",
+    "30": "Camels",
+    "31": "Unblockable Melee",
+    "32": "Condottieri",
+    "34": "Fishing Ships",
+    "35": "Mamelukes",
+    "36": "Heroes & Kings",
+    "37": "Heavy Siege",
+    "38": "Skirmishers",
+    "39": "Cavalry Resistance",
+    "40": "Houses",
+    "41": "Fire Ships",
+    "60": "Long-Range Warships"
+  }
+}

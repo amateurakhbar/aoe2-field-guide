@@ -1,0 +1,5 @@
+sources/
+*.zip
+__pycache__/
+.DS_Store
+.playwright-mcp/
