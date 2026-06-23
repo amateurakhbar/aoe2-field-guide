@@ -88,7 +88,9 @@ def process(ds, edition, expansion_of):
             "range":u.get('Range'), "speed":u.get('Speed'), "line_of_sight":u.get('LineOfSight'),
             "train_time":u.get('TrainTime'),
             "armor_classes":[CLASS.get(c, f"class_{c}") for c in classes],
-            "bonus_damage_vs":{CLASS.get(c, f"class_{c}"):a for c, a in sorted(bonus.items())}}
+            "bonus_damage_vs":{CLASS.get(c, f"class_{c}"):a for c, a in sorted(bonus.items())},
+            "armor_values":{CLASS.get(a['Class'], f"class_{a['Class']}"): a['Amount']
+                            for a in u.get('Armours', []) if a['Class'] not in BASE and a['Amount']}}
         info[uid] = {"name":name, "classes":classes, "bonus":bonus}
 
     members, dealers = defaultdict(set), defaultdict(dict)

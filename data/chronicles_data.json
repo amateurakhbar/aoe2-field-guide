@@ -671,6 +671,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Skirmisher",
         "Skirmisher"
@@ -706,6 +707,7 @@
         "High-Pierce-Armor Siege": 2,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Skirmisher",
         "Skirmisher"
@@ -768,6 +770,7 @@
         "Mounted Archers": 2,
         "Mamelukes": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Skirmisher"
       ],
@@ -815,6 +818,7 @@
         "Spearmen": 3,
         "Mamelukes": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Skirmisher"
       ],
@@ -857,6 +861,7 @@
         "Fishing Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -890,6 +895,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Skirmisher",
         "Skirmisher"
@@ -927,6 +933,7 @@
         "Siege Units": 20,
         "Heavy Siege": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -993,6 +1000,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1028,6 +1036,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1068,6 +1077,7 @@
       "bonus_damage_vs": {
         "All Buildings": 250
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -1114,6 +1124,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Elite War Chariot",
         "Hand Cannoneer",
@@ -1146,6 +1157,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Elite War Chariot",
         "Hand Cannoneer",
@@ -1178,6 +1190,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Elite War Chariot",
         "Hand Cannoneer",
@@ -1208,6 +1221,7 @@
         "Stone Defense & Harbors": 6,
         "Heavy Siege": 6
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "War Chariot",
@@ -1242,6 +1256,7 @@
         "Shock Infantry": 1,
         "Camels": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -1320,6 +1335,7 @@
         "Monastery Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Hussar",
         "Light Cavalry",
@@ -1345,6 +1361,7 @@
       "train_time": 51,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1373,6 +1390,7 @@
         "All Buildings": 3,
         "High-Pierce-Armor Siege": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -1442,6 +1460,7 @@
         "Siege Units": 12,
         "Heavy Siege": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -1489,6 +1508,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1522,6 +1542,7 @@
       "bonus_damage_vs": {
         "All Buildings": 250
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -1564,6 +1585,7 @@
         "Camels": 18,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -1651,6 +1673,7 @@
         "Camels": 26,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -1733,6 +1756,9 @@
         "All Buildings": 160,
         "Siege Units": 50
       },
+      "armor_values": {
+        "High-Pierce-Armor Siege": 1
+      },
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -1794,6 +1820,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1828,6 +1855,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1865,6 +1893,7 @@
       "bonus_damage_vs": {
         "Spearmen": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -1904,6 +1933,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Skirmisher",
         "Skirmisher"
@@ -1939,6 +1969,7 @@
         "All Buildings": 6,
         "High-Pierce-Armor Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2005,6 +2036,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -2041,6 +2073,9 @@
       "bonus_damage_vs": {
         "All Buildings": 200,
         "Siege Units": 65
+      },
+      "armor_values": {
+        "High-Pierce-Armor Siege": 2
       },
       "countered_by": [
         "Armored Elephant",
@@ -2106,6 +2141,7 @@
         "Siege Units": 12,
         "Heavy Siege": 50
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2156,6 +2192,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Elite War Chariot",
         "Hand Cannoneer",
@@ -2185,6 +2222,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -2220,6 +2258,7 @@
         "Siege Units": 12,
         "Heavy Siege": 50
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2268,6 +2307,7 @@
         "Siege Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2317,6 +2357,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2351,6 +2392,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2386,6 +2428,7 @@
         "All Buildings": 150,
         "Siege Units": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Bireme",
@@ -2446,6 +2489,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Elite Phalangite",
         "Elite Rhomphaia Warrior",
@@ -2480,6 +2524,7 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2518,6 +2563,7 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2558,6 +2604,10 @@
       "bonus_damage_vs": {
         "All Buildings": 90,
         "Siege Units": 25
+      },
+      "armor_values": {
+        "Elephants": 17,
+        "Mounted Units": 7
       },
       "countered_by": [
         "Battering Ram",
@@ -2634,6 +2684,10 @@
         "All Buildings": 105,
         "Siege Units": 35
       },
+      "armor_values": {
+        "Elephants": 20,
+        "Mounted Units": 10
+      },
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2708,6 +2762,7 @@
       "bonus_damage_vs": {
         "All Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2756,6 +2811,7 @@
       "bonus_damage_vs": {
         "All Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -2801,6 +2857,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2836,6 +2893,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2870,6 +2928,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2902,6 +2961,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2936,6 +2996,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -2970,6 +3031,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -3004,6 +3066,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -3038,6 +3101,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -3071,6 +3135,9 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 2
+      },
+      "armor_values": {
+        "Ships": 8
       },
       "countered_by": [
         "Bombard Cannon",
@@ -3120,6 +3187,9 @@
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 4
       },
+      "armor_values": {
+        "Ships": 8
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3167,6 +3237,9 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 8
+      },
+      "armor_values": {
+        "Ships": 9
       },
       "countered_by": [
         "Bombard Cannon",
@@ -3216,6 +3289,9 @@
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 10
       },
+      "armor_values": {
+        "Ships": 11
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3264,6 +3340,9 @@
         "All Buildings": 2,
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {
+        "Ships": 8
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3306,6 +3385,9 @@
         "All Buildings": 3,
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {
+        "Ships": 9
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3347,6 +3429,9 @@
       "bonus_damage_vs": {
         "All Buildings": 5,
         "High-Pierce-Armor Siege": 3
+      },
+      "armor_values": {
+        "Ships": 11
       },
       "countered_by": [
         "Bombard Cannon",
@@ -3392,6 +3477,7 @@
         "Ships": 8,
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3457,6 +3543,7 @@
         "Ships": 9,
         "High-Pierce-Armor Siege": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3522,6 +3609,7 @@
         "Ships": 11,
         "High-Pierce-Armor Siege": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Lembos",
@@ -3584,6 +3672,9 @@
       "bonus_damage_vs": {
         "All Buildings": 180
       },
+      "armor_values": {
+        "Ships": 1
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3616,6 +3707,9 @@
       ],
       "bonus_damage_vs": {
         "All Buildings": 220
+      },
+      "armor_values": {
+        "Ships": 3
       },
       "countered_by": [
         "Bombard Cannon",
@@ -3650,6 +3744,9 @@
       "bonus_damage_vs": {
         "All Buildings": 280
       },
+      "armor_values": {
+        "Ships": 5
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3683,6 +3780,9 @@
       ],
       "bonus_damage_vs": {
         "All Buildings": 15
+      },
+      "armor_values": {
+        "Ships": 9
       },
       "countered_by": [
         "Bombard Cannon",
@@ -3722,6 +3822,9 @@
       "bonus_damage_vs": {
         "All Buildings": 20
       },
+      "armor_values": {
+        "Ships": 11
+      },
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3760,6 +3863,7 @@
       "bonus_damage_vs": {
         "All Buildings": 225
       },
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3794,6 +3898,7 @@
         "Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3825,6 +3930,7 @@
         "Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
         "Elite Galley",
@@ -3859,6 +3965,7 @@
       "bonus_damage_vs": {
         "Infantry": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -3918,6 +4025,7 @@
       "bonus_damage_vs": {
         "Infantry": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -3972,6 +4080,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4006,6 +4115,7 @@
       "bonus_damage_vs": {
         "Unique Units": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Elite Companion Cavalry",
         "Elite Phalangite",
@@ -4067,6 +4177,7 @@
       "bonus_damage_vs": {
         "Unique Units": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Phalangite",
@@ -4130,6 +4241,7 @@
         "Mounted Units": 6,
         "Camels": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4187,6 +4299,7 @@
         "Mounted Units": 10,
         "Camels": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4245,6 +4358,7 @@
         "Shock Infantry": 2,
         "Camels": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4303,6 +4417,7 @@
         "Shock Infantry": 2,
         "Camels": 18
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4359,6 +4474,7 @@
         "Elephants": 4,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4399,6 +4515,7 @@
         "Elephants": 4,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4440,6 +4557,7 @@
         "Stone Defense & Harbors": 4,
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",
@@ -4482,6 +4600,7 @@
         "Stone Defense & Harbors": 4,
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
         "Elite Companion Cavalry",

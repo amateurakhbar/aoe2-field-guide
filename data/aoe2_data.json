@@ -4399,6 +4399,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -4448,6 +4449,7 @@
         "High-Pierce-Armor Siege": 2,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Condottiero",
@@ -4572,6 +4574,7 @@
         "Mounted Archers": 2,
         "Mamelukes": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -4677,6 +4680,7 @@
         "Spearmen": 3,
         "Mamelukes": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -4780,6 +4784,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -4832,6 +4837,7 @@
         "Siege Units": 3,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -4931,6 +4937,7 @@
         "Fishing Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -4976,6 +4983,7 @@
         "Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -5026,6 +5034,7 @@
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -5107,6 +5116,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -5155,6 +5165,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -5214,6 +5225,7 @@
         "Siege Units": 20,
         "Heavy Siege": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -5331,6 +5343,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -5384,6 +5397,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -5457,6 +5471,9 @@
       ],
       "bonus_damage_vs": {
         "Infantry": 9
+      },
+      "armor_values": {
+        "Mounted Units": 12
       },
       "countered_by": [
         "Bolas Rider",
@@ -5580,6 +5597,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -5689,6 +5707,7 @@
       "bonus_damage_vs": {
         "All Buildings": 250
       },
+      "armor_values": {},
       "countered_by": [
         "Arambai",
         "Armored Elephant",
@@ -5777,6 +5796,7 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Condottiero",
@@ -5835,6 +5855,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -5881,6 +5902,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -5925,6 +5947,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -5978,6 +6001,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -6029,6 +6053,7 @@
         "Stone Defense & Harbors": 6,
         "Heavy Siege": 6
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Ballista Elephant",
@@ -6068,6 +6093,7 @@
         "Shock Infantry": 1,
         "Camels": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -6263,6 +6289,7 @@
         "Monastery Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Eagle Scout",
         "Eagle Warrior",
@@ -6293,6 +6320,7 @@
       "train_time": 51,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -6322,6 +6350,7 @@
         "Monastery Units": 4,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -6463,6 +6492,9 @@
         "Ships": 9,
         "Camels": 9,
         "Mamelukes": 7
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -6629,6 +6661,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -6686,6 +6719,7 @@
         "All Buildings": 30,
         "Stone Defense & Harbors": 30
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -6744,6 +6778,7 @@
         "High-Pierce-Armor Siege": 2,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -6830,6 +6865,7 @@
         "All Buildings": 3,
         "High-Pierce-Armor Siege": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -6976,6 +7012,7 @@
         "Siege Units": 12,
         "Heavy Siege": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -7065,6 +7102,7 @@
         "Standard Buildings": 1,
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -7121,6 +7159,9 @@
       ],
       "bonus_damage_vs": {
         "Mounted Units": 9
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -7254,6 +7295,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -7308,6 +7350,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -7501,6 +7544,9 @@
         "Ships": 5,
         "Camels": 5
       },
+      "armor_values": {
+        "Cavalry Resistance": -3
+      },
       "countered_by": [
         "Bolas Rider",
         "Champi Scout",
@@ -7668,6 +7714,9 @@
         "Camels": 9,
         "Mamelukes": 7
       },
+      "armor_values": {
+        "Cavalry Resistance": -3
+      },
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -7831,6 +7880,7 @@
       "bonus_damage_vs": {
         "All Buildings": 250
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -7900,6 +7950,7 @@
         "Camels": 18,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -8104,6 +8155,7 @@
         "Camels": 26,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -8304,6 +8356,7 @@
         "All Buildings": 200,
         "Siege Units": 25
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -8395,6 +8448,9 @@
       "bonus_damage_vs": {
         "All Buildings": 160,
         "Siege Units": 50
+      },
+      "armor_values": {
+        "High-Pierce-Armor Siege": 1
       },
       "countered_by": [
         "Arambai",
@@ -8508,6 +8564,7 @@
         "Walls & Gates": 900,
         "Castles & Kreposts": 100
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Armored Elephant",
@@ -8559,6 +8616,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -8617,6 +8675,7 @@
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 9
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -8697,6 +8756,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -8753,6 +8813,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -8807,6 +8868,7 @@
       "bonus_damage_vs": {
         "Spearmen": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -8880,6 +8942,7 @@
       "bonus_damage_vs": {
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -8926,6 +8989,7 @@
       "bonus_damage_vs": {
         "All Buildings": 220
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -8973,6 +9037,7 @@
       "bonus_damage_vs": {
         "All Buildings": 280
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9022,6 +9087,7 @@
         "All Buildings": 2,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9089,6 +9155,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -9139,6 +9206,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -9195,6 +9263,7 @@
         "All Buildings": 3,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9264,6 +9333,7 @@
         "High-Pierce-Armor Siege": 2,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9349,6 +9419,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -9406,6 +9477,7 @@
         "High-Pierce-Armor Siege": 3,
         "Long-Range Warships": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9490,6 +9562,7 @@
         "All Buildings": 6,
         "High-Pierce-Armor Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -9631,6 +9704,7 @@
         "Ships"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -9677,6 +9751,7 @@
       "bonus_damage_vs": {
         "Monastery Units": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -9733,6 +9808,9 @@
       "bonus_damage_vs": {
         "All Buildings": 200,
         "Siege Units": 65
+      },
+      "armor_values": {
+        "High-Pierce-Armor Siege": 2
       },
       "countered_by": [
         "Arambai",
@@ -9847,6 +9925,7 @@
         "Siege Units": 12,
         "Heavy Siege": 50
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -9934,6 +10013,9 @@
       ],
       "bonus_damage_vs": {
         "Infantry": 12
+      },
+      "armor_values": {
+        "Mounted Units": 16
       },
       "countered_by": [
         "Bolas Rider",
@@ -10056,6 +10138,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -10113,6 +10196,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -10223,6 +10307,9 @@
       ],
       "bonus_damage_vs": {
         "Mounted Units": 12
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -10360,6 +10447,7 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Condottiero",
@@ -10420,6 +10508,7 @@
         "All Buildings": 30,
         "Stone Defense & Harbors": 30
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -10476,6 +10565,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -10527,6 +10617,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -10721,6 +10812,7 @@
         "Siege Units": 5,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -10823,6 +10915,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -10873,6 +10966,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -10926,6 +11020,7 @@
         "Siege Units": 12,
         "Heavy Siege": 50
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -11016,6 +11111,7 @@
         "All Buildings": 275,
         "Siege Units": 25
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -11108,6 +11204,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -11164,6 +11261,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -11221,6 +11319,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -11333,6 +11432,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -11444,6 +11544,7 @@
         "Siege Units": 3,
         "Monastery Units": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -11568,6 +11669,7 @@
         "Monastery Units": 10,
         "Camels": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -11799,6 +11901,7 @@
         "Monastery Units": 8,
         "Camels": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -12029,6 +12132,7 @@
         "Walls & Gates": 8,
         "Castles & Kreposts": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -12086,6 +12190,7 @@
         "Walls & Gates": 10,
         "Castles & Kreposts": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -12142,6 +12247,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -12253,6 +12359,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -12363,6 +12470,7 @@
         "Infantry": 1,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -12475,6 +12583,7 @@
         "Infantry": 2,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -12589,6 +12698,7 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -12678,6 +12788,7 @@
         "All Buildings": 2,
         "High-Pierce-Armor Siege": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -12761,6 +12872,7 @@
         "Monastery Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -12822,6 +12934,9 @@
       ],
       "bonus_damage_vs": {
         "Standard Buildings": 2
+      },
+      "armor_values": {
+        "Mounted Archers": -1
       },
       "countered_by": [
         "Bolas Rider",
@@ -12896,6 +13011,9 @@
       ],
       "bonus_damage_vs": {
         "Standard Buildings": 2
+      },
+      "armor_values": {
+        "Mounted Archers": -1
       },
       "countered_by": [
         "Bolas Rider",
@@ -12976,6 +13094,7 @@
         "Castles & Kreposts": 7,
         "Heavy Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -13076,6 +13195,7 @@
         "Castles & Kreposts": 7,
         "Heavy Siege": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -13172,6 +13292,7 @@
         "Ships": 4,
         "Camels": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -13336,6 +13457,7 @@
         "Ships": 5,
         "Camels": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -13498,6 +13620,7 @@
         "High-Pierce-Armor Siege": 1,
         "Siege Units": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -13580,6 +13703,7 @@
         "High-Pierce-Armor Siege": 2,
         "Siege Units": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -13661,6 +13785,9 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "Mounted Archers": -4
+      },
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -13733,6 +13860,9 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "Mounted Archers": -4
+      },
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -13803,6 +13933,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -13855,6 +13986,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -13911,6 +14043,7 @@
         "Mounted Units": 8,
         "Camels": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -14047,6 +14180,7 @@
         "Mounted Units": 12,
         "Camels": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -14183,6 +14317,7 @@
         "Standard Buildings": 2,
         "Gunpowder Units": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -14253,6 +14388,7 @@
         "Walls & Gates": 8,
         "Castles & Kreposts": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -14310,6 +14446,7 @@
         "Walls & Gates": 10,
         "Castles & Kreposts": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -14367,6 +14504,7 @@
         "High-Pierce-Armor Siege": 1,
         "Skirmishers": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -14522,6 +14660,7 @@
         "High-Pierce-Armor Siege": 1,
         "Skirmishers": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -14676,6 +14815,7 @@
         "High-Pierce-Armor Siege": 4,
         "Long-Range Warships": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -14763,6 +14903,7 @@
         "High-Pierce-Armor Siege": 4,
         "Long-Range Warships": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -14849,6 +14990,9 @@
       ],
       "bonus_damage_vs": {
         "Mounted Archers": 4
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -14946,6 +15090,9 @@
       ],
       "bonus_damage_vs": {
         "Mounted Archers": 6
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -15046,6 +15193,7 @@
         "Spearmen": 3,
         "Mamelukes": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -15184,6 +15332,9 @@
         "Mounted Archers": 2,
         "Mamelukes": 2
       },
+      "armor_values": {
+        "Mounted Archers": 1
+      },
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -15316,6 +15467,7 @@
       "bonus_damage_vs": {
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -15371,6 +15523,7 @@
       "bonus_damage_vs": {
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -15426,6 +15579,9 @@
       ],
       "bonus_damage_vs": {
         "Shock Infantry": 2
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Cataphract",
@@ -15484,6 +15640,9 @@
         "Standard Buildings": 1,
         "Shock Infantry": 2
       },
+      "armor_values": {
+        "Cavalry Resistance": -3
+      },
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -15540,6 +15699,7 @@
         "All Buildings": 1,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -15606,6 +15766,7 @@
       "bonus_damage_vs": {
         "All Buildings": 180
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -15652,6 +15813,7 @@
         "Siege Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Arambai",
         "Armored Elephant",
@@ -15745,6 +15907,9 @@
         "Ships": 8,
         "Trees": 100,
         "Standard Buildings": 3
+      },
+      "armor_values": {
+        "Heavy Siege": 10
       },
       "countered_by": [
         "Armored Elephant",
@@ -15871,6 +16036,9 @@
         "Trees": 100,
         "Standard Buildings": 4
       },
+      "armor_values": {
+        "Heavy Siege": 10
+      },
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -15989,6 +16157,7 @@
       "bonus_damage_vs": {
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -16045,6 +16214,7 @@
         "Standard Buildings": 1,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -16102,6 +16272,7 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -16185,6 +16356,7 @@
       "bonus_damage_vs": {
         "High-Pierce-Armor Siege": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -16266,6 +16438,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -16315,6 +16488,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -16365,6 +16539,7 @@
         "All Buildings": 4,
         "Stone Defense & Harbors": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16420,6 +16595,7 @@
         "All Buildings": 7,
         "Stone Defense & Harbors": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16477,6 +16653,7 @@
         "Mounted Archers": 3,
         "Mamelukes": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -16578,6 +16755,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16630,6 +16808,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16682,6 +16861,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16734,6 +16914,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16790,6 +16971,7 @@
       "bonus_damage_vs": {
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -16868,6 +17050,7 @@
       "bonus_damage_vs": {
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -16942,6 +17125,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -16994,6 +17178,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17048,6 +17233,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -17094,6 +17280,7 @@
       "bonus_damage_vs": {
         "Standard Buildings": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -17138,6 +17325,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17190,6 +17378,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17245,6 +17434,7 @@
         "All Buildings": 150,
         "Siege Units": 40
       },
+      "armor_values": {},
       "countered_by": [
         "Arambai",
         "Armored Elephant",
@@ -17356,6 +17546,7 @@
       "bonus_damage_vs": {
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -17436,6 +17627,9 @@
         "All Buildings": 200,
         "Siege Units": 25,
         "Camels": 50
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Bolas Rider",
@@ -17595,6 +17789,7 @@
         "All Buildings": 3,
         "Long-Range Warships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -17659,6 +17854,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17708,6 +17904,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17757,6 +17954,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17807,6 +18005,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17859,6 +18058,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -17914,6 +18114,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -17970,6 +18171,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18026,6 +18228,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18082,6 +18285,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18141,6 +18345,7 @@
         "Shock Infantry": 2,
         "Camels": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18312,6 +18517,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18368,6 +18574,7 @@
         "Standard Buildings": 6,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18426,6 +18633,7 @@
         "All Buildings": 1,
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -18508,6 +18716,7 @@
         "All Buildings": 2,
         "High-Pierce-Armor Siege": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -18586,6 +18795,7 @@
         "Gunpowder Units": 4,
         "Monastery Units": 14
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -18666,6 +18876,7 @@
         "Siege Units": 20,
         "Heavy Siege": 50
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -18787,6 +18998,7 @@
         "Standard Buildings": 1,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18843,6 +19055,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -18898,6 +19111,7 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -18970,6 +19184,7 @@
         "Mounted Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -19043,6 +19258,7 @@
         "Standard Buildings": 1,
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -19100,6 +19316,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -19212,6 +19429,10 @@
       "bonus_damage_vs": {
         "All Buildings": 90,
         "Siege Units": 25
+      },
+      "armor_values": {
+        "Elephants": 17,
+        "Mounted Units": 7
       },
       "countered_by": [
         "Arambai",
@@ -19347,6 +19568,10 @@
         "All Buildings": 105,
         "Siege Units": 35
       },
+      "armor_values": {
+        "Elephants": 20,
+        "Mounted Units": 10
+      },
       "countered_by": [
         "Arambai",
         "Armored Elephant",
@@ -19480,6 +19705,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -19591,6 +19817,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -19704,6 +19931,9 @@
         "High-Pierce-Armor Siege": 4,
         "Long-Range Warships": 7
       },
+      "armor_values": {
+        "Long-Range Warships": 5
+      },
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -19786,6 +20016,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -19838,6 +20069,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -19890,6 +20122,9 @@
         "Cavalry Resistance"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "Cavalry Resistance": -3
+      },
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -19942,6 +20177,7 @@
       "bonus_damage_vs": {
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -20020,6 +20256,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -20101,6 +20338,7 @@
         "Shock Infantry": 1,
         "Camels": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -20305,6 +20543,7 @@
         "Camels": 18,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -20509,6 +20748,7 @@
         "Camels": 26,
         "Mamelukes": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Arbalester",
         "Archer",
@@ -20705,6 +20945,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -20757,6 +20998,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -20812,6 +21054,7 @@
         "Standard Buildings": 4,
         "Shock Infantry": 8
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -20923,6 +21166,7 @@
         "Walls & Gates": 15,
         "Castles & Kreposts": 9
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -21010,6 +21254,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -21059,6 +21304,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -21106,6 +21352,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -21158,6 +21405,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -21211,6 +21459,7 @@
         "Monastery Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Eagle Scout",
@@ -21263,6 +21512,7 @@
       "bonus_damage_vs": {
         "All Archers": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -21375,6 +21625,7 @@
         "Standard Buildings": 1,
         "Camels": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -21590,6 +21841,7 @@
         "Standard Buildings": 1,
         "Camels": 12
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -21804,6 +22056,7 @@
         "Castles & Kreposts": 7,
         "Heavy Siege": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -21900,6 +22153,7 @@
         "Castles & Kreposts": 7,
         "Heavy Siege": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -21990,6 +22244,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -22042,6 +22297,7 @@
         "Unique Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -22100,6 +22356,7 @@
         "Standard Buildings": 4,
         "Spearmen": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Condottiero",
@@ -22224,6 +22481,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -22280,6 +22538,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -22339,6 +22598,9 @@
         "All Buildings": 10,
         "Siege Units": 30,
         "Heavy Siege": 30
+      },
+      "armor_values": {
+        "Cavalry Resistance": -3
       },
       "countered_by": [
         "Armored Elephant",
@@ -22450,6 +22712,7 @@
       "bonus_damage_vs": {
         "All Buildings": 230
       },
+      "armor_values": {},
       "countered_by": [
         "Arambai",
         "Armored Elephant",
@@ -22534,6 +22797,7 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -22585,6 +22849,7 @@
       "bonus_damage_vs": {
         "Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -22704,6 +22969,7 @@
         "All Buildings": 230,
         "Siege Units": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -22791,6 +23057,7 @@
       "bonus_damage_vs": {
         "All Archers": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -22900,6 +23167,7 @@
       "bonus_damage_vs": {
         "All Archers": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -23012,6 +23280,7 @@
         "Infantry": 1,
         "Spearmen": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -23151,6 +23420,7 @@
       "bonus_damage_vs": {
         "All Archers": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -23264,6 +23534,7 @@
         "Shock Infantry": 4,
         "Camels": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -23410,6 +23681,7 @@
         "Shock Infantry": 4,
         "Camels": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -23554,6 +23826,7 @@
       "bonus_damage_vs": {
         "All Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -23642,6 +23915,7 @@
       "bonus_damage_vs": {
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -23700,6 +23974,7 @@
         "Standard Buildings": 4,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -23806,6 +24081,7 @@
         "Standard Buildings": 4,
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -23911,6 +24187,7 @@
         "All Archers": 4,
         "Standard Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -24055,6 +24332,7 @@
         "Heroes & Kings"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -24111,6 +24389,7 @@
       "bonus_damage_vs": {
         "All Buildings": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Armored Elephant",
         "Battering Ram",
@@ -24200,6 +24479,7 @@
         "Shock Infantry": 3,
         "Camels": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -24360,6 +24640,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -24440,6 +24721,7 @@
         "Standard Buildings": 3,
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -24522,6 +24804,7 @@
         "Spearmen": 2,
         "Mounted Archers": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -24628,6 +24911,7 @@
         "Spearmen": 2,
         "Mounted Archers": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -24731,6 +25015,7 @@
       "bonus_damage_vs": {
         "Gunpowder Units": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -24806,6 +25091,7 @@
       "bonus_damage_vs": {
         "Gunpowder Units": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Rider",
@@ -24885,6 +25171,7 @@
         "High-Pierce-Armor Siege": 2,
         "Camels": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Camel Archer",
         "Camel Rider",
@@ -25053,6 +25340,7 @@
         "High-Pierce-Armor Siege": 2,
         "Camels": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Bolas Rider",
         "Camel Archer",
@@ -25217,6 +25505,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -25266,6 +25555,7 @@
       "bonus_damage_vs": {
         "Spearmen": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cao Cao",
         "Elite Genitour",
@@ -25316,6 +25606,7 @@
         "Standard Buildings": 1,
         "Shock Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -25372,6 +25663,7 @@
         "Standard Buildings": 2,
         "Shock Infantry": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -25431,6 +25723,7 @@
         "Ships": 4,
         "Camels": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -25642,6 +25935,7 @@
         "Standard Buildings": 2,
         "Camels": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Berserk",
         "Cataphract",
@@ -25848,6 +26142,7 @@
         "Siege Units": 2,
         "Shock Infantry": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Cataphract",
         "Elite Cataphract",
@@ -25926,6 +26221,7 @@
       "bonus_damage_vs": {
         "Fire Ships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -25978,6 +26274,7 @@
       "bonus_damage_vs": {
         "Fire Ships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -26030,6 +26327,7 @@
       "bonus_damage_vs": {
         "Fire Ships": 1
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",
@@ -26084,6 +26382,7 @@
         "All Buildings": 130,
         "Siege Units": 10
       },
+      "armor_values": {},
       "countered_by": [
         "Ballista Elephant",
         "Bombard Cannon",

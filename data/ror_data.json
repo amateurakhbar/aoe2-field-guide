@@ -866,6 +866,7 @@
       "bonus_damage_vs": {
         "Infantry": 2
       },
+      "armor_values": {},
       "countered_by": [
         "Scout",
         "Slinger"
@@ -900,6 +901,10 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "All Archers": -2,
+        "Mounted Units": 4
+      },
       "countered_by": [
         "Axeman",
         "Camel Rider",
@@ -929,6 +934,7 @@
         "Stone Defense & Harbors": 3,
         "All Archers": 3
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Bowman",
@@ -958,6 +964,7 @@
       "train_time": 50,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -978,6 +985,7 @@
       "train_time": 40,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -998,6 +1006,7 @@
       "train_time": 40,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1019,6 +1028,7 @@
       "train_time": 50,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1039,6 +1049,7 @@
       "train_time": 70,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1062,6 +1073,7 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Scout",
         "Slinger"
@@ -1085,6 +1097,7 @@
       "train_time": 75,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1110,6 +1123,7 @@
       "bonus_damage_vs": {
         "Infantry": 5
       },
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -1144,6 +1158,7 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider",
@@ -1172,6 +1187,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1200,6 +1216,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1228,6 +1245,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1253,6 +1271,7 @@
       "train_time": 20,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1274,6 +1293,7 @@
       "train_time": 36,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1296,6 +1316,7 @@
         "Monastery Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1317,6 +1338,7 @@
       "train_time": 51,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1340,6 +1362,7 @@
       "bonus_damage_vs": {
         "Heavy Warships": 5
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1365,6 +1388,7 @@
       "bonus_damage_vs": {
         "All Buildings": 140
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1389,6 +1413,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1419,6 +1444,7 @@
       "bonus_damage_vs": {
         "Infantry": 6
       },
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -1452,6 +1478,7 @@
       "bonus_damage_vs": {
         "Mounted Units": 8
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Armored Elephant",
@@ -1486,6 +1513,7 @@
       "train_time": 36,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1507,6 +1535,7 @@
       "train_time": 36,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1530,6 +1559,7 @@
       "bonus_damage_vs": {
         "All Buildings": 140
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1552,6 +1582,7 @@
       "train_time": 70,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1576,6 +1607,7 @@
       "bonus_damage_vs": {
         "All Archers": 3
       },
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -1610,6 +1642,7 @@
         "Infantry"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1639,6 +1672,7 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider",
@@ -1667,6 +1701,7 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Scout",
         "Slinger"
@@ -1694,6 +1729,7 @@
       "bonus_damage_vs": {
         "Mounted Units": 4
       },
+      "armor_values": {},
       "countered_by": [
         "Bowman",
         "Cataphract",
@@ -1732,6 +1768,7 @@
       "train_time": 70,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1755,6 +1792,7 @@
       "bonus_damage_vs": {
         "Heavy Warships": 5
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1777,6 +1815,7 @@
       "train_time": 75,
       "armor_classes": [],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [],
       "counters": []
     },
@@ -1800,6 +1839,7 @@
       "bonus_damage_vs": {
         "All Buildings": 140
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1827,6 +1867,7 @@
       "bonus_damage_vs": {
         "Infantry": 7
       },
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -1860,6 +1901,7 @@
       "bonus_damage_vs": {
         "All Buildings": 140
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1885,6 +1927,7 @@
       "bonus_damage_vs": {
         "All Buildings": 140
       },
+      "armor_values": {},
       "countered_by": [],
       "counters": [
         "Fire Galley"
@@ -1912,6 +1955,7 @@
         "All Archers"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {},
       "countered_by": [
         "Axeman",
         "Camel Rider",
@@ -1941,6 +1985,9 @@
         "All Buildings"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "All Buildings": 130
+      },
       "countered_by": [
         "Armored Elephant",
         "Ballista",
@@ -1977,6 +2024,9 @@
         "All Buildings": 25,
         "Standard Buildings": 25
       },
+      "armor_values": {
+        "Mounted Units": 4
+      },
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -2008,6 +2058,9 @@
         "All Buildings": 35,
         "Standard Buildings": 35
       },
+      "armor_values": {
+        "Mounted Units": 4
+      },
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -2036,6 +2089,9 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "Mounted Units": 4
+      },
       "countered_by": [
         "Axeman",
         "Camel Rider"
@@ -2062,6 +2118,9 @@
         "Mounted Units"
       ],
       "bonus_damage_vs": {},
+      "armor_values": {
+        "Mounted Units": 4
+      },
       "countered_by": [
         "Axeman",
         "Camel Rider"

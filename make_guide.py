@@ -9,15 +9,25 @@ MODES = [("main", "AoE2: Definitive Edition", "data/aoe2_data.json"),
          ("chronicles", "Chronicles: Battle for Greece", "data/chronicles_data.json"),
          ("ror", "Return of Rome (AoE1)", "data/ror_data.json")]
 
-def best_counters(unit, cs, cap=24):
+def best_counters(unit, cs, by_name, cap=24):
+    # effective counters: bonus that actually lands (minus target's armor in that class),
+    # and flag counters the target outranges (they get kited). Addresses r/aoe2 feedback.
+    tarmor = unit.get('armor_values', {})
+    trange = unit.get('range') or 0
     agg = {}
     for cls in unit['armor_classes']:
         for t in cs.get(cls, {}).get('threats', []):
             if t['unit'] == unit['name']:
                 continue
-            if t['unit'] not in agg or t['bonus'] > agg[t['unit']]['bonus']:
-                agg[t['unit']] = {"unit": t['unit'], "bonus": t['bonus'], "via": cls}
-    return sorted(agg.values(), key=lambda x: -x['bonus'])[:cap]
+            eff = t['bonus'] - tarmor.get(cls, 0)          # armor negates bonus (e.g. Cataphract vs camel)
+            if eff <= 0:
+                continue
+            cu = by_name.get(t['unit'], {})
+            outranged = trange > 0 and (cu.get('range') or 0) < trange   # melee chasing a ranged unit
+            cur = agg.get(t['unit'])
+            if not cur or eff > cur['bonus']:
+                agg[t['unit']] = {"unit": t['unit'], "bonus": eff, "via": cls, "outranged": outranged}
+    return sorted(agg.values(), key=lambda x: (x['outranged'], -x['bonus']))[:cap]
 
 UNIT_KEYS = ['name', 'cost', 'hp', 'attack', 'melee_armor', 'pierce_armor',
              'range', 'speed', 'armor_classes', 'bonus_damage_vs']
@@ -40,13 +50,14 @@ for key, label, path in MODES:
     for civ in o['civilizations']:                       # attach community unit tactics by civ name
         civ['tactics'] = strategy['unit_notes'].get(civ['name'], [])
     cs = o['counter_system']
+    by_name = {u['name']: u for u in o['units_master'].values()}
     seen, units = set(), []
     for u in o['units_master'].values():
         if u['name'] in seen:
             continue                                  # collapse base/elite dupes by name
         seen.add(u['name'])
         row = {k: u[k] for k in UNIT_KEYS}
-        row['best_counters'] = best_counters(u, cs)
+        row['best_counters'] = best_counters(u, cs, by_name)
         row['combat'] = bool((u.get('attack') or 0) > 0 or u['bonus_damage_vs'])
         row['vbld'] = vils_per_building(row['cost'], u.get('train_time'))
         units.append(row)
@@ -159,18 +170,20 @@ function tip(uo){
   if(has('Infantry')) return 'Cheap and tanky: engage in numbers, strong vs buildings.';
   return 'Mass cost-effectively and engage on your terms.';
 }
+function ctrChip(c){return `<span class="chip cnt" title="effective bonus vs ${esc(c.via)}${c.outranged?' — but the enemy outranges it':''}">${esc(c.unit)} <b>+${c.bonus}</b>${c.outranged?' ⚠':''}</span>`;}
 function viewCounters(){
   const units=M().units, names=units.map(u=>u.name).sort();
   const civNames=M().civilizations.map(c=>c.name).sort();
   const umap=Object.fromEntries(units.map(u=>[u.name,u]));
   let h=`<div class="panel"><h2>What are you facing?</h2>
-    <p class="hint">Enter the enemy unit. Add your civilization to filter counters to what you can actually build, with how to use them.</p>
+    <p class="hint">Enter the enemy unit; add your civ to filter to what you can build. Counters use <b>effective damage</b> (after the target's armor) and flag units the enemy <b>outranges</b> (⚠).</p>
     <div class="grid2">
       <div><div class="sec-h">Enemy unit</div>
-        <input class="bigsearch" id="enemy" list="unames" placeholder="e.g. Knight, Archer, War Elephant…" value="${esc(S.enemy)}">
-        <datalist id="unames">${names.map(n=>`<option value="${esc(n)}">`).join('')}</datalist></div>
+        <input class="bigsearch" id="enemy" list="unames" autocomplete="off" placeholder="e.g. Knight, Mameluke, Cataphract…" value="${esc(S.enemy)}">
+        <datalist id="unames">${names.map(n=>`<option value="${esc(n)}">`).join('')}</datalist>
+        <div id="suggest" class="kv" style="margin-top:6px"></div></div>
       <div><div class="sec-h">Your civilization (optional)</div>
-        <input class="bigsearch" id="myciv" list="cnames" placeholder="e.g. Franks — filters to your roster" value="${esc(S.myciv||'')}">
+        <input class="bigsearch" id="myciv" list="cnames" autocomplete="off" placeholder="e.g. Franks — filters to your roster" value="${esc(S.myciv||'')}">
         <datalist id="cnames">${civNames.map(n=>`<option value="${esc(n)}">`).join('')}</datalist></div>
     </div></div>`;
   const u=units.find(x=>x.name.toLowerCase()===S.enemy.toLowerCase());
@@ -180,31 +193,42 @@ function viewCounters(){
     h+=`<div class="panel"><h2>${esc(u.name)}</h2>
       <div class="kv">${(u.armor_classes||[]).map(c=>`<span class="tag">${esc(c)}</span>`).join('')||'<span class="muted small">no combat classes</span>'}</div>
       <div class="kv">${stats.map(([k,v])=>`<span class="stat">${k} <b>${v}</b></span>`).join('')}</div></div>`;
+    const allC=u.best_counters;
+    const strongVs=`<div class="panel"><h3 style="color:var(--grn)">💪 ${esc(u.name)} is strong vs</h3>
+        ${Object.keys(u.bonus_damage_vs).length?Object.entries(u.bonus_damage_vs).map(([k,v])=>`<span class="chip str">${esc(k)} <b>+${v}</b></span>`).join(''):'<p class="hint">No bonus damage — a generalist, not a counter unit.</p>'}</div>`;
     const civ=S.myciv&&M().civilizations.find(c=>c.name.toLowerCase()===S.myciv.toLowerCase());
     if(civ){
       const ru=M().civ_units[civ.name]||{}, roster=new Set(ru.all_units||[]), uq=new Set(ru.unique_units||[]);
-      const avail=u.best_counters.filter(c=>roster.has(c.unit));
-      h+=`<div class="panel"><h3 style="color:var(--gold)">🛡️ ${esc(civ.name)} should counter it with</h3>
+      const avail=allC.filter(c=>roster.has(c.unit));
+      h+=`<div class="panel" style="border:1px solid var(--gold)"><h3 style="color:var(--gold)">🛡️ ${esc(civ.name)} should counter it with</h3>
         ${avail.length?avail.map(c=>{const uo=umap[c.unit]||{};return `<div style="margin:8px 0;padding:9px 11px;background:var(--panel2);border:1px solid var(--line);border-radius:8px">
             <b>${uq.has(c.unit)?'<span class="uniq">'+esc(c.unit)+'</span>':esc(c.unit)}</b>
-            <span class="chip cnt" style="margin-left:6px">+${c.bonus} vs ${esc(c.via)}</span>
-            <div class="small muted" style="margin-top:4px">${esc(tip(uo))}${uo.vbld?` · ~${uo.vbld.total} vils to mass-produce`:''}</div></div>`;}).join('')
-          :`<p class="hint">${esc(civ.name)} has no hard counter to this in its roster — use your strongest gold unit, or win with eco/numbers.</p>`}
-        </div>`;
+            <span class="chip cnt" style="margin-left:6px">+${c.bonus} vs ${esc(c.via)}</span>${c.outranged?' <span class="chip" style="border-color:var(--red);color:var(--red)">⚠ it outranges you</span>':''}
+            <div class="small muted" style="margin-top:4px">${esc(tip(uo))}${uo.vbld?` · ~${uo.vbld.total} vils to mass-produce`:''}${c.outranged?' · it has more range, so mass up and use numbers or your own ranged units.':''}</div></div>`;}).join('')
+          :`<p class="hint">${esc(civ.name)} has no hard counter to this in its roster — use your strongest gold unit, or win with eco / numbers.</p>`}
+        </div>
+        <details class="panel"><summary class="sec-h" style="cursor:pointer">Counters from any civilization (${allC.length})</summary>
+          <div style="margin-top:8px">${allC.length?allC.map(ctrChip).join(''):'<p class="hint">No hard counters.</p>'}</div></details>
+        ${strongVs}`;
+    } else {
+      h+=`<div class="grid2">
+        <div class="panel"><h3 style="color:var(--red)">🗡️ Beat it with</h3>
+          ${allC.length?allC.map(ctrChip).join(''):'<p class="hint">No hard counters — fight it cost-effectively or with raw numbers.</p>'}
+          <p class="small muted" style="margin-top:8px">Effective bonus after armor. ⚠ = the enemy outranges this unit. Add your civ above to filter to your roster.</p></div>
+        ${strongVs}</div>`;
     }
-    h+=`<div class="grid2">
-      <div class="panel"><h3 style="color:var(--red)">🗡️ Beat it with ${civ?'<span class="muted small">(any civ)</span>':''}</h3>
-        ${u.best_counters.length?u.best_counters.map(c=>`<span class="chip cnt" title="bonus vs ${esc(c.via)}">${esc(c.unit)} <b>+${c.bonus}</b></span>`).join(''):'<p class="hint">No hard counters — fight it cost-effectively or with raw numbers.</p>'}
-        <p class="small muted" style="margin-top:8px">Ranked by bonus damage.</p></div>
-      <div class="panel"><h3 style="color:var(--grn)">💪 It is strong vs</h3>
-        ${Object.keys(u.bonus_damage_vs).length?Object.entries(u.bonus_damage_vs).map(([k,v])=>`<span class="chip str">${esc(k)} <b>+${v}</b></span>`).join(''):'<p class="hint">No bonus damage — a generalist, not a counter unit.</p>'}</div>
-      </div>`;
   }
   elv().innerHTML=h;
+  const sug=()=>{const box=$('#suggest');if(!box)return;const v=S.enemy.toLowerCase().trim();
+    if(!v||units.some(x=>x.name.toLowerCase()===v)){box.innerHTML='';return;}
+    box.innerHTML=names.filter(n=>n.toLowerCase().includes(v)).slice(0,8)
+      .map(n=>`<span class="chip" style="cursor:pointer" data-pick="${esc(n)}">${esc(n)}</span>`).join('');
+    box.querySelectorAll('[data-pick]').forEach(x=>x.onclick=()=>{S.enemy=x.dataset.pick;render();});};
   const inp=$('#enemy');
-  inp.oninput=()=>{S.enemy=inp.value;if(units.find(x=>x.name.toLowerCase()===inp.value.toLowerCase()))render();};
+  inp.oninput=()=>{S.enemy=inp.value;if(units.find(x=>x.name.toLowerCase()===inp.value.toLowerCase()))render();else sug();};
   const mc=$('#myciv');
   mc.oninput=()=>{S.myciv=mc.value;if(!mc.value||civNames.some(c=>c.toLowerCase()===mc.value.toLowerCase()))render();};
+  sug();
   if(!S.enemy) inp.focus();
 }
 
