@@ -31,4 +31,10 @@ python3 check.py        # integrity checks
 - **Charts:** community infographics from [r/aoe2](https://www.reddit.com/r/aoe2/) (unit response chart, build-order flowchart, unique-units table) by their respective authors.
 - **Villagers-per-building** column: concept from Survivalist's [aoe2-de-tools](https://aoe2-de-tools.herokuapp.com/villagers-required/); computed here from unit cost ÷ train time ÷ base gather rates.
 
+## Privacy
+
+This site uses [GoatCounter](https://www.goatcounter.com) for privacy-friendly, **cookieless** analytics — aggregate visit counts, referrers, and which sections are used. No personal data, no tracking cookies, no cross-site tracking.
+
+---
+
 *Age of Empires II © Microsoft Corporation. This is a non-commercial fan project made under Microsoft's [Game Content Usage Rules](https://www.xbox.com/en-us/developers/rules); not endorsed by or affiliated with Microsoft. All community charts and build orders belong to their original authors.*

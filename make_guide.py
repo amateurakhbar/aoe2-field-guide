@@ -3,6 +3,8 @@ Data AND chart images are embedded (no fetch, no assets folder) so the one file
 works by double-click, offline."""
 import json, base64
 
+GOATCOUNTER = "https://maisarah.goatcounter.com/count"  # analytics endpoint
+
 MODES = [("main", "AoE2: Definitive Edition", "data/aoe2_data.json"),
          ("chronicles", "Chronicles: Battle for Greece", "data/chronicles_data.json"),
          ("ror", "Return of Rome (AoE1)", "data/ror_data.json")]
@@ -129,17 +131,18 @@ const money=c=>RES.filter(r=>c[r]).map(r=>`${c[r]} ${r.toLowerCase()}`).join(', 
 const M=()=>DATA.modes[S.mode];
 const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
 
+function track(name){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:name,title:name,event:true});}catch(e){}}
 function modesBar(){
   $('#modes').innerHTML=Object.entries(DATA.modes).map(([k,m])=>
     `<button class="${k==S.mode?'on':''}" data-m="${k}">${m.label}</button>`).join('');
   $('#modes').querySelectorAll('button').forEach(b=>b.onclick=()=>{
-    S.mode=b.dataset.m;S.civ=null;S.enemy='';render();});
+    S.mode=b.dataset.m;S.civ=null;S.enemy='';track('mode/'+b.dataset.m);render();});
 }
 function tabsBar(){
   const T=[['counters','⚔️ Counter finder'],['civs','🏛️ Civilizations'],['units','🛡️ Units'],
     ['builds','📜 Build orders'],['ref','📖 Reference']];
   $('#tabs').innerHTML=T.map(([k,l])=>`<button class="${k==S.tab?'on':''}" data-t="${k}">${l}</button>`).join('');
-  $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{S.tab=b.dataset.t;render();});
+  $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{S.tab=b.dataset.t;track('tab/'+b.dataset.t);render();});
 }
 
 /* ---------- COUNTERS ---------- */
@@ -335,9 +338,11 @@ function viewRef(){
 function render(){modesBar();tabsBar();
   ({counters:viewCounters,civs:viewCivs,units:viewUnits,builds:viewBuilds,ref:viewRef}[S.tab])();}
 render();
-</script></body></html>"""
+</script>
+<script data-goatcounter="__GOATCOUNTER__" async src="//gc.zgo.at/count.js"></script>
+</body></html>"""
 
-html = HTML.replace('__DATA__', blob)
+html = HTML.replace('__DATA__', blob).replace('__GOATCOUNTER__', GOATCOUNTER)
 # inline chart images as data URIs -> truly single-file, no assets/ folder
 ASSETS = {'buildorders.png': 'image/png', 'response_normal.jpg': 'image/jpeg',
           'response_reversed.jpg': 'image/jpeg', 'unique_units.jpg': 'image/jpeg'}
