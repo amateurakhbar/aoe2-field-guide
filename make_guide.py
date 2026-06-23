@@ -43,12 +43,14 @@ def vils_per_building(cost, train_time):
     return {"parts": parts, "total": round(sum(parts.values()), 1)} if parts else None
 
 strategy = json.load(open('data/strategy.json'))
+meta = json.load(open('data/meta.json'))['civs']
 data = {"modes": {}, "build_orders": strategy['build_orders'],
         "build_catalog": json.load(open('data/build_orders.json'))}
 for key, label, path in MODES:
     o = json.load(open(path))
-    for civ in o['civilizations']:                       # attach community unit tactics by civ name
+    for civ in o['civilizations']:                       # attach community notes + meta by civ name
         civ['tactics'] = strategy['unit_notes'].get(civ['name'], [])
+        civ['meta'] = meta.get(civ['name'])
     cs = o['counter_system']
     by_name = {u['name']: u for u in o['units_master'].values()}
     seen, units = set(), []
@@ -170,7 +172,21 @@ function tip(uo){
   if(has('Infantry')) return 'Cheap and tanky: engage in numbers, strong vs buildings.';
   return 'Mass cost-effectively and engage on your terms.';
 }
-function ctrChip(c){return `<span class="chip cnt" title="effective bonus vs ${esc(c.via)}${c.outranged?' — but the enemy outranges it':''}">${esc(c.unit)} <b>+${c.bonus}</b>${c.outranged?' ⚠':''}</span>`;}
+function ctrChip(c){return `<span class="chip cnt" title="effective bonus vs ${esc(c.via)}${c.outranged?', but the enemy outranges it':''}">${esc(c.unit)} <b>+${c.bonus}</b>${c.outranged?' ⚠':''}</span>`;}
+function softCounters(u){
+  const C=u.armor_classes||[], has=x=>C.includes(x), out=[];
+  if(has('Mounted Units')) out.push(['Halberdier line','cheap, tanky anti-cavalry'],['Monks','convert and heal'],['Camels','faster anti-cavalry if your civ has them']);
+  if(has('Camels')||has('Mamelukes')) out.push(['Archers / Crossbows','camels and mamelukes have low pierce armor'],['Monks','convert the expensive gold units']);
+  if(has('Elephants')) out.push(['Halberdier line','huge bonus vs elephants'],['Monks','convert them, they cost a lot'],['Light cav / Hussar','surround and dodge the splash']);
+  if(has('All Archers')) out.push(['Skirmisher line','cost-effective vs foot archers'],['Knights / cavalry','close the distance and run them down'],['Mangonel / Onager','area damage vs massed archers']);
+  if(has('Mounted Archers')) out.push(['Skirmisher line','cheap; Imperial Skirmisher even outranges'],['Knights / light cav','chase them off']);
+  if(has('Skirmishers')) out.push(['Knights / cavalry','skirmishers fold in melee'],['Mangonel / Scorpion','area damage']);
+  if(has('Gunpowder Units')) out.push(['Skirmisher line','gunpowder units have low pierce armor'],['Knights / cavalry','close the gap fast']);
+  if(has('Infantry')&&!has('Mounted Units')) out.push(['Archers / Crossbows','kite slow infantry'],['Scorpions / Mangonel','area damage vs clumps']);
+  if(has('Siege Units')) out.push(['Knights / light cav','dive and snipe the siege'],['Spread your army','avoid Mangonel / Onager splash']);
+  if(has('Monastery Units')) out.push(['Light cav / Scouts','kill monks before they convert']);
+  const seen=new Set(); return out.filter(([n])=>!seen.has(n)&&seen.add(n));
+}
 function viewCounters(){
   const units=M().units, names=units.map(u=>u.name).sort();
   const civNames=M().civilizations.map(c=>c.name).sort();
@@ -217,6 +233,10 @@ function viewCounters(){
           <p class="small muted" style="margin-top:8px">Effective bonus after armor. ⚠ = the enemy outranges this unit. Add your civ above to filter to your roster.</p></div>
         ${strongVs}</div>`;
     }
+    const soft=softCounters(u);
+    h+=`<div class="panel"><h3 style="color:var(--blu)">🧠 Practical / soft counters <span class="muted small">(rules of thumb)</span></h3>
+      ${soft.length?soft.map(([n,why])=>`<div class="small" style="margin:5px 0"><b>${esc(n)}</b> <span class="muted">(${esc(why)})</span></div>`).join(''):'<p class="hint">Use cost-effective trash units, or your strongest gold unit.</p>'}
+      <p class="small muted" style="margin-top:8px">The hard counters above are exact bonus damage from the game data. These are general rules of thumb (cost, armor, range, micro). For the community's full practical chart, open the <b>Reference</b> tab.</p></div>`;
   }
   elv().innerHTML=h;
   const sug=()=>{const box=$('#suggest');if(!box)return;const v=S.enemy.toLowerCase().trim();
@@ -241,6 +261,9 @@ function viewCivs(){
     elv().innerHTML=`<div class="panel"><button class="chip" id="back">← all civilizations</button>
       <h2 style="margin-top:8px">${esc(c.name)}</h2>
       <div class="muted">${esc(c.civ_type||'')} · ${esc(c.expansion||'')}</div>
+      ${c.meta?`<div style="margin-top:10px;padding:10px 12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px">
+        <div class="sec-h">How they play</div><div class="small">${esc(c.meta.playstyle)}</div>
+        ${c.meta.watch_for?`<div class="small" style="margin-top:5px"><b class="uniq">Watch for:</b> ${esc(c.meta.watch_for)}</div>`:''}</div>`:''}
       <p class="sec-h" style="margin-top:14px">Civilization bonuses</p>
       <ul class="b">${c.civ_bonuses.map(b=>`<li>${esc(b.text)}</li>`).join('')}</ul>
       <p class="sec-h">Team bonus</p><p>${c.team_bonus?esc(c.team_bonus.text):'—'}</p>
@@ -311,9 +334,10 @@ function viewBuilds(){
   const rp=bc.builds.filter(b=>b.author==='Red Phosphorus');
   const sel=rp.find(b=>b.id===S.rpfc)||rp[0];
   const rpPanel=`<div class="panel" style="border:1px solid var(--gold)">
-      <h2>⚔️ Red Phosphorus — Fast Castles</h2>
-      <p class="hint">One safe Fast Castle opening, ${rp.length} Castle-Age follow-ups. Same Dark/Feudal every game — you pick the follow-up by what the enemy builds. That flexibility is the "uncounterable" idea. <a href="${esc(rp[0].source)}" target="_blank">source ↗</a></p>
-      <div class="row" style="margin:10px 0 8px">${rp.map(b=>fbtn('→ '+b.followup,b.id===sel.id,`data-rp="${b.id}"`)).join('')}</div>
+      <h2>⚔️ Red Phosphorus — Uncounterable Fast Castle</h2>
+      <p class="hint">One fixed, optimized Fast Castle opening. "Uncounterable" means you reliably reach Castle Age <b>every game</b>, even under Feudal pressure (if denied, sell stone and wood at the Market to still click up). It is a fixed build, not a flexible one. The Castle-Age plans below are just normal play, chosen by your civ and the matchup. <a href="${esc(rp[0].source)}" target="_blank">source ↗</a></p>
+      <div class="sec-h" style="margin-top:8px">Castle-Age plan (pick by matchup)</div>
+      <div class="row" style="margin:6px 0 8px">${rp.map(b=>fbtn('→ '+b.followup,b.id===sel.id,`data-rp="${b.id}"`)).join('')}</div>
       <div style="border-top:1px solid var(--line);padding-top:8px">
         <h3>${esc(sel.name)} <span class="muted small">· ${esc(sel.level)} · ${esc(sel.vills)}</span></h3>
         ${sel.when?`<p class="small" style="margin:4px 0"><b class="uniq">When to use:</b> ${esc(sel.when)}</p>`:''}

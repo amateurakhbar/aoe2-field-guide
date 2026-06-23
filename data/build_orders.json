@@ -4,199 +4,692 @@
     "aoecompanion.com community guides (Red Phosphorus Uncounterable FC, civ-specific)",
     "r/aoe2 beginner build-order flowchart"
   ],
-  "_note": "Villager counts and steps follow AoE Companion's published build guides. Red Phosphorus's signature build is the Uncounterable Fast Castle, which flexes into Knights / Crossbows / Monks+Mangonel / Unique Unit in Castle Age.",
-  "categories": ["Feudal Rush", "Fast Castle", "Fast Imperial", "Civ-specific", "Water"],
+  "_note": "Villager counts and steps follow AoE Companion's published build guides. Red Phosphorus's signature build is the Uncounterable Fast Castle: one fixed opening that reliably reaches Castle Age even under pressure. The Castle-Age plans (Knights/Crossbows/Monks+Mangonel/Unique Unit/Boom/Eagles) are normal follow-ups chosen by matchup, not separate 'uncounterable' builds.",
+  "categories": [
+    "Feudal Rush",
+    "Fast Castle",
+    "Fast Imperial",
+    "Civ-specific",
+    "Water"
+  ],
   "builds": [
     {
-      "id": "scout-rush", "name": "Scout Rush", "category": "Feudal Rush", "level": "Beginner", "civ": null,
-      "vills": "~20 to Feudal", "source": "https://aoecompanion.com/build-guides/scout-rush",
+      "id": "scout-rush",
+      "name": "Scout Rush",
+      "category": "Feudal Rush",
+      "level": "Beginner",
+      "civ": null,
+      "vills": "~20 to Feudal",
+      "source": "https://aoecompanion.com/build-guides/scout-rush",
       "summary": "Cheap Feudal aggression with Scout Cavalry. No gold-heavy units; harass economy and deny boar/deer.",
-      "dark": ["Vil 3: queue villagers", "Vils 4-6: sheep", "Vil 7: build Lumber Camp then wood", "Vils 8-9: wood", "Vil 10: lure boar", "Vil 11: sheep/boar", "Vils 12-13: 2 houses + Mill at berries", "Vils 14-15: berries", "Vils 16-17: sheep/boar", "Vils 18-20: 2nd Lumber Camp + wood", "Research Loom, click Feudal at ~20 vils"],
-      "feudal": ["Build Barracks (4 vils from sheep)", "Build Stable, train 2-3 Scouts", "Research Double-Bit Axe + Horse Collar", "Expand farms (vils 21-28)"],
-      "castle": [], "imperial": [],
-      "notes": ["Best on open maps. Snipe villagers, deny boar/deer.", "Transition into Archers, Skirmishers or a boom."]
+      "dark": [
+        "Vil 3: queue villagers",
+        "Vils 4-6: sheep",
+        "Vil 7: build Lumber Camp then wood",
+        "Vils 8-9: wood",
+        "Vil 10: lure boar",
+        "Vil 11: sheep/boar",
+        "Vils 12-13: 2 houses + Mill at berries",
+        "Vils 14-15: berries",
+        "Vils 16-17: sheep/boar",
+        "Vils 18-20: 2nd Lumber Camp + wood",
+        "Research Loom, click Feudal at ~20 vils"
+      ],
+      "feudal": [
+        "Build Barracks (4 vils from sheep)",
+        "Build Stable, train 2-3 Scouts",
+        "Research Double-Bit Axe + Horse Collar",
+        "Expand farms (vils 21-28)"
+      ],
+      "castle": [],
+      "imperial": [],
+      "notes": [
+        "Best on open maps. Snipe villagers, deny boar/deer.",
+        "Transition into Archers, Skirmishers or a boom."
+      ]
     },
     {
-      "id": "archer-rush", "name": "Archer Rush (Fast Archers)", "category": "Feudal Rush", "level": "Beginner", "civ": null,
-      "vills": "~21 to Feudal", "source": "https://aoecompanion.com/build-guides/archer-rush",
+      "id": "archer-rush",
+      "name": "Archer Rush (Fast Archers)",
+      "category": "Feudal Rush",
+      "level": "Beginner",
+      "civ": null,
+      "vills": "~21 to Feudal",
+      "source": "https://aoecompanion.com/build-guides/archer-rush",
       "summary": "Feudal Archers from two ranges. Strong, flexible opener for archer civs.",
-      "dark": ["Build 2 houses, then sheep", "Lumber Camp, then wood", "Lure boar", "Mill at berries (~vil 13)", "~8-9 food, 5-6 wood (2 lumber camps), 3-4 berries", "Research Loom, click Feudal at ~21 vils"],
-      "feudal": ["Build 2 Archery Ranges", "Build Blacksmith, research Fletching", "Research Double-Bit Axe", "Train 6-8 Archers", "Shift sheep -> farms as food depletes, keep gold"],
-      "castle": [], "imperial": [],
-      "notes": ["Great with bonus-archer civs (Britons, Mayans, Ethiopians, Vietnamese).", "Add a 3rd range or transition to Crossbows in Castle."]
+      "dark": [
+        "Build 2 houses, then sheep",
+        "Lumber Camp, then wood",
+        "Lure boar",
+        "Mill at berries (~vil 13)",
+        "~8-9 food, 5-6 wood (2 lumber camps), 3-4 berries",
+        "Research Loom, click Feudal at ~21 vils"
+      ],
+      "feudal": [
+        "Build 2 Archery Ranges",
+        "Build Blacksmith, research Fletching",
+        "Research Double-Bit Axe",
+        "Train 6-8 Archers",
+        "Shift sheep -> farms as food depletes, keep gold"
+      ],
+      "castle": [],
+      "imperial": [],
+      "notes": [
+        "Great with bonus-archer civs (Britons, Mayans, Ethiopians, Vietnamese).",
+        "Add a 3rd range or transition to Crossbows in Castle."
+      ]
     },
     {
-      "id": "maa-archers", "name": "Men-at-Arms → Archers", "category": "Feudal Rush", "level": "Intermediate", "civ": null,
-      "vills": "21 to Feudal", "source": "https://aoecompanion.com/build-guides/men-at-arms-archers",
+      "id": "maa-archers",
+      "name": "Men-at-Arms \u2192 Archers",
+      "category": "Feudal Rush",
+      "level": "Intermediate",
+      "civ": null,
+      "vills": "21 to Feudal",
+      "source": "https://aoecompanion.com/build-guides/men-at-arms-archers",
       "summary": "Early Militia pressure that upgrades to Men-at-Arms, then transitions into Archers.",
-      "dark": ["Vils 4-6: sheep, houses (4 total)", "Lumber Camp + wood (3-10)", "Lure boars at vil 11 and 15", "Mill + berries (5, mill at vil 13)", "Vil 19: build Barracks, train 3 Militia", "Vil 20: Gold Mining Camp", "Research Loom, click Feudal at vil 21"],
-      "feudal": ["Research Men-at-Arms + Double-Bit Axe", "Take 4 from sheep -> 2nd Lumber Camp", "Build 2 Archery Ranges + Blacksmith", "Train 6 Archers, research Fletching", "Transition berries -> farms"],
-      "castle": [], "imperial": [],
-      "notes": ["Militia harass while archers come online.", "Punishes greedy Fast Castles."]
+      "dark": [
+        "Vils 4-6: sheep, houses (4 total)",
+        "Lumber Camp + wood (3-10)",
+        "Lure boars at vil 11 and 15",
+        "Mill + berries (5, mill at vil 13)",
+        "Vil 19: build Barracks, train 3 Militia",
+        "Vil 20: Gold Mining Camp",
+        "Research Loom, click Feudal at vil 21"
+      ],
+      "feudal": [
+        "Research Men-at-Arms + Double-Bit Axe",
+        "Take 4 from sheep -> 2nd Lumber Camp",
+        "Build 2 Archery Ranges + Blacksmith",
+        "Train 6 Archers, research Fletching",
+        "Transition berries -> farms"
+      ],
+      "castle": [],
+      "imperial": [],
+      "notes": [
+        "Militia harass while archers come online.",
+        "Punishes greedy Fast Castles."
+      ]
     },
     {
-      "id": "maa-towers", "name": "Men-at-Arms + Tower Rush", "category": "Feudal Rush", "level": "Advanced", "civ": null,
-      "vills": "21 to Feudal", "source": "https://aoecompanion.com/build-guides/men-at-arms-towers",
+      "id": "maa-towers",
+      "name": "Men-at-Arms + Tower Rush",
+      "category": "Feudal Rush",
+      "level": "Advanced",
+      "civ": null,
+      "vills": "21 to Feudal",
+      "source": "https://aoecompanion.com/build-guides/men-at-arms-towers",
       "summary": "Aggressive forward push: Militia plus forward Towers to siege the enemy economy.",
-      "dark": ["Vils 4-6: sheep", "Vil 7: Lumber Camp", "Vils 8-10: wood", "Vil 11: lure boar", "Vil 12: house", "Vils 13-15: berries/Mill", "Vils 16-18: sheep/boar", "Vil 19: Barracks, train 3 Militia", "Vil 20: Gold Camp", "Click Feudal at 40 gold"],
-      "feudal": ["Send villagers forward to enemy base", "Build forward Towers near their resources", "Pressure with Militia/Men-at-Arms"],
-      "castle": [], "imperial": [],
-      "notes": ["High risk/high reward; commit fully.", "Strong with Incas, Koreans, Japanese, Teutons towers."]
+      "dark": [
+        "Vils 4-6: sheep",
+        "Vil 7: Lumber Camp",
+        "Vils 8-10: wood",
+        "Vil 11: lure boar",
+        "Vil 12: house",
+        "Vils 13-15: berries/Mill",
+        "Vils 16-18: sheep/boar",
+        "Vil 19: Barracks, train 3 Militia",
+        "Vil 20: Gold Camp",
+        "Click Feudal at 40 gold"
+      ],
+      "feudal": [
+        "Send villagers forward to enemy base",
+        "Build forward Towers near their resources",
+        "Pressure with Militia/Men-at-Arms"
+      ],
+      "castle": [],
+      "imperial": [],
+      "notes": [
+        "High risk/high reward; commit fully.",
+        "Strong with Incas, Koreans, Japanese, Teutons towers."
+      ]
     },
     {
-      "id": "drush-archers", "name": "Drush → Archers", "category": "Feudal Rush", "level": "Intermediate", "civ": null,
-      "vills": "~30 to Feudal end", "source": "https://aoecompanion.com/build-guides/dark-age-rush-archers",
+      "id": "drush-archers",
+      "name": "Drush \u2192 Archers",
+      "category": "Feudal Rush",
+      "level": "Intermediate",
+      "civ": null,
+      "vills": "~30 to Feudal end",
+      "source": "https://aoecompanion.com/build-guides/dark-age-rush-archers",
       "summary": "Dark Age Militia rush to disrupt the enemy, then a strong Archer follow-up.",
-      "dark": ["Vils 3-6: sheep", "Lumber Camp + wood (8-10)", "Lure boar", "House + Mill (12-13)", "Berries (14-15)", "Build Barracks, train 3 Militia, send to opponent", "Research Loom before aging up"],
-      "feudal": ["7 from sheep -> wood, 4 -> gold", "Build 2 Archery Ranges + Blacksmith", "Train 6-8 Archers, research Fletching"],
-      "castle": [], "imperial": [],
-      "notes": ["Militia delay the enemy while your eco stays intact.", "Lure 2nd boar during Dark Age."]
+      "dark": [
+        "Vils 3-6: sheep",
+        "Lumber Camp + wood (8-10)",
+        "Lure boar",
+        "House + Mill (12-13)",
+        "Berries (14-15)",
+        "Build Barracks, train 3 Militia, send to opponent",
+        "Research Loom before aging up"
+      ],
+      "feudal": [
+        "7 from sheep -> wood, 4 -> gold",
+        "Build 2 Archery Ranges + Blacksmith",
+        "Train 6-8 Archers, research Fletching"
+      ],
+      "castle": [],
+      "imperial": [],
+      "notes": [
+        "Militia delay the enemy while your eco stays intact.",
+        "Lure 2nd boar during Dark Age."
+      ]
     },
     {
-      "id": "drush-fc", "name": "Drush → Fast Castle", "category": "Feudal Rush", "level": "Advanced", "civ": null,
-      "vills": "~28-30 to Castle", "source": "https://aoecompanion.com/build-guides/drush-fast-castle",
+      "id": "drush-fc",
+      "name": "Drush \u2192 Fast Castle",
+      "category": "Feudal Rush",
+      "level": "Advanced",
+      "civ": null,
+      "vills": "~28-30 to Castle",
+      "source": "https://aoecompanion.com/build-guides/drush-fast-castle",
       "summary": "Militia harass in Dark Age, then Fast Castle behind it and hit Castle with Crossbows.",
-      "dark": ["Sheep (4-6), Lumber Camp + wood (8-10)", "Lure boar (11)", "Berries (12-15)", "Vil 16: 10 gold then wood", "Build Barracks, make 3 Militia, send to opponent", "Research Loom"],
-      "feudal": ["Vil 17: Barracks; expand farms (23-28)", "At 28: ~8 gold, ~12 wood, rest food/farms", "Click Castle"],
-      "castle": ["Double-Bit Axe", "Build 2 Archery Ranges + Blacksmith, Fletching", "Mass Crossbows + Bodkin Arrow"],
+      "dark": [
+        "Sheep (4-6), Lumber Camp + wood (8-10)",
+        "Lure boar (11)",
+        "Berries (12-15)",
+        "Vil 16: 10 gold then wood",
+        "Build Barracks, make 3 Militia, send to opponent",
+        "Research Loom"
+      ],
+      "feudal": [
+        "Vil 17: Barracks; expand farms (23-28)",
+        "At 28: ~8 gold, ~12 wood, rest food/farms",
+        "Click Castle"
+      ],
+      "castle": [
+        "Double-Bit Axe",
+        "Build 2 Archery Ranges + Blacksmith, Fletching",
+        "Mass Crossbows + Bodkin Arrow"
+      ],
       "imperial": [],
-      "notes": ["Militia buy time for the Fast Castle.", "Flexible vs many openings."]
+      "notes": [
+        "Militia buy time for the Fast Castle.",
+        "Flexible vs many openings."
+      ]
     },
     {
-      "id": "fc-knights", "name": "Fast Castle → Knights", "category": "Fast Castle", "level": "Beginner", "civ": null,
-      "vills": "27 to Feudal, 29 to Castle", "source": "https://aoecompanion.com/build-guides/fast-castle-knights",
+      "id": "fc-knights",
+      "name": "Fast Castle \u2192 Knights",
+      "category": "Fast Castle",
+      "level": "Beginner",
+      "civ": null,
+      "vills": "27 to Feudal, 29 to Castle",
+      "source": "https://aoecompanion.com/build-guides/fast-castle-knights",
       "summary": "Standard Fast Castle into Knight production from two stables. Bread-and-butter for cavalry civs.",
-      "dark": ["Vils 4-6: sheep", "Vil 7: Lumber Camp + wood", "Vils 8-10: wood", "Vil 11: lure boar", "Vils 12-13: 2 houses + Mill at berries", "Vils 14-16: berries (2nd boar at 14)", "Vils 17-18: farms", "Vil 19: 2nd Lumber Camp + wood", "Vils 20-23: wood (house at 22)", "Vils 24-27: Gold Camp + gold; click Feudal at vil 27"],
-      "feudal": ["Build Barracks", "1 wood -> Stable, 1 wood -> Blacksmith", "Vils 28-29: gold; click Castle at vil 29"],
-      "castle": ["Build 2nd Stable", "2 berries -> farms", "Train Knights from both Stables", "Add Bloodlines / Forging"],
+      "dark": [
+        "Vils 4-6: sheep",
+        "Vil 7: Lumber Camp + wood",
+        "Vils 8-10: wood",
+        "Vil 11: lure boar",
+        "Vils 12-13: 2 houses + Mill at berries",
+        "Vils 14-16: berries (2nd boar at 14)",
+        "Vils 17-18: farms",
+        "Vil 19: 2nd Lumber Camp + wood",
+        "Vils 20-23: wood (house at 22)",
+        "Vils 24-27: Gold Camp + gold; click Feudal at vil 27"
+      ],
+      "feudal": [
+        "Build Barracks",
+        "1 wood -> Stable, 1 wood -> Blacksmith",
+        "Vils 28-29: gold; click Castle at vil 29"
+      ],
+      "castle": [
+        "Build 2nd Stable",
+        "2 berries -> farms",
+        "Train Knights from both Stables",
+        "Add Bloodlines / Forging"
+      ],
       "imperial": [],
-      "notes": ["Franks, Berbers, Lithuanians, Magyars love this.", "Add a Siege Workshop / monks vs counters."]
+      "notes": [
+        "Franks, Berbers, Lithuanians, Magyars love this.",
+        "Add a Siege Workshop / monks vs counters."
+      ]
     },
     {
-      "id": "fc-boom", "name": "Fast Castle → Boom", "category": "Fast Castle", "level": "Intermediate", "civ": null,
-      "vills": "28 to Castle", "source": "https://aoecompanion.com/build-guides/fast-castle-boom",
+      "id": "fc-boom",
+      "name": "Fast Castle \u2192 Boom",
+      "category": "Fast Castle",
+      "level": "Intermediate",
+      "civ": null,
+      "vills": "28 to Castle",
+      "source": "https://aoecompanion.com/build-guides/fast-castle-boom",
       "summary": "Greedy economic Fast Castle: drop 2-3 extra Town Centers for a huge villager count.",
-      "dark": ["Sheep 4-6", "Wood 8-10 then 20-21, 23", "Lure boar 11, 2nd boar at 15", "Berries 12-16", "Farms 17-18", "Gold 24-26", "28 villagers, click Castle"],
-      "feudal": ["Blacksmith (1 from wood), Market (2 from wood)", "Research Double-Bit Axe", "Keep building houses"],
-      "castle": ["Build 2 new Town Centers (4 vils each from woodlines)", "Optional 4th TC (buy 100 stone)", "Research Horse Collar", "2 berries -> wood; expand farms"],
+      "dark": [
+        "Sheep 4-6",
+        "Wood 8-10 then 20-21, 23",
+        "Lure boar 11, 2nd boar at 15",
+        "Berries 12-16",
+        "Farms 17-18",
+        "Gold 24-26",
+        "28 villagers, click Castle"
+      ],
+      "feudal": [
+        "Blacksmith (1 from wood), Market (2 from wood)",
+        "Research Double-Bit Axe",
+        "Keep building houses"
+      ],
+      "castle": [
+        "Build 2 new Town Centers (4 vils each from woodlines)",
+        "Optional 4th TC (buy 100 stone)",
+        "Research Horse Collar",
+        "2 berries -> wood; expand farms"
+      ],
       "imperial": [],
-      "notes": ["Safe maps / pocket position. Defend, then crush with superior eco.", "Needs walls and map control."]
+      "notes": [
+        "Safe maps / pocket position. Defend, then crush with superior eco.",
+        "Needs walls and map control."
+      ]
     },
     {
-      "id": "fc-uu", "name": "Fast Castle → Unique Unit", "category": "Fast Castle", "level": "Intermediate", "civ": null,
-      "vills": "27-29 to Castle", "source": "https://aoecompanion.com/build-guides/fast-castle-unique-unit",
+      "id": "fc-uu",
+      "name": "Fast Castle \u2192 Unique Unit",
+      "category": "Fast Castle",
+      "level": "Intermediate",
+      "civ": null,
+      "vills": "27-29 to Castle",
+      "source": "https://aoecompanion.com/build-guides/fast-castle-unique-unit",
       "summary": "Fast Castle that drops a Castle and powers straight into the civ's unique unit.",
-      "dark": ["Vils 4-6: sheep", "Vil 7: Lumber Camp + wood", "Vils 8-10: wood", "Vil 11: lure boar", "Vils 12-13: 2 houses + Mill", "Vils 14-16: berries (2nd boar)", "Vils 17-18: farms", "Vil 19: 2nd Lumber Camp", "Vils 20-23: wood", "Vil 24: Gold Camp; Vil 26: Stone Camp", "Take 2 sheep -> stone; click Feudal"],
-      "feudal": ["1 wood -> Blacksmith, 2 wood -> Market", "Vils 28-29: mine stone"],
-      "castle": ["Take 5-7 vils to build a Castle", "Train unique units when Castle completes"],
+      "dark": [
+        "Vils 4-6: sheep",
+        "Vil 7: Lumber Camp + wood",
+        "Vils 8-10: wood",
+        "Vil 11: lure boar",
+        "Vils 12-13: 2 houses + Mill",
+        "Vils 14-16: berries (2nd boar)",
+        "Vils 17-18: farms",
+        "Vil 19: 2nd Lumber Camp",
+        "Vils 20-23: wood",
+        "Vil 24: Gold Camp; Vil 26: Stone Camp",
+        "Take 2 sheep -> stone; click Feudal"
+      ],
+      "feudal": [
+        "1 wood -> Blacksmith, 2 wood -> Market",
+        "Vils 28-29: mine stone"
+      ],
+      "castle": [
+        "Take 5-7 vils to build a Castle",
+        "Train unique units when Castle completes"
+      ],
       "imperial": [],
-      "notes": ["Great when the unique unit is strong in Castle Age (Longbow, Mangudai, Conq, etc.).", "Hold ground until the Castle lands."]
+      "notes": [
+        "Great when the unique unit is strong in Castle Age (Longbow, Mangudai, Conq, etc.).",
+        "Hold ground until the Castle lands."
+      ]
     },
     {
-      "id": "rp-fc-knights", "name": "Uncounterable FC → Knights", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Knights", "vills": "~22 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-knights",
+      "name": "Uncounterable FC \u2192 Knights",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Knights",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Red Phosphorus's safe FC opening into Knight production. Default vs archers/infantry on open maps.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, +2 to stone", "~22 vils, click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "If pressured: don't make villagers; sell stone/wood and click up", "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"],
-      "castle": ["Build 2 Stables", "Mass Knights; research Bloodlines + Forging", "Add Blacksmith armor upgrades"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, +2 to stone",
+        "~22 vils, click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "If pressured: don't make villagers; sell stone/wood and click up",
+        "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"
+      ],
+      "castle": [
+        "Add a Stable and start Knights as villagers come in",
+        "Add a 2nd Stable once your economy supports it",
+        "Research Bloodlines + Forging, then Blacksmith armor"
+      ],
       "imperial": [],
       "when": "Open maps vs archers/infantry; cavalry civs (Franks, Berbers, Lithuanians, Magyars).",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Same opening every game — you choose the follow-up by what the enemy builds. That flexibility is the 'uncounterable' part."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "rp-fc-crossbows", "name": "Uncounterable FC → Crossbows", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Crossbows", "vills": "~22 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-crossbows",
+      "name": "Uncounterable FC \u2192 Crossbows",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Crossbows",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Same FC opening into massed Crossbows. Strong vs infantry and light cavalry; great for archer civs.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, +2 to stone", "~22 vils, click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "If pressured: don't make villagers; sell stone/wood and click up", "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"],
-      "castle": ["Build 2 Archery Ranges", "Mass Crossbows; research Fletching + Bodkin Arrow", "Add Skirmishers vs enemy archers"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, +2 to stone",
+        "~22 vils, click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "If pressured: don't make villagers; sell stone/wood and click up",
+        "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"
+      ],
+      "castle": [
+        "Add 1-2 Archery Ranges as your economy grows",
+        "Mass Crossbows; research Fletching + Bodkin Arrow",
+        "Add Skirmishers vs enemy archers"
+      ],
       "imperial": [],
       "when": "Vs infantry or light cavalry; archer civs (Britons, Mayans, Ethiopians, Vietnamese).",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Same opening every game — you choose the follow-up by what the enemy builds."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "rp-fc-monks-siege", "name": "Uncounterable FC → Monks + Mangonel", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Monks + Mangonel", "vills": "~22 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-monks-siege",
+      "name": "Uncounterable FC \u2192 Monks + Mangonel",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Monks + Mangonel",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Same FC opening into a Monk + Mangonel composition. Answers massed archers and unique-unit pushes.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, +2 to stone", "~22 vils, click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "If pressured: don't make villagers; sell stone/wood and click up", "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"],
-      "castle": ["Build Monastery + Siege Workshop", "Mix Monks (convert/heal) + Mangonels (area damage)", "Screen with a few Knights or Spearmen"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, +2 to stone",
+        "~22 vils, click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "If pressured: don't make villagers; sell stone/wood and click up",
+        "Vs enemy FC: sell 300 stone + 100 wood, buy 100 food, click up"
+      ],
+      "castle": [
+        "Build a Monastery and a Siege Workshop",
+        "Mix Monks (convert/heal) with Mangonels",
+        "Screen them with a few Knights or Spearmen"
+      ],
       "imperial": [],
       "when": "Vs massed archers or strong unique-unit pushes; civs with good Monks/Siege.",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Same opening every game — you choose the follow-up by what the enemy builds."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "rp-fc-unique-unit", "name": "Uncounterable FC → Unique Unit", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Unique Unit", "vills": "~22-29 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-unique-unit",
+      "name": "Uncounterable FC \u2192 Unique Unit",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Unique Unit",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Same FC opening, then drop a Castle and pump the civ's unique unit.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, mine extra stone for a Castle", "Click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "If pressured: don't make villagers; sell stone/wood and click up"],
-      "castle": ["Take 5-7 villagers to build a Castle", "Pump the unique unit when the Castle lands", "Hold ground until it completes"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, mine extra stone for a Castle",
+        "Click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "If pressured: don't make villagers; sell stone/wood and click up"
+      ],
+      "castle": [
+        "Build a Castle (5-7 villagers) once you have the stone",
+        "Produce your unique unit as the Castle finishes",
+        "Keep adding villagers; hold ground until it lands"
+      ],
       "imperial": [],
       "when": "Civ with a strong Castle-age unique unit (Longbowman, Mangudai, Conquistador, Cataphract).",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Needs extra stone in Dark Age for the Castle."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "Needs extra stone in Dark Age for the Castle.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "rp-fc-boom", "name": "Uncounterable FC → Boom (2-3 TC)", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Boom", "vills": "~22 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-boom",
+      "name": "Uncounterable FC \u2192 Boom (2-3 TC)",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Boom",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Same FC opening into a greedy economic boom. Use when you're safe and hold map control.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, +2 to stone", "~22 vils, click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "Wall up and secure your map control"],
-      "castle": ["Build 2-3 Town Centers", "Expand farms; add a Blacksmith line", "Transition to a bigger army once the eco snowballs"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, +2 to stone",
+        "~22 vils, click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "Wall up and secure your map control"
+      ],
+      "castle": [
+        "Add Town Centers as wood allows (2nd, then 3rd)",
+        "Wall up and keep map control",
+        "Transition to a strong army once the economy snowballs"
+      ],
       "imperial": [],
       "when": "Pocket / walled positions where you're safe; convert a lead into eco.",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Requires good walls and map control to be safe."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "Requires good walls and map control to be safe.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "rp-fc-eagles", "name": "Uncounterable FC → Eagles", "category": "Fast Castle", "level": "Advanced", "civ": null,
-      "author": "Red Phosphorus", "followup": "Eagles", "vills": "~22 to Castle", "source": "https://aoecompanion.com/b/kxnt2j50mm",
+      "id": "rp-fc-eagles",
+      "name": "Uncounterable FC \u2192 Eagles",
+      "category": "Fast Castle",
+      "level": "Advanced",
+      "civ": null,
+      "author": "Red Phosphorus",
+      "followup": "Eagles",
+      "vills": "~22 to click Castle (keep adding villagers after)",
+      "source": "https://aoecompanion.com/b/kxnt2j50mm",
       "summary": "Same FC opening into Eagle Warriors. The cavalry-free answer for Meso civs.",
-      "dark": ["Vils 1-3: queue at TC", "Vils 4-6: 2 houses then sheep", "Vil 7: lure boar", "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)", "Vils 10-16: food under TC; lure 2nd boar ~vil 11", "Vil 17: Mill on berries, +4 to berries", "Vil 19: Mining Camp on stone, +2 to stone", "~22 vils, click Castle"],
-      "feudal": ["Build Market (2 vils) + Blacksmith (1 vil)", "Research Loom", "If pressured: don't make villagers; sell stone/wood and click up"],
-      "castle": ["Build 2 Barracks", "Mass Eagle Warriors; add upgrades + Blacksmith armor", "Mix in Skirmishers / Pikes as needed"],
+      "dark": [
+        "Vils 1-3: queue at TC",
+        "Vils 4-6: 2 houses then sheep",
+        "Vil 7: lure boar",
+        "Vil 8: Lumber Camp; Vil 9: 2 houses + palisade (max 5 tiles)",
+        "Vils 10-16: food under TC; lure 2nd boar ~vil 11",
+        "Vil 17: Mill on berries, +4 to berries",
+        "Vil 19: Mining Camp on stone, +2 to stone",
+        "~22 vils, click Castle"
+      ],
+      "feudal": [
+        "Build Market (2 vils) + Blacksmith (1 vil)",
+        "Research Loom",
+        "If pressured: don't make villagers; sell stone/wood and click up"
+      ],
+      "castle": [
+        "Add Barracks as villagers come in",
+        "Mass Eagle Warriors; add Blacksmith armor + upgrades",
+        "Mix in Skirmishers / Pikes as needed"
+      ],
       "imperial": [],
       "when": "Meso civs without Stables (Aztecs, Maya, Incas).",
-      "notes": ["Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.", "Eagles raid economy well; use their speed to snipe ranged units and villagers."]
+      "notes": [
+        "Keep 6+ on a dead boar, 3+ on a dead deer; watch food decay.",
+        "Eagles raid economy well; use their speed to snipe ranged units and villagers.",
+        "The \"uncounterable\" part is the OPENING: a fixed, optimized build that reliably reaches Castle Age every game even under Feudal pressure (if denied, sell stone/wood at the Market to still click up). It is not a flexible build. The Castle-Age plan below is just normal play chosen by your civ and the matchup, and you keep producing villagers into it."
+      ]
     },
     {
-      "id": "fast-imperial", "name": "Fast Imperial", "category": "Fast Imperial", "level": "Advanced", "civ": null,
-      "vills": "30 to Feudal, 32 to Castle, ~34 to Imperial", "source": "https://aoecompanion.com/build-guides/fast-imperial",
+      "id": "fast-imperial",
+      "name": "Fast Imperial",
+      "category": "Fast Imperial",
+      "level": "Advanced",
+      "civ": null,
+      "vills": "30 to Feudal, 32 to Castle, ~34 to Imperial",
+      "source": "https://aoecompanion.com/build-guides/fast-imperial",
       "summary": "Rush straight to Imperial Age for powerful unit/tech spikes (Paladins, Arbalests, siege, gunpowder).",
-      "dark": ["Sheep 4-6", "Wood 8-10 -> 16-19", "Lure 2 boars (11, 14)", "Mill + berries (2-3, mill ~13)", "Gold Camp at 25, gold 26-30", "~30 vils, click Feudal"],
-      "feudal": ["Blacksmith (1) + Market (2), temporary", "Vils 31-32: gold", "Click Castle"],
-      "castle": ["Build Monastery + Siege Workshop", "Vils 33-34: wood", "Click Imperial immediately"],
-      "imperial": ["Shift villagers to farms as berries deplete", "Power-spike with your best Imperial composition"],
-      "notes": ["Pocket / defended position; needs walls.", "Civs with eco bonuses (Vikings, Mayans, Chinese) reach it faster."]
+      "dark": [
+        "Sheep 4-6",
+        "Wood 8-10 -> 16-19",
+        "Lure 2 boars (11, 14)",
+        "Mill + berries (2-3, mill ~13)",
+        "Gold Camp at 25, gold 26-30",
+        "~30 vils, click Feudal"
+      ],
+      "feudal": [
+        "Blacksmith (1) + Market (2), temporary",
+        "Vils 31-32: gold",
+        "Click Castle"
+      ],
+      "castle": [
+        "Build Monastery + Siege Workshop",
+        "Vils 33-34: wood",
+        "Click Imperial immediately"
+      ],
+      "imperial": [
+        "Shift villagers to farms as berries deplete",
+        "Power-spike with your best Imperial composition"
+      ],
+      "notes": [
+        "Pocket / defended position; needs walls.",
+        "Civs with eco bonuses (Vikings, Mayans, Chinese) reach it faster."
+      ]
     },
     {
-      "id": "porto-fast-imp", "name": "Portuguese Fast Imperial → Organ/Monk/Treb", "category": "Fast Imperial", "level": "Advanced", "civ": "Portuguese",
-      "vills": "~30-32 to Castle", "source": "https://aoecompanion.com/b/wojkxzni7e",
+      "id": "porto-fast-imp",
+      "name": "Portuguese Fast Imperial \u2192 Organ/Monk/Treb",
+      "category": "Fast Imperial",
+      "level": "Advanced",
+      "civ": "Portuguese",
+      "vills": "~30-32 to Castle",
+      "source": "https://aoecompanion.com/b/wojkxzni7e",
       "summary": "Portuguese fast imperial pushing Organ Guns with Trebuchets and Monks; Feitorias sustain the late game.",
-      "dark": ["Pop 5-7: sheep", "Pop 8-11: wood", "Pop 12-14: lure 2 boars + houses", "Pop 15-19: Mill + berries", "Pop 20-23: 2nd Lumber Camp + wood", "Pop 24-27: Stone Camp + stone", "Pop 28-30: Gold Camp + gold", "Push 3 deer minimum in Dark Age"],
-      "feudal": ["Blacksmith (1), Market (2) then farms", "+2 to gold", "Double-Bit Axe"],
-      "castle": ["Build castle (4 from stone, return to stone)", "5 farms around Mill (14 on farms)", "Wheelbarrow, click Imperial"],
-      "imperial": ["≥10 each on stone/wood/gold", "2 Monasteries, 2 Feitorias (8 vils)", "2nd Castle at 650 stone", "Organ Guns push, Trebs break castles, Monks vs Mangonels", "Siege Engineers, Arquebus, Block Printing"],
-      "notes": ["Feitorias replace dying eco in the very late game.", "Organ Gun + Treb + Monk is hard to crack."]
+      "dark": [
+        "Pop 5-7: sheep",
+        "Pop 8-11: wood",
+        "Pop 12-14: lure 2 boars + houses",
+        "Pop 15-19: Mill + berries",
+        "Pop 20-23: 2nd Lumber Camp + wood",
+        "Pop 24-27: Stone Camp + stone",
+        "Pop 28-30: Gold Camp + gold",
+        "Push 3 deer minimum in Dark Age"
+      ],
+      "feudal": [
+        "Blacksmith (1), Market (2) then farms",
+        "+2 to gold",
+        "Double-Bit Axe"
+      ],
+      "castle": [
+        "Build castle (4 from stone, return to stone)",
+        "5 farms around Mill (14 on farms)",
+        "Wheelbarrow, click Imperial"
+      ],
+      "imperial": [
+        "\u226510 each on stone/wood/gold",
+        "2 Monasteries, 2 Feitorias (8 vils)",
+        "2nd Castle at 650 stone",
+        "Organ Guns push, Trebs break castles, Monks vs Mangonels",
+        "Siege Engineers, Arquebus, Block Printing"
+      ],
+      "notes": [
+        "Feitorias replace dying eco in the very late game.",
+        "Organ Gun + Treb + Monk is hard to crack."
+      ]
     },
     {
-      "id": "frank-castle-drop", "name": "Frank Fast Forward Castle Drop", "category": "Civ-specific", "level": "Advanced", "civ": "Franks",
-      "vills": "~21 at castle drop", "source": "https://aoecompanion.com/b/q66mfs3d8y",
+      "id": "frank-castle-drop",
+      "name": "Frank Fast Forward Castle Drop",
+      "category": "Civ-specific",
+      "level": "Advanced",
+      "civ": "Franks",
+      "vills": "~21 at castle drop",
+      "source": "https://aoecompanion.com/b/q66mfs3d8y",
       "summary": "Aggressive Frankish forward Castle around 13-14 minutes, then Knights from the front.",
-      "dark": ["Vils 4-6: sheep (only 2, then boars)", "Vils 7-9: wood", "Vil 10: lure boar", "Vils 11-14: houses + Mill", "Vils 15-16: scout-hunt deer under TC", "Vils 17-19: berries + gold", "Vils 20-21: wood stragglers + stone"],
-      "feudal": ["Build Market + Armory (Blacksmith)", "Transition hunt/boar -> stone while aging"],
-      "castle": ["Forward Castle (480 stone) up before ~14:00", "Pump Knights from the front", "Wood vils -> farms as berries finish"],
+      "dark": [
+        "Vils 4-6: sheep (only 2, then boars)",
+        "Vils 7-9: wood",
+        "Vil 10: lure boar",
+        "Vils 11-14: houses + Mill",
+        "Vils 15-16: scout-hunt deer under TC",
+        "Vils 17-19: berries + gold",
+        "Vils 20-21: wood stragglers + stone"
+      ],
+      "feudal": [
+        "Build Market + Armory (Blacksmith)",
+        "Transition hunt/boar -> stone while aging"
+      ],
+      "castle": [
+        "Forward Castle (480 stone) up before ~14:00",
+        "Pump Knights from the front",
+        "Wood vils -> farms as berries finish"
+      ],
       "imperial": [],
-      "notes": ["Franks: free farm upgrades + cheap castles make this strong.", "Scout relocates huntable animals under the TC for fast food."]
+      "notes": [
+        "Franks: free farm upgrades + cheap castles make this strong.",
+        "Scout relocates huntable animals under the TC for fast food."
+      ]
     },
     {
-      "id": "bohemian-hussite", "name": "Bohemian Hussite Wagon Rush", "category": "Civ-specific", "level": "Advanced", "civ": "Bohemians",
-      "vills": "~27-40 (Castle)", "source": "https://aoecompanion.com/b/4xx0h70irk3",
+      "id": "bohemian-hussite",
+      "name": "Bohemian Hussite Wagon Rush",
+      "category": "Civ-specific",
+      "level": "Advanced",
+      "civ": "Bohemians",
+      "vills": "~27-40 (Castle)",
+      "source": "https://aoecompanion.com/b/4xx0h70irk3",
       "summary": "Bohemian Castle-Age timing with Hussite Wagons from two (often forward) castles.",
-      "dark": ["Vils 3-6: houses + sheep", "Wood (4), lure boar, berries", "Gold (2) + stone (2) by ~vil 20"],
-      "feudal": ["Market + Blacksmith", "Seed 6 farms with TC-food villagers", "Continue gold/stone (vils 25-26)"],
-      "castle": ["Double-Bit Axe + Horse Collar", "Defensive Castle (4 from stone), then forward Castle (6 from stone)", "Queue Hussite Wagons from both Castles", "Protect wagons with your army"],
+      "dark": [
+        "Vils 3-6: houses + sheep",
+        "Wood (4), lure boar, berries",
+        "Gold (2) + stone (2) by ~vil 20"
+      ],
+      "feudal": [
+        "Market + Blacksmith",
+        "Seed 6 farms with TC-food villagers",
+        "Continue gold/stone (vils 25-26)"
+      ],
+      "castle": [
+        "Double-Bit Axe + Horse Collar",
+        "Defensive Castle (4 from stone), then forward Castle (6 from stone)",
+        "Queue Hussite Wagons from both Castles",
+        "Protect wagons with your army"
+      ],
       "imperial": [],
-      "notes": ["Hussite Wagons soak projectiles for your gunpowder/army.", "Bohemians' Blacksmith/University discounts fund the push."]
+      "notes": [
+        "Hussite Wagons soak projectiles for your gunpowder/army.",
+        "Bohemians' Blacksmith/University discounts fund the push."
+      ]
     }
   ]
 }

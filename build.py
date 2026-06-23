@@ -77,6 +77,8 @@ def process(ds, edition, expansion_of):
         name = uname(u['LanguageNameId'])
         if name.startswith('#'):  # rare: no name string -> fall back to internal name
             name = re.sub(r'\s*-\s*\w+( Age)?$', '', u.get('internal_name', '')).strip() or name
+        if name.startswith('Elite '):  # group base+elite when sorted (r/aoe2 request)
+            name = name[6:].strip() + ' (Elite)'
         classes = sorted({a['Class'] for a in u.get('Armours', []) if a['Class'] not in BASE})
         bonus = {}
         for atk in u.get('Attacks', []):

@@ -42,10 +42,10 @@
         "Immortal (Infantry/Archer)"
       ],
       "unique_units": [
-        "Elite Immortal (Melee)",
-        "Elite War Chariot",
         "Immortal (Melee)",
-        "War Chariot"
+        "Immortal (Melee) (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "unique_techs": [
         {
@@ -148,9 +148,9 @@
         "Strategos (Infantry)"
       ],
       "unique_units": [
-        "Elite Strategos",
         "Hand Cannoneer",
-        "Strategos"
+        "Strategos",
+        "Strategos (Elite)"
       ],
       "unique_techs": [
         {
@@ -254,9 +254,9 @@
       "unique_units": [
         "Bombard Cannon",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
+        "Companion Cavalry (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Siege Onager"
       ],
       "unique_techs": [
@@ -370,10 +370,10 @@
       ],
       "unique_units": [
         "Armored Elephant",
-        "Elite Pattiyodha Longbowman",
-        "Elite Sann\u0101hya",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant"
       ],
       "unique_techs": [
@@ -471,8 +471,8 @@
         "Polemarch (Infantry), Hippeus (Infantry)"
       ],
       "unique_units": [
-        "Elite Hippeus",
         "Hippeus",
+        "Hippeus (Elite)",
         "Polemarch"
       ],
       "unique_techs": [
@@ -592,8 +592,8 @@
         "Rhomphaia Warrior (Infantry)"
       ],
       "unique_units": [
-        "Elite Rhomphaia Warrior",
-        "Rhomphaia Warrior"
+        "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)"
       ],
       "unique_techs": [
         {
@@ -673,8 +673,8 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Halberdier",
@@ -709,44 +709,44 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Armored Elephant",
         "Battering Ram",
         "Capped Ram",
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Siege Elephant",
         "Siege Ram",
         "Siege Tower",
         "Spearman",
         "Strategos",
+        "Strategos (Elite)",
         "Trebuchet"
       ]
     },
     "6": {
       "id": 6,
-      "name": "Elite Skirmisher",
+      "name": "Skirmisher (Elite)",
       "internal_name": "HXBOW",
       "cost": {
         "Food": 25,
@@ -779,16 +779,16 @@
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Immortal (Melee)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Ratha (Melee)",
         "Halberdier",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Pikeman",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Skirmisher",
         "Spearman"
       ]
@@ -820,24 +820,24 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Skirmisher"
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Arbalester",
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Immortal (Melee)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Ratha (Melee)",
-        "Elite Skirmisher",
         "Halberdier",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Pikeman",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
+        "Skirmisher (Elite)",
         "Spearman"
       ]
     },
@@ -864,8 +864,8 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -897,8 +897,8 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Halberdier",
@@ -950,16 +950,16 @@
         "Bireme",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
-        "Elite Lembos",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Incendiary Raft",
         "Incendiary Ship",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Mangonel",
         "Merchant Ship",
@@ -1002,12 +1002,12 @@
       "bonus_damage_vs": {},
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": []
@@ -1038,14 +1038,14 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Skirmisher",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman"
       ],
       "counters": [
@@ -1084,13 +1084,13 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
@@ -1126,11 +1126,11 @@
       "bonus_damage_vs": {},
       "armor_values": {},
       "countered_by": [
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -1159,11 +1159,11 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -1192,11 +1192,11 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -1262,16 +1262,16 @@
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Pattiyodha Longbowman",
-        "Elite Skirmisher",
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Heavy Scorpion",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Scorpion",
         "Skirmisher",
-        "War Chariot"
+        "Skirmisher (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
@@ -1280,14 +1280,10 @@
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Cavalry Archer",
         "Heavy Incen. Ship",
         "Heavy Lembos",
@@ -1296,6 +1292,7 @@
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Merchant Ship",
@@ -1303,12 +1300,15 @@
         "Onager Ship",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "Trireme",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "War Galley",
         "War Lembos",
         "XPORT",
@@ -1407,32 +1407,32 @@
         "Battering Ram",
         "Capped Ram",
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Sann\u0101hya",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant",
         "Siege Ram",
         "Siege Tower",
         "Spearman",
         "Strategos",
+        "Strategos (Elite)",
         "Trebuchet"
       ]
     },
@@ -1510,12 +1510,12 @@
       "bonus_damage_vs": {},
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": []
@@ -1591,16 +1591,16 @@
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Pattiyodha Longbowman",
-        "Elite Skirmisher",
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Heavy Scorpion",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Scorpion",
         "Skirmisher",
-        "War Chariot"
+        "Skirmisher (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
@@ -1609,14 +1609,10 @@
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Cavalry Archer",
         "Heavy Incen. Ship",
         "Heavy Lembos",
@@ -1625,6 +1621,7 @@
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Merchant Ship",
@@ -1632,12 +1629,15 @@
         "Onager Ship",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "Trireme",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "War Galley",
         "War Lembos",
         "XPORT",
@@ -1679,16 +1679,16 @@
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Pattiyodha Longbowman",
-        "Elite Skirmisher",
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Heavy Scorpion",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Scorpion",
         "Skirmisher",
-        "War Chariot"
+        "Skirmisher (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
@@ -1697,14 +1697,10 @@
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Cavalry Archer",
         "Heavy Incen. Ship",
         "Heavy Lembos",
@@ -1713,6 +1709,7 @@
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Merchant Ship",
@@ -1720,12 +1717,15 @@
         "Onager Ship",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "Trireme",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "War Galley",
         "War Lembos",
         "XPORT",
@@ -1764,13 +1764,13 @@
         "Battering Ram",
         "Bireme",
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
@@ -1822,12 +1822,12 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
@@ -1857,12 +1857,12 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
@@ -1895,14 +1895,14 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Skirmisher",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman"
       ],
       "counters": [
@@ -1935,8 +1935,8 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Halberdier",
@@ -1986,32 +1986,32 @@
         "Battering Ram",
         "Capped Ram",
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Sann\u0101hya",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant",
         "Siege Ram",
         "Siege Tower",
         "Spearman",
         "Strategos",
+        "Strategos (Elite)",
         "Trebuchet"
       ]
     },
@@ -2038,12 +2038,12 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
@@ -2083,13 +2083,13 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
@@ -2194,11 +2194,11 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite War Chariot",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -2224,12 +2224,12 @@
       "bonus_damage_vs": {},
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": []
@@ -2314,13 +2314,13 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
@@ -2360,18 +2360,18 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
     "1253": {
       "id": 1253,
-      "name": "Elite Konnik (Dismounted)",
+      "name": "Konnik (Dismounted) (Elite)",
       "internal_name": "EKONNIK_INF",
       "cost": {
         "Food": 0,
@@ -2395,12 +2395,12 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -2434,13 +2434,13 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
@@ -2491,12 +2491,12 @@
       "bonus_damage_vs": {},
       "armor_values": {},
       "countered_by": [
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": []
@@ -2527,22 +2527,22 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Skirmisher",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman"
       ],
       "counters": []
     },
     "1740": {
       "id": 1740,
-      "name": "Elite Ratha (Melee)",
+      "name": "Ratha (Melee) (Elite)",
       "internal_name": "ERATHA",
       "cost": {
         "Gold": 60,
@@ -2566,15 +2566,15 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Skirmisher",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman"
       ],
       "counters": []
@@ -2614,24 +2614,24 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Scorpion",
         "Siege Elephant",
         "Siege Onager",
@@ -2694,24 +2694,24 @@
         "Bireme",
         "Bombard Cannon",
         "Capped Ram",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Hand Cannoneer",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Lembos",
+        "Lembos (Elite)",
         "Mangonel",
         "Monoreme",
         "Onager",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Scorpion",
         "Siege Onager",
         "Siege Ram",
@@ -2769,15 +2769,15 @@
         "Bombard Cannon",
         "Capped Ram",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Mangonel",
         "Onager",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Siege Elephant",
         "Siege Onager",
         "Siege Ram",
@@ -2818,15 +2818,15 @@
         "Bombard Cannon",
         "Capped Ram",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Mangonel",
         "Onager",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Siege Elephant",
         "Siege Onager",
         "Siege Ram",
@@ -2860,20 +2860,20 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Skirmisher",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
         "Skirmisher",
-        "War Chariot"
+        "Skirmisher (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
     "2102": {
       "id": 2102,
-      "name": "Elite Immortal (Melee)",
+      "name": "Immortal (Melee) (Elite)",
       "internal_name": "Elite Immortal",
       "cost": {
         "Food": 50,
@@ -2896,14 +2896,14 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Skirmisher",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
         "Skirmisher",
-        "War Chariot"
+        "Skirmisher (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -2931,18 +2931,18 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
     "2105": {
       "id": 2105,
-      "name": "Elite Strategos",
+      "name": "Strategos (Elite)",
       "internal_name": "Elite Strategos",
       "cost": {
         "Food": 55,
@@ -2964,12 +2964,12 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -2999,18 +2999,18 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
     "2108": {
       "id": 2108,
-      "name": "Elite Hippeus",
+      "name": "Hippeus (Elite)",
       "internal_name": "Elite Hippeus",
       "cost": {
         "Food": 60,
@@ -3034,12 +3034,12 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -3069,18 +3069,18 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
     "2111": {
       "id": 2111,
-      "name": "Elite Hoplite",
+      "name": "Hoplite (Elite)",
       "internal_name": "Elite Hoplite",
       "cost": {
         "Food": 55,
@@ -3104,12 +3104,12 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -3141,8 +3141,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3153,8 +3153,8 @@
         "Battering Ram",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Leviathan",
         "Onager Ship",
         "Siege Elephant",
@@ -3192,8 +3192,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3204,8 +3204,8 @@
         "Battering Ram",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Leviathan",
         "Onager Ship",
         "Siege Elephant",
@@ -3243,8 +3243,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3255,8 +3255,8 @@
         "Battering Ram",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Leviathan",
         "Onager Ship",
         "Siege Elephant",
@@ -3268,7 +3268,7 @@
     },
     "2126": {
       "id": 2126,
-      "name": "Elite Lembos",
+      "name": "Lembos (Elite)",
       "internal_name": "Elite Lembos",
       "cost": {
         "Food": 30,
@@ -3294,8 +3294,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3306,8 +3306,8 @@
         "Battering Ram",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Leviathan",
         "Onager Ship",
         "Siege Elephant",
@@ -3345,8 +3345,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3390,8 +3390,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3435,8 +3435,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3480,11 +3480,11 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Galley",
@@ -3496,14 +3496,14 @@
         "Bireme",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
-        "Elite Lembos",
         "Fishing Ship",
+        "Galley (Elite)",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Incendiary Raft",
         "Incendiary Ship",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Merchant Ship",
         "Monoreme",
@@ -3546,12 +3546,12 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Lembos"
@@ -3562,15 +3562,15 @@
         "Bireme",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Galley",
-        "Elite Lembos",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Incendiary Raft",
         "Incendiary Ship",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Merchant Ship",
         "Monoreme",
@@ -3586,7 +3586,7 @@
     },
     "2132": {
       "id": 2132,
-      "name": "Elite Galley",
+      "name": "Galley (Elite)",
       "internal_name": "Elite Galley",
       "cost": {
         "Gold": 30,
@@ -3612,11 +3612,11 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Lembos",
         "Galley",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Galley",
@@ -3628,7 +3628,6 @@
         "Bireme",
         "Capped Ram",
         "Catapult Ship",
-        "Elite Lembos",
         "Fishing Ship",
         "Galley",
         "Heavy Incen. Ship",
@@ -3636,6 +3635,7 @@
         "Incendiary Raft",
         "Incendiary Ship",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Merchant Ship",
         "Monoreme",
@@ -3677,8 +3677,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3713,8 +3713,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3749,8 +3749,8 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3786,12 +3786,12 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Galley",
@@ -3827,12 +3827,12 @@
       },
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Galley",
@@ -3866,12 +3866,12 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
-        "Elite Lembos",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Lembos",
+        "Lembos (Elite)",
         "Pikeman",
         "Spearman",
         "War Galley",
@@ -3901,8 +3901,8 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3933,8 +3933,8 @@
       "armor_values": {},
       "countered_by": [
         "Bombard Cannon",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Pikeman",
         "Spearman",
@@ -3968,43 +3968,43 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman",
-        "Strategos"
+        "Strategos",
+        "Strategos (Elite)"
       ]
     },
     "2151": {
       "id": 2151,
-      "name": "Elite War Chariot",
+      "name": "War Chariot (Elite)",
       "internal_name": "Elite War Chariot",
       "cost": {
         "Gold": 65,
@@ -4028,38 +4028,38 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman",
-        "Strategos"
+        "Strategos",
+        "Strategos (Elite)"
       ]
     },
     "2162": {
@@ -4083,12 +4083,12 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": []
     },
@@ -4117,46 +4117,46 @@
       },
       "armor_values": {},
       "countered_by": [
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
-        "Elite Companion Cavalry",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Ratha (Melee)",
-        "Elite Rhomphaia Warrior",
-        "Elite Sann\u0101hya",
-        "Elite Strategos",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Polemarch",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Strategos",
+        "Strategos (Elite)",
         "War Chariot",
-        "War Chariot (Barrage)"
+        "War Chariot (Barrage)",
+        "War Chariot (Elite)"
       ]
     },
     "2383": {
       "id": 2383,
-      "name": "Elite Companion Cavalry",
+      "name": "Companion Cavalry (Elite)",
       "internal_name": "Elite Companion Cavalry",
       "cost": {
         "Food": 70,
@@ -4180,40 +4180,40 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
         "Halberdier",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman"
       ],
       "counters": [
         "Companion Cavalry",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Ratha (Melee)",
-        "Elite Rhomphaia Warrior",
-        "Elite Sann\u0101hya",
-        "Elite Strategos",
-        "Elite War Chariot",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Polemarch",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Strategos",
+        "Strategos (Elite)",
         "War Chariot",
-        "War Chariot (Barrage)"
+        "War Chariot (Barrage)",
+        "War Chariot (Elite)"
       ]
     },
     "2384": {
@@ -4244,39 +4244,39 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Heavy Cavalry Archer",
         "Hussar",
         "Knight",
         "Light Cavalry",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "Xolotl Warrior"
       ]
     },
     "2385": {
       "id": 2385,
-      "name": "Elite Phalangite",
+      "name": "Phalangite (Elite)",
       "internal_name": "Elite Phalangite",
       "cost": {
         "Food": 50,
@@ -4302,33 +4302,33 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Heavy Cavalry Archer",
         "Hussar",
         "Knight",
         "Light Cavalry",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "Xolotl Warrior"
       ]
     },
@@ -4361,39 +4361,39 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Heavy Cavalry Archer",
         "Hussar",
         "Knight",
         "Light Cavalry",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "Xolotl Warrior"
       ]
     },
     "2387": {
       "id": 2387,
-      "name": "Elite Rhomphaia Warrior",
+      "name": "Rhomphaia Warrior (Elite)",
       "internal_name": "Elite Rhomphaia Warrior",
       "cost": {
         "Food": 50,
@@ -4420,33 +4420,33 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hand Cannoneer",
         "Heavy Scorpion",
         "Scorpion",
-        "War Chariot"
+        "War Chariot",
+        "War Chariot (Elite)"
       ],
       "counters": [
         "Armored Elephant",
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Heavy Cavalry Archer",
         "Hussar",
         "Knight",
         "Light Cavalry",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "Xolotl Warrior"
       ]
     },
@@ -4477,23 +4477,23 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Companion Cavalry (Elite)",
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Armored Elephant",
-        "Elite Sann\u0101hya",
         "Halberdier",
         "Pikeman",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant",
         "Spearman"
       ]
     },
     "2389": {
       "id": 2389,
-      "name": "Elite Pattiyodha Longbowman",
+      "name": "Pattiyodha Longbowman (Elite)",
       "internal_name": "Elite Pattiyodha Longbowman",
       "cost": {
         "Gold": 35,
@@ -4518,16 +4518,16 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Companion Cavalry (Elite)",
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "counters": [
         "Armored Elephant",
-        "Elite Sann\u0101hya",
         "Halberdier",
         "Pikeman",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant",
         "Spearman"
       ]
@@ -4560,16 +4560,16 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Heavy Scorpion",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Scorpion",
         "Spearman"
       ],
@@ -4577,7 +4577,7 @@
     },
     "2391": {
       "id": 2391,
-      "name": "Elite Sann\u0101hya",
+      "name": "Sann\u0101hya (Elite)",
       "internal_name": "Elite Sannahya",
       "cost": {
         "Food": 90,
@@ -4603,16 +4603,16 @@
       "armor_values": {},
       "countered_by": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
+        "Companion Cavalry (Elite)",
         "Halberdier",
         "Heavy Scorpion",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Scorpion",
         "Spearman"
       ],
@@ -4630,22 +4630,20 @@
         "Cavalier",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Galley",
-        "Elite Immortal (Melee)",
-        "Elite Lembos",
-        "Elite Skirmisher",
-        "Elite War Chariot",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Cavalry Archer",
         "Heavy Lembos",
         "Hussar",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Incendiary Raft",
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Long Swordsman",
@@ -4663,21 +4661,23 @@
         "Siege Ram",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Trade Cart",
         "Trebuchet",
         "Trireme",
         "Villager",
         "War Chariot",
+        "War Chariot (Elite)",
         "War Galley",
         "War Lembos",
         "XPORT"
       ],
       "unique_units": [
-        "Elite Immortal (Melee)",
-        "Elite War Chariot",
         "Immortal (Melee)",
-        "War Chariot"
+        "Immortal (Melee) (Elite)",
+        "War Chariot",
+        "War Chariot (Elite)"
       ]
     },
     "Athenians": {
@@ -4692,18 +4692,16 @@
         "Cavalry Archer",
         "Champion",
         "Crossbowman",
-        "Elite Galley",
-        "Elite Hoplite",
-        "Elite Skirmisher",
-        "Elite Strategos",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Hand Cannoneer",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Heavy Scorpion",
         "Hoplite",
+        "Hoplite (Elite)",
         "Incendiary Raft",
         "Incendiary Ship",
         "Knight",
@@ -4724,8 +4722,10 @@
         "Scout Cavalry",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Strategos",
+        "Strategos (Elite)",
         "Trade Cart",
         "Trebuchet",
         "Trireme",
@@ -4735,9 +4735,9 @@
         "XPORT"
       ],
       "unique_units": [
-        "Elite Strategos",
         "Hand Cannoneer",
-        "Strategos"
+        "Strategos",
+        "Strategos (Elite)"
       ]
     },
     "Macedonians": {
@@ -4751,13 +4751,11 @@
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
+        "Companion Cavalry (Elite)",
         "Crossbowman",
-        "Elite Companion Cavalry",
-        "Elite Galley",
-        "Elite Phalangite",
-        "Elite Skirmisher",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Heavy Scorpion",
@@ -4778,6 +4776,7 @@
         "Onager Ship",
         "Paladin",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Scorpion",
         "Scout Cavalry",
@@ -4785,6 +4784,7 @@
         "Siege Ram",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Trade Cart",
         "Trebuchet",
@@ -4797,9 +4797,9 @@
       "unique_units": [
         "Bombard Cannon",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Phalangite",
+        "Companion Cavalry (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Siege Onager"
       ]
     },
@@ -4813,13 +4813,9 @@
         "Cavalier",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Pattiyodha Longbowman",
-        "Elite Sann\u0101hya",
-        "Elite Skirmisher",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Cavalry Archer",
         "Heavy Incen. Ship",
         "Heavy Lembos",
@@ -4829,6 +4825,7 @@
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Long Swordsman",
@@ -4839,13 +4836,16 @@
         "Monk",
         "Monoreme",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Pikeman",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scorpion",
         "Scout Cavalry",
         "Siege Elephant",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Trade Cart",
         "Trebuchet",
@@ -4856,10 +4856,10 @@
       ],
       "unique_units": [
         "Armored Elephant",
-        "Elite Pattiyodha Longbowman",
-        "Elite Sann\u0101hya",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant"
       ]
     },
@@ -4873,21 +4873,20 @@
         "Cavalry Archer",
         "Champion",
         "Crossbowman",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Lembos",
-        "Elite Skirmisher",
         "Fishing Ship",
         "Galley",
         "Halberdier",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Incendiary Raft",
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Long Swordsman",
@@ -4906,6 +4905,7 @@
         "Siege Ram",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Trade Cart",
         "Trebuchet",
@@ -4916,8 +4916,8 @@
         "XPORT"
       ],
       "unique_units": [
-        "Elite Hippeus",
         "Hippeus",
+        "Hippeus (Elite)",
         "Polemarch"
       ]
     },
@@ -4932,12 +4932,9 @@
         "Cavalry Archer",
         "Champion",
         "Crossbowman",
-        "Elite Galley",
-        "Elite Lembos",
-        "Elite Rhomphaia Warrior",
-        "Elite Skirmisher",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Halberdier",
         "Heavy Lembos",
         "Hoplite",
@@ -4946,6 +4943,7 @@
         "Incendiary Ship",
         "Knight",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Light Cavalry",
         "Long Swordsman",
@@ -4958,10 +4956,12 @@
         "Onager",
         "Pikeman",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Scorpion",
         "Scout Cavalry",
         "Siege Tower",
         "Skirmisher",
+        "Skirmisher (Elite)",
         "Spearman",
         "Trade Cart",
         "Trebuchet",
@@ -4972,8 +4972,8 @@
         "XPORT"
       ],
       "unique_units": [
-        "Elite Rhomphaia Warrior",
-        "Rhomphaia Warrior"
+        "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)"
       ]
     }
   },
@@ -4982,27 +4982,27 @@
       "class_id": 1,
       "members": [
         "Champion",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Phalangite",
-        "Elite Rhomphaia Warrior",
-        "Elite Strategos",
         "Halberdier",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Long Swordsman",
         "Man-at-Arms",
         "Militia",
         "Phalangite",
+        "Phalangite (Elite)",
         "Pikeman",
         "Polemarch",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Spearman",
-        "Strategos"
+        "Strategos",
+        "Strategos (Elite)"
       ],
       "threats": [
         {
@@ -5010,7 +5010,7 @@
           "bonus": 10
         },
         {
-          "unit": "Elite War Chariot",
+          "unit": "War Chariot (Elite)",
           "bonus": 8
         },
         {
@@ -5031,8 +5031,8 @@
       "class_id": 5,
       "members": [
         "Armored Elephant",
-        "Elite Sann\u0101hya",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Siege Elephant"
       ],
       "threats": [
@@ -5049,7 +5049,7 @@
           "bonus": 20
         },
         {
-          "unit": "Elite Phalangite",
+          "unit": "Phalangite (Elite)",
           "bonus": 20
         },
         {
@@ -5069,7 +5069,7 @@
           "bonus": 4
         },
         {
-          "unit": "Elite Pattiyodha Longbowman",
+          "unit": "Pattiyodha Longbowman (Elite)",
           "bonus": 4
         }
       ]
@@ -5081,21 +5081,21 @@
         "Cavalier",
         "Cavalry Archer",
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Ratha (Melee)",
-        "Elite Sann\u0101hya",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Heavy Cavalry Archer",
         "Hussar",
         "Knight",
         "Light Cavalry",
         "Paladin",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Scout Cavalry",
         "Siege Elephant",
         "War Chariot",
         "War Chariot (Barrage)",
+        "War Chariot (Elite)",
         "Xolotl Warrior"
       ],
       "threats": [
@@ -5108,7 +5108,7 @@
           "bonus": 22
         },
         {
-          "unit": "Elite Rhomphaia Warrior",
+          "unit": "Rhomphaia Warrior (Elite)",
           "bonus": 22
         },
         {
@@ -5120,7 +5120,7 @@
           "bonus": 14
         },
         {
-          "unit": "Elite Phalangite",
+          "unit": "Phalangite (Elite)",
           "bonus": 10
         },
         {
@@ -5198,7 +5198,7 @@
           "bonus": 15
         },
         {
-          "unit": "Elite Galley",
+          "unit": "Galley (Elite)",
           "bonus": 8
         },
         {
@@ -5260,7 +5260,7 @@
           "bonus": 4
         },
         {
-          "unit": "Elite Sann\u0101hya",
+          "unit": "Sann\u0101hya (Elite)",
           "bonus": 4
         }
       ]
@@ -5272,20 +5272,20 @@
         "Archer",
         "Cavalry Archer",
         "Crossbowman",
-        "Elite Immortal (Melee)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Ratha (Melee)",
-        "Elite Skirmisher",
         "Hand Cannoneer",
         "Heavy Cavalry Archer",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Ratha (Melee)",
-        "Skirmisher"
+        "Ratha (Melee) (Elite)",
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "threats": [
         {
-          "unit": "Elite Skirmisher",
+          "unit": "Skirmisher (Elite)",
           "bonus": 4
         },
         {
@@ -5299,15 +5299,15 @@
       "members": [
         "Bireme",
         "Catapult Ship",
-        "Elite Galley",
-        "Elite Lembos",
         "Fishing Ship",
         "Galley",
+        "Galley (Elite)",
         "Heavy Incen. Ship",
         "Heavy Lembos",
         "Incendiary Raft",
         "Incendiary Ship",
         "Lembos",
+        "Lembos (Elite)",
         "Leviathan",
         "Merchant Ship",
         "Monoreme",
@@ -5331,7 +5331,7 @@
           "bonus": 16
         },
         {
-          "unit": "Elite Galley",
+          "unit": "Galley (Elite)",
           "bonus": 11
         },
         {
@@ -5365,7 +5365,7 @@
           "bonus": 4
         },
         {
-          "unit": "Elite Galley",
+          "unit": "Galley (Elite)",
           "bonus": 4
         },
         {
@@ -5381,7 +5381,7 @@
           "bonus": 3
         },
         {
-          "unit": "Elite Lembos",
+          "unit": "Lembos (Elite)",
           "bonus": 3
         },
         {
@@ -5418,35 +5418,35 @@
       "class_id": 19,
       "members": [
         "Companion Cavalry",
-        "Elite Companion Cavalry",
-        "Elite Hippeus",
-        "Elite Hoplite",
-        "Elite Immortal (Melee)",
-        "Elite Konnik (Dismounted)",
-        "Elite Pattiyodha Longbowman",
-        "Elite Phalangite",
-        "Elite Ratha (Melee)",
-        "Elite Rhomphaia Warrior",
-        "Elite Sann\u0101hya",
-        "Elite Strategos",
-        "Elite War Chariot",
+        "Companion Cavalry (Elite)",
         "Hippeus",
+        "Hippeus (Elite)",
         "Hoplite",
+        "Hoplite (Elite)",
         "Immortal (Melee)",
+        "Immortal (Melee) (Elite)",
         "Konnik (Dismounted)",
+        "Konnik (Dismounted) (Elite)",
         "Pattiyodha Longbowman",
+        "Pattiyodha Longbowman (Elite)",
         "Phalangite",
+        "Phalangite (Elite)",
         "Polemarch",
         "Ratha (Melee)",
+        "Ratha (Melee) (Elite)",
         "Rhomphaia Warrior",
+        "Rhomphaia Warrior (Elite)",
         "Sann\u0101hya",
+        "Sann\u0101hya (Elite)",
         "Strategos",
+        "Strategos (Elite)",
         "War Chariot",
-        "War Chariot (Barrage)"
+        "War Chariot (Barrage)",
+        "War Chariot (Elite)"
       ],
       "threats": [
         {
-          "unit": "Elite Companion Cavalry",
+          "unit": "Companion Cavalry (Elite)",
           "bonus": 7
         },
         {
@@ -5518,7 +5518,7 @@
       "members": [],
       "threats": [
         {
-          "unit": "Elite Rhomphaia Warrior",
+          "unit": "Rhomphaia Warrior (Elite)",
           "bonus": 8
         },
         {
@@ -5526,7 +5526,7 @@
           "bonus": 6
         },
         {
-          "unit": "Elite Hippeus",
+          "unit": "Hippeus (Elite)",
           "bonus": 5
         },
         {
@@ -5538,7 +5538,7 @@
           "bonus": 4
         },
         {
-          "unit": "Elite Konnik (Dismounted)",
+          "unit": "Konnik (Dismounted) (Elite)",
           "bonus": 4
         },
         {
@@ -5550,7 +5550,7 @@
           "bonus": 4
         },
         {
-          "unit": "Elite Sann\u0101hya",
+          "unit": "Sann\u0101hya (Elite)",
           "bonus": 4
         },
         {
@@ -5566,7 +5566,7 @@
           "bonus": 2
         },
         {
-          "unit": "Elite Hoplite",
+          "unit": "Hoplite (Elite)",
           "bonus": 2
         },
         {
@@ -5620,7 +5620,7 @@
       ],
       "threats": [
         {
-          "unit": "Elite Skirmisher",
+          "unit": "Skirmisher (Elite)",
           "bonus": 4
         },
         {
@@ -5652,7 +5652,7 @@
           "bonus": 2
         },
         {
-          "unit": "Elite Pattiyodha Longbowman",
+          "unit": "Pattiyodha Longbowman (Elite)",
           "bonus": 2
         },
         {
@@ -5665,13 +5665,13 @@
       "class_id": 28,
       "members": [
         "Cavalry Archer",
-        "Elite Ratha (Melee)",
         "Heavy Cavalry Archer",
-        "Ratha (Melee)"
+        "Ratha (Melee)",
+        "Ratha (Melee) (Elite)"
       ],
       "threats": [
         {
-          "unit": "Elite Skirmisher",
+          "unit": "Skirmisher (Elite)",
           "bonus": 2
         }
       ]
@@ -5697,7 +5697,7 @@
           "bonus": 2
         },
         {
-          "unit": "Elite Rhomphaia Warrior",
+          "unit": "Rhomphaia Warrior (Elite)",
           "bonus": 2
         },
         {
@@ -5727,7 +5727,7 @@
           "bonus": 18
         },
         {
-          "unit": "Elite Rhomphaia Warrior",
+          "unit": "Rhomphaia Warrior (Elite)",
           "bonus": 18
         },
         {
@@ -5739,7 +5739,7 @@
           "bonus": 12
         },
         {
-          "unit": "Elite Phalangite",
+          "unit": "Phalangite (Elite)",
           "bonus": 6
         },
         {
@@ -5768,7 +5768,7 @@
           "bonus": 7
         },
         {
-          "unit": "Elite Skirmisher",
+          "unit": "Skirmisher (Elite)",
           "bonus": 2
         },
         {
@@ -5809,8 +5809,8 @@
     "Skirmishers": {
       "class_id": 38,
       "members": [
-        "Elite Skirmisher",
-        "Skirmisher"
+        "Skirmisher",
+        "Skirmisher (Elite)"
       ],
       "threats": []
     },
@@ -5818,15 +5818,15 @@
       "class_id": 60,
       "members": [
         "Catapult Ship",
-        "Elite Galley",
         "Galley",
+        "Galley (Elite)",
         "Leviathan",
         "Onager Ship",
         "War Galley"
       ],
       "threats": [
         {
-          "unit": "Elite Lembos",
+          "unit": "Lembos (Elite)",
           "bonus": 10
         },
         {
