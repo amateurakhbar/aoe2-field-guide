@@ -87,7 +87,7 @@ h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:600;margin:0}
 a{color:var(--gold)}
 header{padding:14px 18px;border-bottom:2px solid var(--line);background:linear-gradient(#2c2419,#221c14);
 position:sticky;top:0;z-index:5}
-header h1{font-size:20px;letter-spacing:.3px}
+header h1{font-size:clamp(14px,4.4vw,20px);letter-spacing:.2px;white-space:nowrap}
 header .sub{color:var(--mut);font-size:12px;margin-top:2px}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
@@ -216,6 +216,10 @@ function viewCounters(){
     h+=`<div class="panel"><h2>${esc(u.name)}</h2>
       <div class="kv">${(u.armor_classes||[]).map(c=>`<span class="tag">${esc(c)}</span>`).join('')||'<span class="muted small">no combat classes</span>'}</div>
       <div class="kv">${stats.map(([k,v])=>`<span class="stat">${k} <b>${v}</b></span>`).join('')}</div></div>`;
+    const soft=softCounters(u);
+    h+=`<div class="panel"><h3 style="color:var(--blu)">🧠 Practical / soft counters <span class="muted small">(rules of thumb)</span></h3>
+      ${soft.length?soft.map(([n,why])=>`<div class="small" style="margin:5px 0"><b>${esc(n)}</b> <span class="muted">(${esc(why)})</span></div>`).join(''):'<p class="hint">Use cost-effective trash units, or your strongest gold unit.</p>'}
+      <p class="small muted" style="margin-top:8px">These are general rules of thumb (cost, armor, range, micro). The exact bonus-damage counters are below. For the community's full practical chart, open the <b>Reference</b> tab.</p></div>`;
     const allC=u.best_counters;
     const strongVs=`<div class="panel"><h3 style="color:var(--grn)">💪 ${esc(u.name)} is strong vs</h3>
         ${Object.keys(u.bonus_damage_vs).length?Object.entries(u.bonus_damage_vs).map(([k,v])=>`<span class="chip str">${esc(k)} <b>+${v}</b></span>`).join(''):'<p class="hint">No bonus damage — a generalist, not a counter unit.</p>'}</div>`;
@@ -240,10 +244,6 @@ function viewCounters(){
           <p class="small muted" style="margin-top:8px">Effective bonus after armor. ⚠ = the enemy outranges this unit. Add your civ above to filter to your roster.</p></div>
         ${strongVs}</div>`;
     }
-    const soft=softCounters(u);
-    h+=`<div class="panel"><h3 style="color:var(--blu)">🧠 Practical / soft counters <span class="muted small">(rules of thumb)</span></h3>
-      ${soft.length?soft.map(([n,why])=>`<div class="small" style="margin:5px 0"><b>${esc(n)}</b> <span class="muted">(${esc(why)})</span></div>`).join(''):'<p class="hint">Use cost-effective trash units, or your strongest gold unit.</p>'}
-      <p class="small muted" style="margin-top:8px">The hard counters above are exact bonus damage from the game data. These are general rules of thumb (cost, armor, range, micro). For the community's full practical chart, open the <b>Reference</b> tab.</p></div>`;
   }
   elv().innerHTML=h;
   const sug=()=>{const box=$('#suggest');if(!box)return;const v=S.enemy.toLowerCase().trim();
