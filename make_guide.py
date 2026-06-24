@@ -23,10 +23,12 @@ def best_counters(unit, cs, by_name, cap=24):
             if eff <= 0:
                 continue
             cu = by_name.get(t['unit'], {})
-            outranged = trange > 0 and (cu.get('range') or 0) < trange   # melee chasing a ranged unit
-            cur = agg.get(t['unit'])
-            if not cur or eff > cur['bonus']:
-                agg[t['unit']] = {"unit": t['unit'], "bonus": eff, "via": cls, "outranged": outranged}
+            e = agg.get(t['unit'])
+            if not e:
+                e = agg[t['unit']] = {"unit": t['unit'], "bonus": 0, "vias": [],
+                                      "outranged": trange > 0 and (cu.get('range') or 0) < trange}
+            e["bonus"] += eff          # bonus from different armor classes STACKS (e.g. Halb vs Battle Elephant = cav + elephant)
+            e["vias"].append(cls)
     return sorted(agg.values(), key=lambda x: (x['outranged'], -x['bonus']))[:cap]
 
 UNIT_KEYS = ['name', 'cost', 'hp', 'attack', 'melee_armor', 'pierce_armor',
@@ -172,7 +174,7 @@ function tip(uo){
   if(has('Infantry')) return 'Cheap and tanky: engage in numbers, strong vs buildings.';
   return 'Mass cost-effectively and engage on your terms.';
 }
-function ctrChip(c){return `<span class="chip cnt" title="effective bonus vs ${esc(c.via)}${c.outranged?', but the enemy outranges it':''}">${esc(c.unit)} <b>+${c.bonus}</b>${c.outranged?' ⚠':''}</span>`;}
+function ctrChip(c){return `<span class="chip cnt" title="effective bonus vs ${esc(c.vias.join(', '))}${c.outranged?', but the enemy outranges it':''}">${esc(c.unit)} <b>+${c.bonus}</b>${c.outranged?' ⚠':''}</span>`;}
 function softCounters(u){
   const C=u.armor_classes||[], has=x=>C.includes(x), out=[];
   if(has('Mounted Units')) out.push(['Halberdier line','cheap, tanky anti-cavalry'],['Monks','convert and heal'],['Camels','faster anti-cavalry if your civ has them']);
@@ -219,7 +221,7 @@ function viewCounters(){
       h+=`<div class="panel" style="border:1px solid var(--gold)"><h3 style="color:var(--gold)">🛡️ ${esc(civ.name)} should counter it with</h3>
         ${avail.length?avail.map(c=>{const uo=umap[c.unit]||{};return `<div style="margin:8px 0;padding:9px 11px;background:var(--panel2);border:1px solid var(--line);border-radius:8px">
             <b>${uq.has(c.unit)?'<span class="uniq">'+esc(c.unit)+'</span>':esc(c.unit)}</b>
-            <span class="chip cnt" style="margin-left:6px">+${c.bonus} vs ${esc(c.via)}</span>${c.outranged?' <span class="chip" style="border-color:var(--red);color:var(--red)">⚠ it outranges you</span>':''}
+            <span class="chip cnt" style="margin-left:6px">+${c.bonus} vs ${esc(c.vias.join(', '))}</span>${c.outranged?' <span class="chip" style="border-color:var(--red);color:var(--red)">⚠ it outranges you</span>':''}
             <div class="small muted" style="margin-top:4px">${esc(tip(uo))}${uo.vbld?` · ~${uo.vbld.total} vils to mass-produce`:''}${c.outranged?' · it has more range, so mass up and use numbers or your own ranged units.':''}</div></div>`;}).join('')
           :`<p class="hint">${esc(civ.name)} has no hard counter to this in its roster — use your strongest gold unit, or win with eco / numbers.</p>`}
         </div>
