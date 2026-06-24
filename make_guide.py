@@ -234,9 +234,9 @@ function viewCounters(){
             <div class="small muted" style="margin-top:4px">${esc(tip(uo))}${uo.vbld?` · ~${uo.vbld.total} vils to mass-produce`:''}${c.outranged?' · it has more range, so mass up and use numbers or your own ranged units.':''}</div></div>`;}).join('')
           :`<p class="hint">${esc(civ.name)} has no hard counter to this in its roster — use your strongest gold unit, or win with eco / numbers.</p>`}
         </div>
+        ${strongVs}
         <details class="panel"><summary class="sec-h" style="cursor:pointer">Counters from any civilization (${allC.length})</summary>
-          <div style="margin-top:8px">${allC.length?allC.map(ctrChip).join(''):'<p class="hint">No hard counters.</p>'}</div></details>
-        ${strongVs}`;
+          <div style="margin-top:8px">${allC.length?allC.map(ctrChip).join(''):'<p class="hint">No hard counters.</p>'}</div></details>`;
     } else {
       h+=`<div class="grid2">
         <div class="panel"><h3 style="color:var(--red)">🗡️ Beat it with</h3>
