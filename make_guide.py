@@ -66,7 +66,9 @@ for key, label, path in MODES:
         row['vbld'] = vils_per_building(row['cost'], u.get('train_time'))
         units.append(row)
     units.sort(key=lambda x: x['name'])
-    data['modes'][key] = {"label": label, "civilizations": o['civilizations'],
+    SHORT = {"main": "AoE2: DE", "chronicles": "Chronicles", "ror": "Return of Rome"}
+    data['modes'][key] = {"label": label, "short": SHORT.get(key, label),
+                          "civilizations": o['civilizations'],
                           "civ_units": o['civ_units'], "units": units}
 
 blob = json.dumps(data, separators=(',', ':')).replace('</', '<\\/')
@@ -89,10 +91,12 @@ header h1{font-size:20px;letter-spacing:.3px}
 header .sub{color:var(--mut);font-size:12px;margin-top:2px}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.modes{margin-top:10px}
+.modes{margin-top:10px;flex-wrap:nowrap;gap:6px}
 .modes button,.tabs button{background:var(--panel);color:var(--ink);border:1px solid var(--line);
 padding:7px 13px;border-radius:7px;cursor:pointer;font-size:13px}
+.modes button{padding:5px 9px;font-size:12px;white-space:nowrap;flex:0 1 auto}
 .modes button.on{background:var(--gold);color:#241c10;border-color:var(--gold);font-weight:600}
+@media(max-width:420px){.modes button{padding:5px 7px;font-size:11px}}
 .tabs{margin:14px 0;gap:6px}
 .tabs button{font-size:14px;padding:9px 16px}
 .tabs button.on{background:var(--panel2);border-color:var(--gold);color:var(--gold);font-weight:600}
@@ -127,15 +131,16 @@ tr.det td{background:#1f1a13;font-size:12.5px}
 ul.b{margin:6px 0;padding-left:18px}ul.b li{margin:3px 0}
 </style></head><body>
 <header><div class="wrap">
-  <h1>⚔️ Age of Empires II — Field Guide</h1>
-  <div class="sub">Counters · Civilizations · Units · data from aoe2techtree.net</div>
+  <h1>⚔️ Age of Empires II Field Guide</h1>
   <div class="row modes" id="modes"></div>
 </div></header>
 <div class="wrap">
   <div class="row tabs" id="tabs"></div>
   <div id="view"></div>
-  <p class="small muted" style="margin:20px 0">Counters are derived from the in-game armor/attack class system
+  <p class="small muted" style="margin:24px 0 6px">Counters are derived from the in-game armor/attack class system
   (bonus damage). They show the objective matchup skeleton, not cost-efficiency or micro.</p>
+  <p class="small muted" style="margin:0 0 24px">Data from aoe2techtree.net (units, civs, tech), AoE Companion (build orders),
+  and the r/aoe2 community. Age of Empires II is a trademark of Microsoft. Fan project, not affiliated with Microsoft.</p>
 </div>
 <script>
 const DATA = __DATA__;
@@ -149,7 +154,7 @@ const esc=s=>(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]
 function track(name){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:name,title:name,event:true});}catch(e){}}
 function modesBar(){
   $('#modes').innerHTML=Object.entries(DATA.modes).map(([k,m])=>
-    `<button class="${k==S.mode?'on':''}" data-m="${k}">${m.label}</button>`).join('');
+    `<button class="${k==S.mode?'on':''}" data-m="${k}" title="${m.label}">${m.short}</button>`).join('');
   $('#modes').querySelectorAll('button').forEach(b=>b.onclick=()=>{
     S.mode=b.dataset.m;S.civ=null;S.enemy='';track('mode/'+b.dataset.m);render();});
 }
@@ -400,6 +405,7 @@ ASSETS = {'buildorders.png': 'image/png', 'response_normal.jpg': 'image/jpeg',
 for fn, mime in ASSETS.items():
     b64 = base64.b64encode(open('assets/' + fn, 'rb').read()).decode()
     html = html.replace('assets/' + fn, f'data:{mime};base64,{b64}')
+html = html.replace('—', '-').replace('–', '-')   # strip em/en dashes from the whole UI (template + embedded data)
 open('guide.html', 'w').write(html)
 print(f"wrote self-contained guide.html ({len(html)//1024} KB, images inlined) — "
       f"{sum(len(m['units']) for m in data['modes'].values())} units, "

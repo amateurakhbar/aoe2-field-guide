@@ -4,7 +4,9 @@ from collections import Counter, defaultdict
 def load(p): return json.load(open(p))
 MAIN_STR = load('data/strings_en.json')
 
-def clean(t): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', t)).strip()
+def clean(t):
+    t = t.replace('—', '-').replace('–', '-')   # no em/en dashes in the UI
+    return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', t)).strip()
 def norm(t):  return re.sub(r'[^a-z0-9]', '', t.lower())
 
 def effect_fields(text):
