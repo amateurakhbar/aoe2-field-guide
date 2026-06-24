@@ -255,8 +255,7 @@ function viewCounters(){
   inp.oninput=()=>{S.enemy=inp.value;if(units.find(x=>x.name.toLowerCase()===inp.value.toLowerCase()))render();else sug();};
   const mc=$('#myciv');
   mc.oninput=()=>{S.myciv=mc.value;if(!mc.value||civNames.some(c=>c.toLowerCase()===mc.value.toLowerCase()))render();};
-  sug();
-  if(!S.enemy) inp.focus({preventScroll:true});
+  sug();   // no autofocus: focusing the datalist input pops its dropdown open on load
 }
 
 /* ---------- CIVILIZATIONS ---------- */
