@@ -251,7 +251,7 @@ function viewCounters(){
   const mc=$('#myciv');
   mc.oninput=()=>{S.myciv=mc.value;if(!mc.value||civNames.some(c=>c.toLowerCase()===mc.value.toLowerCase()))render();};
   sug();
-  if(!S.enemy) inp.focus();
+  if(!S.enemy) inp.focus({preventScroll:true});
 }
 
 /* ---------- CIVILIZATIONS ---------- */
@@ -386,7 +386,8 @@ function viewRef(){
       <a href="${src}" target="_blank"><img src="${src}" style="width:100%;border-radius:8px" loading="lazy"></a></div>`).join('');
 }
 function render(){modesBar();tabsBar();
-  ({counters:viewCounters,civs:viewCivs,units:viewUnits,builds:viewBuilds,ref:viewRef}[S.tab])();}
+  ({counters:viewCounters,civs:viewCivs,units:viewUnits,builds:viewBuilds,ref:viewRef}[S.tab])();
+  window.scrollTo(0,0);}   // reset scroll on every tab/civ/mode switch (search keystrokes call the view fn directly, so they don't jump)
 render();
 </script>
 <script data-goatcounter="__GOATCOUNTER__" async src="//gc.zgo.at/count.js"></script>
