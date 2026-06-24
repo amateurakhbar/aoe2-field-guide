@@ -111,6 +111,10 @@ border-radius:999px;padding:4px 10px;font-size:13px;margin:3px 4px 3px 0}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .grid3{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
 @media(max-width:720px){.grid2{grid-template-columns:1fr}}
+.ugrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px;margin-bottom:14px}
+.ucard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer}
+.ucard:hover{border-color:var(--gold)}
+select{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:7px 9px;font-size:13px;width:auto}
 .civcard{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:10px 12px;cursor:pointer}
 .civcard:hover{border-color:var(--gold)}
 .civcard .t{font-size:12px;color:var(--mut)}
@@ -300,34 +304,39 @@ function viewCivs(){
 function viewUnits(){
   let us=M().units.filter(u=>u.name.toLowerCase().includes(S.uq.toLowerCase()));
   const num=v=>typeof v==='number'?v:0;
-  const key=u=>S.sort==='name'?u.name:S.sort==='cost'?
-    num(u.cost.Food)+num(u.cost.Wood)+num(u.cost.Gold)+num(u.cost.Stone)
-    :S.sort==='vbld'?(u.vbld?u.vbld.total:0):num(u[S.sort]);
-  us=us.sort((a,b)=>{const ka=key(a),kb=key(b);return (ka>kb?1:ka<kb?-1:0)*S.dir;});
-  const cols=[['name','Unit'],['cost','Cost'],['hp','HP'],['attack','Atk'],
-    ['melee_armor','M.arm'],['pierce_armor','P.arm'],['range','Rng'],['speed','Spd'],['vbld','Vils/bld']];
+  const sk={name:u=>u.name.toLowerCase(),
+    cost:u=>num(u.cost.Food)+num(u.cost.Wood)+num(u.cost.Gold)+num(u.cost.Stone),
+    hp:u=>num(u.hp),attack:u=>num(u.attack),melee_armor:u=>num(u.melee_armor),
+    pierce_armor:u=>num(u.pierce_armor),range:u=>num(u.range),speed:u=>num(u.speed),
+    vbld:u=>u.vbld?u.vbld.total:0};
+  const kf=sk[S.sort]||sk.name;
+  us=us.sort((a,b)=>{const ka=kf(a),kb=kf(b);return (ka>kb?1:ka<kb?-1:0)*S.dir;});
+  const opts=[['name','Name'],['cost','Cost'],['hp','HP'],['attack','Attack'],['melee_armor','Melee armor'],
+    ['pierce_armor','Pierce armor'],['range','Range'],['speed','Speed'],['vbld','Vils/bldg']];
+  const st=(l,v)=>`<span class="stat">${l} <b>${v}</b></span>`;
   const vparts=u=>u.vbld?Object.entries(u.vbld.parts).map(([r,v])=>`${v} ${r.toLowerCase()}`).join(', '):'';
   elv().innerHTML=`<div class="panel"><h2>🛡️ Units</h2>
-     <p class="hint"><b>Vils/bld</b> = villagers needed to continuously produce a unit from one production building (base gather rates, no eco upgrades or civ bonuses). Click a row for counters and the resource breakdown. Villager-production idea adapted from <a href="https://aoe2-de-tools.herokuapp.com/villagers-required/" target="_blank">Survivalist's aoe2-de-tools</a>.</p>
-     <input id="uq" placeholder="Search ${M().units.length} units…" value="${esc(S.uq)}"></div>
-   <div class="panel" style="overflow:auto"><table><thead><tr>
-   ${cols.map(([k,l])=>`<th data-k="${k}">${l}${S.sort===k?(S.dir>0?' ▲':' ▼'):''}</th>`).join('')}
-   <th>Bonus vs</th></tr></thead><tbody>
-   ${us.map((u,i)=>`<tr class="u" data-i="${i}">
-     <td>${esc(u.name)}</td><td class="small">${money(u.cost)}</td><td>${u.hp??'—'}</td><td>${u.attack??'—'}</td>
-     <td>${u.melee_armor??'—'}</td><td>${u.pierce_armor??'—'}</td><td>${u.range||'—'}</td><td>${u.speed??'—'}</td>
-     <td>${u.vbld?u.vbld.total:'—'}</td>
-     <td class="small">${Object.entries(u.bonus_damage_vs).map(([k,v])=>`${esc(k)} +${v}`).join(', ')||'—'}</td></tr>
-     <tr class="det" id="d${i}" style="display:none"><td colspan="10">
-       <b style="color:var(--red)">Countered by:</b> ${u.best_counters.map(c=>esc(c.unit)+' +'+c.bonus).join(', ')||'—'}
-       ${u.vbld?`<br><b style="color:var(--gold)">To mass-produce (1 building):</b> ~${u.vbld.total} villagers (${vparts(u)})`:''}
-     </td></tr>`).join('')}
-   </tbody></table></div>`;
+     <p class="hint"><b>Vils/bld</b> = villagers to continuously produce a unit from one building (base rates). Tap a card for counters and the resource breakdown. Idea from <a href="https://aoe2-de-tools.herokuapp.com/villagers-required/" target="_blank">Survivalist's aoe2-de-tools</a>.</p>
+     <input id="uq" placeholder="Search ${M().units.length} units…" value="${esc(S.uq)}">
+     <div class="row" style="margin-top:8px;align-items:center;gap:8px">
+       <span class="sec-h" style="margin:0">Sort</span>
+       <select id="sortf">${opts.map(([k,l])=>`<option value="${k}" ${S.sort===k?'selected':''}>${l}</option>`).join('')}</select>
+       <button id="sortdir" class="chip" style="cursor:pointer">${S.dir>0?'▲ asc':'▼ desc'}</button>
+     </div></div>
+     <div class="ugrid">${us.map((u,i)=>`<div class="ucard" data-i="${i}">
+        <div style="display:flex;justify-content:space-between;gap:8px;align-items:baseline">
+          <b style="font-size:15px">${esc(u.name)}</b><span class="small muted">${money(u.cost)}</span></div>
+        <div class="kv" style="margin:7px 0 4px">
+          ${st('HP',u.hp??'-')}${st('Atk',u.attack??'-')}${st('M.arm',u.melee_armor??'-')}${st('P.arm',u.pierce_armor??'-')}${st('Rng',u.range||'-')}${st('Spd',u.speed??'-')}${u.vbld?st('Vils/bld',u.vbld.total):''}</div>
+        <div class="small">${Object.keys(u.bonus_damage_vs).length?'<span class="muted">Bonus vs:</span> '+Object.entries(u.bonus_damage_vs).map(([k,v])=>`${esc(k)} +${v}`).join(', '):'<span class="muted">No bonus damage</span>'}</div>
+        <div class="det small" id="d${i}" style="display:none;margin-top:8px;border-top:1px solid var(--line);padding-top:8px">
+          <b style="color:var(--red)">Countered by:</b> ${u.best_counters.map(c=>esc(c.unit)+' +'+c.bonus+(c.outranged?' ⚠':'')).join(', ')||'-'}
+          ${u.vbld?`<br><b style="color:var(--gold)">To mass-produce (1 building):</b> ~${u.vbld.total} villagers (${vparts(u)})`:''}</div>
+      </div>`).join('')||'<div class="panel hint">No units match.</div>'}</div>`;
   const q=$('#uq');q.oninput=()=>{S.uq=q.value;const p=q.selectionStart;viewUnits();$('#uq').focus();$('#uq').setSelectionRange(p,p);};
-  elv().querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{
-    const k=th.dataset.k;if(S.sort===k)S.dir*=-1;else{S.sort=k;S.dir=1;}viewUnits();});
-  elv().querySelectorAll('tr.u').forEach(tr=>tr.onclick=()=>{
-    const d=$('#d'+tr.dataset.i);d.style.display=d.style.display==='none'?'':'none';});
+  const sf=$('#sortf');if(sf)sf.onchange=()=>{S.sort=sf.value;viewUnits();};
+  const sd=$('#sortdir');if(sd)sd.onclick=()=>{S.dir*=-1;viewUnits();};
+  elv().querySelectorAll('.ucard').forEach(c=>c.onclick=()=>{const d=$('#d'+c.dataset.i);d.style.display=d.style.display==='none'?'':'none';});
 }
 
 /* ---------- BUILD ORDERS ---------- */
